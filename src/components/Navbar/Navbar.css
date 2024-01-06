@@ -1,0 +1,96 @@
+/** Controls the appearance for the desktop navbar
+*/
+
+.nav {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid rgb(118, 36, 118);
+}
+
+.home-icon-link {
+    margin-right: auto;
+}
+
+.logo {
+    margin: 5px;
+    width: 3em;
+    height: 3em;
+}
+
+.links {
+    list-style-type: none;
+    display: flex;
+    margin-right: 13px;
+
+    .link {
+        color: black;
+        text-decoration: none;
+        padding: 10px;
+        border: 2px solid transparent;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        &:hover {
+            transition: 1s;
+            border: 2px solid black;
+        }
+    }
+}
+
+/*DROP DOWN CSS -- Controls appearance for dropdown navbar*/
+.menu-icon {
+    display: none;
+    width: 2.5em;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.dropdown-open {
+    margin-left: auto;
+    top: 15px;
+    width: 200px;
+    display: block;
+}
+
+.dropdown-close {
+    display: none;
+}
+
+.dropdown-links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column; 
+    padding: 0;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    width: 180px;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+
+    .dropdown-link {
+        color: black;
+        text-decoration: none;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        &:hover {text-decoration: 2px solid underline;}
+    }
+}
+
+@media (max-width: 800px) {
+    .links{
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}
+
+@media (min-width: 801px) {
+    .dropdown-open {
+        display: none;
+    }
+}

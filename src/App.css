@@ -1,0 +1,22 @@
+/** Controls the base appearance of the website, giving the site its purple and pink border
+    which disappears on mobile devices thanks to media queries.
+*/
+
+* {
+    margin: 0;
+}
+
+body {
+    padding: 1.5em;
+    background-color: rgb(54, 10, 54) !important;
+    caret-color: transparent;
+}
+
+.website {
+    border: 10px solid rgb(118, 36, 118);
+    border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+    body {padding: 0;}
+}

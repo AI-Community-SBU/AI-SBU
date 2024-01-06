@@ -1,0 +1,10 @@
+/** Controls appearance of <Buffer/>
+*/
+
+.buffer {
+    width: 100%;
+    height: 70px;
+    box-sizing: border-box;
+    border-width: 10px 0 10px 0;
+    border-style: solid;
+}

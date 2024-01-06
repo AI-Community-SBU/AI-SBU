@@ -1,0 +1,67 @@
+/** Controls appearance of <EBoard/> and <EBoardSection/>
+*/
+
+/* Controls appearance of <EBoard/> */
+.eboard-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+    .eboard-photo {
+        width: 250px;
+        height: 250px;
+        border-radius: 20%;
+        border: 5px solid black;
+        
+        transition: 1.2s ease-in-out;
+        &:hover {
+            transform: rotate(720deg);
+        }
+    }
+
+    .eboard-name {
+        font-size: 35px;
+        margin-top: 20px;
+        text-decoration: underline;
+        text-underline-offset: 20px;
+    }
+
+    .eboard-role {
+        margin-top: 25px;
+        font-size: 25px;
+    }
+}
+
+/* Controls appearance of <EBoardSection/> */
+.eboard-section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-top: 7px solid rgb(118, 36, 118);
+    border-bottom: 7px solid rgb(118, 36, 118);
+    
+    .eboard-list {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+    
+    .eboard-title {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 5em;
+        text-align: center;
+        margin-top: 30px;
+        text-decoration: 5px underline;
+    }
+}

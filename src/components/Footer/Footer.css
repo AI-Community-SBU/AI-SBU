@@ -1,0 +1,51 @@
+/** Controls appearance for the footer and footer icons
+*/
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    background-color: white;
+    padding: 20px;
+
+    .footerBox {
+        border-top: 3px solid black;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerTextBox {
+        display: flex;
+        align-items: center;
+        padding: 0px 30px 0px 30px;
+
+        .footerIcon {
+            font-size: 20px;
+            color: rgb(54, 10, 54);
+            margin-right: 10px;
+        }
+        
+
+        .footerText {
+            display: flex;
+            
+            justify-content: center;
+            
+            margin: 0;
+            
+            padding-top: 5px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+
+    }
+    
+}
