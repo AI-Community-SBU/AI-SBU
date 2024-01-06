@@ -5,22 +5,17 @@
 import Buffer from "../components/Buffer/Buffer";
 import TitleSection from "../components/TitleSection/TitleSection";
 import PhotoSection from "../components/PhotoSection/PhotoSection";
-import { photos } from "../Constants";
+import { photos } from "../Constants/Constants";
 
 const PhotoGallery = () => {
-
   return (
     <>
       <TitleSection
-        image="../src/assets/backgrounds/photoGalleryBackground.jpg"
+        image="../assets/backgrounds/photoGalleryBackground.jpg"
         title="Our Photo Gallery!"
       />
       <Buffer color="rgb(54, 10, 54)" bColor="rgb(118, 36, 118)"></Buffer>
-      <PhotoSection
-        title="Our Photos"
-        photos={photos}
-        image="/src/assets/backgrounds/aboutusBackground.jpg"
-      />
+      <PhotoSection title="Our Photos" photos={photos} />
       <Buffer color="rgb(54, 10, 54)" bColor="rgb(118, 36, 118)" />
     </>
   );

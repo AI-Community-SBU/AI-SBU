@@ -2,21 +2,26 @@
  *  @author Pooja Ginjupalli
  */
 
-import EBoardSection from "../components/EBoardSection/EBoardSection"
-import TitleSection from "../components/TitleSection/TitleSection"
-import Buffer from "../components/Buffer/Buffer"
-import * as Constants from "../Constants"
+import EBoardSection from "../components/EBoardSection/EBoardSection";
+import TitleSection from "../components/TitleSection/TitleSection";
+import Buffer from "../components/Buffer/Buffer";
+import * as Constants from "../Constants/Constants";
 
 const EBoard = () => {
-
   return (
     <>
-    <TitleSection image = "../assets/backgrounds/eboardBackground.jpg" title="Meet the Team!"/>
-    <Buffer color = "rgb(54, 10, 54)" bColor="rgb(118, 36, 118)"></Buffer>
-    <EBoardSection image = "/src/assets/backgrounds/aboutUsBackground.jpg" members={Constants.eboardMembers}/>
-    <Buffer color = "rgb(54, 10, 54)" bColor="rgb(118, 36, 118)"></Buffer>
+      <TitleSection
+        image="../assets/backgrounds/eboardBackground.jpg"
+        title="Meet the Team!"
+      />
+      <Buffer color="rgb(54, 10, 54)" bColor="rgb(118, 36, 118)"></Buffer>
+      <EBoardSection
+        image="../assets/backgrounds/aboutusBackground.jpg"
+        members={Constants.eboardMembers}
+      />
+      <Buffer color="rgb(54, 10, 54)" bColor="rgb(118, 36, 118)"></Buffer>
     </>
-  )
-}
+  );
+};
 
-export default EBoard
+export default EBoard;

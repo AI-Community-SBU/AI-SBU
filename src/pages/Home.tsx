@@ -7,15 +7,14 @@ import TitleSection from "../components/TitleSection/TitleSection";
 import Buffer from "../components/Buffer/Buffer";
 import EmbeddedVideo from "../components/EmbeddedVideo/EmbeddedVideo";
 import EventSection from "../components/EventSection/EventSection";
-import * as Constants from "../Constants"
+import * as Constants from "../Constants/Constants";
 
 const Home = () => {
-
   return (
     <>
       <TitleSection
         title="Welcome to the AI Community at Stony Brook University!"
-        image="../src/assets/backgrounds/mainBackground.jpg"
+        image="../assets/backgrounds/mainBackground.jpg"
       ></TitleSection>
       <Buffer color="rgb(54, 10, 54)" bColor="rgb(118, 36, 118)"></Buffer>
       <TextSection
@@ -34,7 +33,7 @@ const Home = () => {
       ></TextSection>
       <Buffer color="rgb(54, 10, 54)" bColor="rgb(118, 36, 118)"></Buffer>
       <EmbeddedVideo
-        video="/src/assets/videos/crowdedRoom1.mp4"
+        video="../assets/videos/crowdedRoom1.mp4"
         text="Get A Glimpse Into Our Events!"
       />
       <Buffer color="rgb(54, 10, 54)" bColor="rgb(118, 36, 118)"></Buffer>
