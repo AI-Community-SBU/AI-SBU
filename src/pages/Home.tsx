@@ -33,13 +33,13 @@ const Home = () => {
       ></TextSection>
       <Buffer color="rgb(54, 10, 54)" bColor="rgb(118, 36, 118)"></Buffer>
       <EmbeddedVideo
-        video="../assets/videos/crowdedRoom1.mp4"
+        video="../AI-SBU/assets/videos/crowdedRoom1.mp4"
         text="Get A Glimpse Into Our Events!"
       />
       <Buffer color="rgb(54, 10, 54)" bColor="rgb(118, 36, 118)"></Buffer>
       <EventSection
         title="Previous Events"
-        eventList={Constants.previousEvents}
+        eventList={Constants.previousEventsHomepage}
       ></EventSection>
       <Buffer color="rgb(54, 10, 54)" bColor="rgb(118, 36, 118)"></Buffer>
     </>

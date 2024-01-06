@@ -257,3 +257,42 @@ export const medias = [
    animation: "4s"
  }
 ];
+
+export const previousEventsHomepage = [
+  {
+    image: "../AI-SBU/assets/GBMs/GBM6-OpenAI.gif",
+    title: "OpenAI",
+    date: "November 6th",
+    description: "Learn how to use the ChatGPT API in our AI Community and SBCS collaboration!"
+  },
+  {
+    image: "../AI-SBU/assets/GBMs/GBM5-PromptEngineering.gif",
+    title: "Prompt Engineering",
+    date: "October 23rd",
+    description: "Learn about the inner mechanics of ChatGPT and optimize them to make better prompts!"
+  },
+  {
+    image: "../AI-SBU/assets/GBMs/GBM4-ComputerVision.gif",
+    title: "Computer Vision",
+    date: "October 16th",
+    description: "Come to learn about computer vision, specifically Convulutional Neural Networks!"
+  },
+  {
+    image: "../AI-SBU/assets/GBMs/GBM3-MachineLearning.jpg",
+    title: "Machine Learning",
+    date: "October 4th",
+    description: "Learn about machine learning concepts, talk with experienced people, and apply ideas right away!"
+  },
+  {
+    image: "../AI-SBU/assets/GBMs/GBM2-DeepLearning.gif",
+    title: "Deep Learning",
+    date: "September 25th",
+    description: "Come to learn about deep learning concepts, specifically about neural networks, and do a mini-project!"
+  },
+  {
+    image: "../AI-SBU/assets/GBMs/GBM1-IntroToAI.gif",
+    title: "Our First GBM",
+    date: "September 11th",
+    description: "Attend our first GBM to meet its members, learn about the club and about AI technologies!"
+  }
+];
