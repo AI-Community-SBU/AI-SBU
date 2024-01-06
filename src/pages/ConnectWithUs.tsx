@@ -12,7 +12,7 @@ const ConnectWithUs = () => {
   return (
     <>
       <TitleSection
-        image="../src/assets/backgrounds/connectBackground.jpg"
+        image="../assets/backgrounds/connectBackground.jpg"
         title="Connect With Us!"
       />
       <Buffer color = "rgb(54, 10, 54)" bColor="rgb(118, 36, 118)"></Buffer>
