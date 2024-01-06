@@ -14,7 +14,7 @@ const Home = () => {
     <>
       <TitleSection
         title="Welcome to the AI Community at Stony Brook University!"
-        image="../assets/backgrounds/mainBackground.jpg"
+        image="../AI-SBU/assets/backgrounds/mainBackground.jpg"
       ></TitleSection>
       <Buffer color="rgb(54, 10, 54)" bColor="rgb(118, 36, 118)"></Buffer>
       <TextSection
