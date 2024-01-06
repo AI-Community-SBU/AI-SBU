@@ -31,37 +31,37 @@ const Navbar = () => {
     <>
       {/*Responsible for the Navbar you see on desktops which disappears on mobile screens*/}
       <nav className="nav">
-        <Link className="home-icon-link" to="/">
+        <Link className="home-icon-link" to="/AI-SBU">
           <img src="/src/assets/Logo.png" className="logo" />
         </Link>
         <ul className="links">
           <li>
-            <Link className="link" to="/">
+            <Link className="link" to="/AI-SBU">
               Home
             </Link>
           </li>
           <li>
-            <Link className="link" to="/pages/Events">
+            <Link className="link" to="/AI-SBU/pages/Events">
               Events
             </Link>
           </li>
           <li>
-            <Link className="link" to="/pages/PhotoGallery">
+            <Link className="link" to="/AI-SBU/pages/PhotoGallery">
               Photo Gallery
             </Link>
           </li>
           <li>
-            <Link className="link" to="/pages/EBoard">
+            <Link className="link" to="/AI-SBU/pages/EBoard">
               E-Board
             </Link>
           </li>
           <li>
-            <Link className="link" to="/pages/LatestNews">
+            <Link className="link" to="/AI-SBU/pages/LatestNews">
               Latest News
             </Link>
           </li>
           <li>
-            <Link className="link" to="/pages/ConnectWithUs">
+            <Link className="link" to="/AI-SBU/pages/ConnectWithUs">
               Connect With Us
             </Link>
           </li>
@@ -73,32 +73,32 @@ const Navbar = () => {
       <nav className={style}>
         <ul className="dropdown-links">
           <li>
-            <Link to="/" className="dropdown-link">
+            <Link to="/AI-SBU" className="dropdown-link">
               Home
             </Link>
           </li>
           <li className="dropdown-link">
-            <Link to="/pages/Events" className="dropdown-link">
+            <Link to="/AI-SBU/pages/Events" className="dropdown-link">
               Events
             </Link>
           </li>
           <li>
-            <Link to="/pages/PhotoGallery" className="dropdown-link">
+            <Link to="/AI-SBU/pages/PhotoGallery" className="dropdown-link">
               Photo Gallery
             </Link>
           </li>
           <li>
-            <Link to="/pages/EBoard" className="dropdown-link">
+            <Link to="/AI-SBU/pages/EBoard" className="dropdown-link">
               E-Board
             </Link>
           </li>
           <li>
-            <Link to="/pages/LatestNews" className="dropdown-link">
+            <Link to="/AI-SBU/pages/LatestNews" className="dropdown-link">
               Latest News
             </Link>
           </li>
           <li>
-            <Link to="/pages/ConnectWithUs" className="dropdown-link">
+            <Link to="/AI-SBU/pages/ConnectWithUs" className="dropdown-link">
               Connect With Us
             </Link>
           </li>
@@ -108,13 +108,13 @@ const Navbar = () => {
       {/*Creates the links to each page with Home being the default upon entering website
          You must add a link here to add a new page before changing the HTML above.*/}
       <Routes>
-        <Route index path="/" element={<Home />} />
-        <Route path="/pages/Events" element={<Events />} />
-        <Route path="/pages/PhotoGallery" element={<PhotoGallery />} />
-        <Route path="/pages/EBoard" element={<EBoard />} />
-        <Route path="/pages/LatestNews" element={<LatestNews />} />
-        <Route path="/pages/ConnectWithUs" element={<ConnectWithUs />} />
-        <Route path="/pages/LatestNews" element={<LatestNews />} />
+        <Route index path="/AI-SBU" element={<Home />} />
+        <Route path="/AI-SBU/pages/Events" element={<Events />} />
+        <Route path="/AI-SBU/pages/PhotoGallery" element={<PhotoGallery />} />
+        <Route path="/AI-SBU/pages/EBoard" element={<EBoard />} />
+        <Route path="/AI-SBU/pages/LatestNews" element={<LatestNews />} />
+        <Route path="/AI-SBU/pages/ConnectWithUs" element={<ConnectWithUs />} />
+        <Route path="/AI-SBU/pages/LatestNews" element={<LatestNews />} />
       </Routes>
     </>
   );

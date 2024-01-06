@@ -11,9 +11,9 @@ const EBoard = () => {
 
   return (
     <>
-    <TitleSection image = "./src/assets/backgrounds/eboardBackground.jpg" title="Meet the Team!"/>
+    <TitleSection image = "../assets/backgrounds/eboardBackground.jpg" title="Meet the Team!"/>
     <Buffer color = "rgb(54, 10, 54)" bColor="rgb(118, 36, 118)"></Buffer>
-    <EBoardSection image = "./src/assets/backgrounds/aboutUsBackground.jpg" members={Constants.eboardMembers}/>
+    <EBoardSection image = "/src/assets/backgrounds/aboutUsBackground.jpg" members={Constants.eboardMembers}/>
     <Buffer color = "rgb(54, 10, 54)" bColor="rgb(118, 36, 118)"></Buffer>
     </>
   )
