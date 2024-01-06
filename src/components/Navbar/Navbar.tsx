@@ -32,7 +32,7 @@ const Navbar = () => {
       {/*Responsible for the Navbar you see on desktops which disappears on mobile screens*/}
       <nav className="nav">
         <Link className="home-icon-link" to="/AI-SBU">
-          <img src="../assets/Logo.png" className="logo" />
+          <img src="./assets/Logo.png" className="logo" />
         </Link>
         <ul className="links">
           <li>
@@ -66,7 +66,7 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-        <img className="menu-icon" src="../assets/menuIcon.svg" onClick={changeDropdownStatus}/>
+        <img className="menu-icon" src="./assets/menuIcon.svg" onClick={changeDropdownStatus}/>
       </nav>
 
       {/*Responsible for the Navbar you see on mobile devices which disappears on desktop screens*/}
