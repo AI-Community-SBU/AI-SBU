@@ -15,7 +15,12 @@
 *     }
 */
 export const upcomingEvents = [
-    
+    {
+      image: "../assets/GBMs/EngineeringKitchen.jpg",
+      title: "Engineering in the Kitchen",
+      date: "February 5th",
+      description: "Join us for this annual food festival for fun demonstrations and to learn from the SBU STEM clubs!"
+    }
 ];
 
 
@@ -86,7 +91,7 @@ export const previousEvents = [
 */
 export const eboardMembers = [
   {
-    image: "",
+    image: "../assets/eboardphotos/Sean.jpg",
     name: "Sean Erfan",
     role: "President"
   },
@@ -101,12 +106,12 @@ export const eboardMembers = [
     role: "Secretary"
   },
   {
-    image: "",
+    image: "../assets/eboardphotos/Natalie.jpg",
     name: "Natalie Sid",
     role: "Treasurer"
   },
   {
-    image: "",
+    image: "../assets/eboardphotos/Ruthvick.jpg",
     name: "Ruthvick Bandaru",
     role: "Project Manager"
   },
@@ -116,7 +121,7 @@ export const eboardMembers = [
     role: "Webmaster"
   },
   {
-    image: "",
+    image: "../assets/eboardphotos/Katherine.jpg",
     name: "Katherine Trusinski",
     role: "Event Coordinator"
   },
