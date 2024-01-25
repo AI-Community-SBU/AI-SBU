@@ -18,6 +18,13 @@ const EBoard = () => {
       <EBoardSection
         image="../assets/backgrounds/aboutusBackground.jpg"
         members={Constants.eboardMembers}
+        title = "Our E-Board"
+      />
+      <Buffer color="rgb(54, 10, 54)" bColor="rgb(118, 36, 118)"></Buffer>
+      <EBoardSection
+        image="../assets/backgrounds/aboutusBackground.jpg"
+        members={Constants.eboardAlumni}
+        title = "AI Alumni"
       />
       <Buffer color="rgb(54, 10, 54)" bColor="rgb(118, 36, 118)"></Buffer>
     </>

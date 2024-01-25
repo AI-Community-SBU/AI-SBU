@@ -2,6 +2,8 @@
 */
 
 /* Controls appearance of <EBoard/> */
+
+
 .eboard-member {
     display: flex;
     flex-direction: column;
@@ -32,6 +34,12 @@
     .eboard-role {
         margin-top: 25px;
         font-size: 25px;
+    }
+
+    .eboard-link {
+        color: black;
+        font-size: 23px;
+        margin-top: 5px;
     }
 }
 
