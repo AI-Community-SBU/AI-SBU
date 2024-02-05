@@ -334,3 +334,20 @@ export const previousEventsHomepage = [
       "Attend our first GBM to meet its members, learn about the club and about AI technologies!",
   },
 ];
+
+export const upcomingEventsHomepage = [
+  {
+    image: "../AI-SBU/assets/GBMs/EngineeringKitchen.jpg",
+    title: "Engineering in the Kitchen",
+    date: "February 5th",
+    description:
+      "Join us for this annual food festival for fun demonstrations and to learn from the SBU STEM clubs!",
+  },
+  {
+    image: "../AI-SBU/assets/GBMs/Spring2024GBM1.jpg",
+    title: "Content Generation",
+    date: "February 5th",
+    description:
+      "You will be learning about the fun events and projects we have planned for the semester, and more!",
+  },
+];

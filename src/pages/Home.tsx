@@ -38,8 +38,8 @@ const Home = () => {
       />
       <Buffer color="rgb(54, 10, 54)" bColor="rgb(118, 36, 118)"></Buffer>
       <EventSection
-        title="Previous Events"
-        eventList={Constants.previousEventsHomepage}
+        title="Upcoming Events"
+        eventList={Constants.upcomingEventsHomepage}
       ></EventSection>
       <Buffer color="rgb(54, 10, 54)" bColor="rgb(118, 36, 118)"></Buffer>
     </>
