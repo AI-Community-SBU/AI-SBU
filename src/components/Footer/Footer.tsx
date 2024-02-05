@@ -18,7 +18,7 @@ const Footer = () => {
         </div>
         <div className="footerTextBox">
           <BiMailSend className="footerIcon" />
-          <p className="footerText">aicommunityatsbu@gmail.com</p>
+          <p className="footerText">aicommunitysbu@gmail.com</p>
         </div>
       </div>
     </div>
