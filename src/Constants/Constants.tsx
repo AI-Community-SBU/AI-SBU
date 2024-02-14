@@ -11,23 +11,18 @@
  *       image: "../assets/.../imagename.filetype",
  *       title: "TotallyRealNotFakeEventName",
  *       date: "February 29th",
+ *       location: "Narnia",
  *       description: "Come by to learn about this super cool event whose description gives a clear and quick summary about it!"
  *     }
  */
 export const upcomingEvents = [
   {
-    image: "../assets/GBMs/EngineeringKitchen.jpg",
-    title: "Engineering in the Kitchen",
-    date: "February 5th",
+    image: "../assets/GBMs/Workshop1-Python.gif",
+    title: "ML Workshop #1",
+    date: "February 14th | 4PM",
+    location: "SAC 302",
     description:
-      "Join us for this annual food festival for fun demonstrations and to learn from the SBU STEM clubs!",
-  },
-  {
-    image: "../assets/GBMs/Spring2024GBM1.jpg",
-    title: "Content Generation",
-    date: "February 5th",
-    description:
-      "You will be learning about the fun events and projects we have planned for the semester, and more!",
+      "Get started with ML by learning Python and how to use Google Colab!",
   },
 ];
 
@@ -42,52 +37,46 @@ export const upcomingEvents = [
  *     {
  *       image: "../assets/.../imagename.filetype",
  *       title: "TotallyRealNotFakeEventName",
- *       date: "February 29th",
+ *       date: "February 29th", //This attribute is optional, through I recommend not having it
  *       description: "Come by to learn about this super cool event whose description gives a clear and quick summary about it!"
  *     }
  */
 export const previousEvents = [
   {
+    image: "../assets/GBMs/EngineeringKitchen.jpg",
+    title: "Engineering Kitchen",
+    description:
+      "Join us for this annual food festival for fun demonstrations and to learn from the SBU STEM clubs!",
+  },
+  {
+    image: "../assets/GBMs/Spring2024GBM1.jpg",
+    title: "Content Generation",
+    description:
+      "You will be learning about the fun events and projects we have planned for the semester, and more!",
+  },
+  {
     image: "../assets/GBMs/GBM6-OpenAI.gif",
     title: "OpenAI",
-    date: "November 6th",
     description:
       "Learn how to use the ChatGPT API in our AI Community and SBCS collaboration!",
   },
   {
     image: "../assets/GBMs/GBM5-PromptEngineering.gif",
     title: "Prompt Engineering",
-    date: "October 23rd",
     description:
       "Learn about the inner mechanics of ChatGPT and optimize them to make better prompts!",
   },
   {
     image: "../assets/GBMs/GBM4-ComputerVision.gif",
     title: "Computer Vision",
-    date: "October 16th",
     description:
       "Come to learn about computer vision, specifically Convulutional Neural Networks!",
   },
   {
     image: "../assets/GBMs/GBM3-MachineLearning.jpg",
     title: "Machine Learning",
-    date: "October 4th",
     description:
       "Learn about machine learning concepts, talk with experienced people, and apply ideas right away!",
-  },
-  {
-    image: "../assets/GBMs/GBM2-DeepLearning.gif",
-    title: "Deep Learning",
-    date: "September 25th",
-    description:
-      "Come to learn about deep learning concepts, specifically about neural networks, and do a mini-project!",
-  },
-  {
-    image: "../assets/GBMs/GBM1-IntroToAI.gif",
-    title: "Our First GBM",
-    date: "September 11th",
-    description:
-      "Attend our first GBM to meet its members, learn about the club and about AI technologies!",
   },
 ];
 
@@ -140,6 +129,19 @@ export const eboardMembers = [
   },
 ];
 
+/** Array of former EBoard members written in the format of a EBoardProp so the array can be passed to the EBoardSection tag.
+ *  The EBoardProp has an optional attribute called "link" which is only used for EBoard alumni
+ *    The link can be to Instagram, LinkedIn, whatever the alum wants as their social
+ *    Ask the alum you want to add to this section before actually doing it and ask what social they'd like plus the title they want
+ *
+ *   The format for an E-Board Member in this array is:
+ *     {
+ *       image: "../assets/.../imagename.filetype",
+ *       name: "Your Name",
+ *       role: "Webmaster",
+ *       link: "Insert link to social",
+ *     }
+ */
 export const eboardAlumni = [
   {
     image: "../assets/eboardphotos/Steven.jpg",
@@ -147,6 +149,13 @@ export const eboardAlumni = [
     role: "Founder/President",
     link: "https://www.linkedin.com/in/yuyiy/",
   },
+  {
+    image: "../assets/eboardphotos/Angel.jpg",
+    name: "Angel Xie",
+    role: "Secretary",
+    link: "https://www.instagram.com/angelxie7/",
+  },
+
 ];
 
 /** Array of strings representing the photo links.
@@ -290,64 +299,64 @@ export const medias = [
   },
 ];
 
+/** Due to a bug in the image paths when the website is deployed, the image paths for the homepage need to be different.
+ *    Everything in this array is identical to the previousEvents array, just with different image paths
+ *  When adding previous events to the homepage, use these props instead.
+ *  The image paths here just need to have '/AI-SBU' before the '/assets/...'
+ *
+ */
 export const previousEventsHomepage = [
-  {
-    image: "../AI-SBU/assets/GBMs/GBM6-OpenAI.gif",
-    title: "OpenAI",
-    date: "November 6th",
-    description:
-      "Learn how to use the ChatGPT API in our AI Community and SBCS collaboration!",
-  },
-  {
-    image: "../AI-SBU/assets/GBMs/GBM5-PromptEngineering.gif",
-    title: "Prompt Engineering",
-    date: "October 23rd",
-    description:
-      "Learn about the inner mechanics of ChatGPT and optimize them to make better prompts!",
-  },
-  {
-    image: "../AI-SBU/assets/GBMs/GBM4-ComputerVision.gif",
-    title: "Computer Vision",
-    date: "October 16th",
-    description:
-      "Come to learn about computer vision, specifically Convulutional Neural Networks!",
-  },
-  {
-    image: "../AI-SBU/assets/GBMs/GBM3-MachineLearning.jpg",
-    title: "Machine Learning",
-    date: "October 4th",
-    description:
-      "Learn about machine learning concepts, talk with experienced people, and apply ideas right away!",
-  },
-  {
-    image: "../AI-SBU/assets/GBMs/GBM2-DeepLearning.gif",
-    title: "Deep Learning",
-    date: "September 25th",
-    description:
-      "Come to learn about deep learning concepts, specifically about neural networks, and do a mini-project!",
-  },
-  {
-    image: "../AI-SBU/assets/GBMs/GBM1-IntroToAI.gif",
-    title: "Our First GBM",
-    date: "September 11th",
-    description:
-      "Attend our first GBM to meet its members, learn about the club and about AI technologies!",
-  },
-];
-
-export const upcomingEventsHomepage = [
   {
     image: "../AI-SBU/assets/GBMs/EngineeringKitchen.jpg",
     title: "Engineering in the Kitchen",
-    date: "February 5th",
     description:
       "Join us for this annual food festival for fun demonstrations and to learn from the SBU STEM clubs!",
   },
   {
     image: "../AI-SBU/assets/GBMs/Spring2024GBM1.jpg",
     title: "Content Generation",
-    date: "February 5th",
     description:
       "You will be learning about the fun events and projects we have planned for the semester, and more!",
+  },
+  {
+    image: "../AI-SBU/assets/GBMs/GBM6-OpenAI.gif",
+    title: "OpenAI",
+    description:
+      "Learn how to use the ChatGPT API in our AI Community and SBCS collaboration!",
+  },
+  {
+    image: "../AI-SBU/assets/GBMs/GBM5-PromptEngineering.gif",
+    title: "Prompt Engineering",
+    description:
+      "Learn about the inner mechanics of ChatGPT and optimize them to make better prompts!",
+  },
+  {
+    image: "../AI-SBU/assets/GBMs/GBM4-ComputerVision.gif",
+    title: "Computer Vision",
+    description:
+      "Come to learn about computer vision, specifically Convulutional Neural Networks!",
+  },
+  {
+    image: "../AI-SBU/assets/GBMs/GBM3-MachineLearning.jpg",
+    title: "Machine Learning",
+    description:
+      "Learn about machine learning concepts, talk with experienced people, and apply ideas right away!",
+  },
+];
+
+/** Due to a bug in the image paths when the website is deployed, the image paths for the homepage need to be different.
+ *  When adding upcoming events to the homepage, use these props instead.
+ *  The image paths here just need to have '/AI-SBU' before the '/assets/...'
+ *  All other information like the title and date can stay the same.
+ *
+ */
+export const upcomingEventsHomepage = [
+  {
+    image: "../AI-SBU/assets/GBMs/Workshop1-Python.gif",
+    title: "ML Workshop #1",
+    date: "February 14th",
+    location: "SAC 302",
+    description:
+      "Get started with ML by learning Python and how to use Google Colab!",
   },
 ];

@@ -11,11 +11,12 @@ import "./EventSection.css"
 interface EventProp {
   image: string,
   title: string,
-  date: string,
-  description: string
+  date?: string,
+  location?: string,
+  description: string,
 };
 
-const EventCard = ({image, title, date, description} : EventProp) => {
+const EventCard = ({image, title, date, description, location} : EventProp) => {
   const widthStyle = {
     width: "18rem",
   };
@@ -26,6 +27,7 @@ const EventCard = ({image, title, date, description} : EventProp) => {
       <div className="eventcard-text">
         <h4 className="eventcard-title"><strong>{title}</strong></h4>
         <h5 className = "eventcard-date"><strong>{date}</strong></h5>
+        <h5 className = "eventcard-date"><strong>{location}</strong></h5>
         <p className="eventcard-description">
           {description}
         </p>
@@ -55,6 +57,7 @@ const EventList = ({ eventList }: EventListProp) => {
             title={event.title}
             date={event.date}
             description={event.description}
+            location= {event.location}
           ></EventCard>
         </li>
       ))}
