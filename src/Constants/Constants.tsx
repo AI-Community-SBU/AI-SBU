@@ -16,14 +16,7 @@
  *     }
  */
 export const upcomingEvents = [
-  {
-    image: "../assets/GBMs/Workshop1-Python.gif",
-    title: "ML Workshop #1",
-    date: "February 14th | 4PM",
-    location: "SAC 302",
-    description:
-      "Get started with ML by learning Python and how to use Google Colab!",
-  },
+  
 ];
 
 /** Array of previous events in the form of an EventProp so it can be passed to EventSection tag.
@@ -42,6 +35,18 @@ export const upcomingEvents = [
  *     }
  */
 export const previousEvents = [
+  {
+    image: "../assets/GBMs/FacialRecognition.gif",
+    title: "Facial Recognition",
+    description:
+      "Learn about facial recognition and how different facial recognition algorithms work!",
+  },
+  {
+    image: "../assets/GBMs/Workshop1-Python.gif",
+    title: "ML Workshop #1",
+    description:
+      "Get started with ML by learning Python and how to use Google Colab!",
+  },
   {
     image: "../assets/GBMs/EngineeringKitchen.jpg",
     title: "Engineering Kitchen",
@@ -307,6 +312,18 @@ export const medias = [
  */
 export const previousEventsHomepage = [
   {
+    image: "../AI-SBU/assets/GBMs/FacialRecognition.gif",
+    title: "Facial Recognition",
+    description:
+      "Learn about facial recognition and how different facial recognition algorithms work!",
+  },
+  {
+    image: "../AI-SBU/assets/GBMs/Workshop1-Python.gif",
+    title: "ML Workshop #1",
+    description:
+      "Get started with ML by learning Python and how to use Google Colab!",
+  },
+  {
     image: "../AI-SBU/assets/GBMs/EngineeringKitchen.jpg",
     title: "Engineering in the Kitchen",
     description:
@@ -351,12 +368,5 @@ export const previousEventsHomepage = [
  *
  */
 export const upcomingEventsHomepage = [
-  {
-    image: "../AI-SBU/assets/GBMs/Workshop1-Python.gif",
-    title: "ML Workshop #1",
-    date: "February 14th",
-    location: "SAC 302",
-    description:
-      "Get started with ML by learning Python and how to use Google Colab!",
-  },
+  
 ];

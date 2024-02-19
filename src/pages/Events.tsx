@@ -19,7 +19,7 @@ const Events = () => {
       <EventSection
         title="Upcoming Events"
         eventList={Constants.upcomingEvents}
-        errorMessage="Sorry! We currently don't have any events soon. Check back during the Spring 2024 Semester or connect with us online for any updates!"
+        errorMessage="Sorry! We currently don't have any events soon. Try checking our Instagram or joining our discord for more information!"
       ></EventSection>
       <Buffer color="rgb(54, 10, 54)" bColor="rgb(118, 36, 118)"></Buffer>
       <WorkshopSection

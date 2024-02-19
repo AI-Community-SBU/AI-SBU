@@ -40,6 +40,7 @@ const Home = () => {
       <EventSection
         title="Upcoming Events"
         eventList={Constants.upcomingEventsHomepage}
+        errorMessage="Sorry! Looks like we don't have any upcoming events at the moment. Check back later or join our discord for the latest updates!"
       ></EventSection>
       <Buffer color="rgb(54, 10, 54)" bColor="rgb(118, 36, 118)"></Buffer>
     </>
