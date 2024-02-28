@@ -16,7 +16,27 @@
  *     }
  */
 export const upcomingEvents = [
-  
+  {
+    image: "../assets/GBMs/MLBootcamp3.jpg",
+    title: "ML Workshop #3",
+    date: "February 28th, 4PM - 6PM",
+    location: "SAC 302",
+    description: "Come by to learn how to perform data visualization using Python and industry-standard libraries!"
+  },
+  {
+    image: "../assets/GBMs/GuestSpeakerBanerjee.gif",
+    title: "Guest Speaker: Professor Banerjee",
+    date: "March 5th, 1PM - 2PM",
+    location: "SAC 306",
+    description: "Take this opportunity to hear Professor Banerjee talk about his NLP research on misinformation!"
+  },
+  {
+    image: "../assets/GBMs/MLBootcamp4.jpg",
+    title: "ML Workshop #4",
+    date: "March 6th, 4PM - 6PM",
+    location: "SAC 302",
+    description: "We'll be doing out Capstone Project about data analysis and visualization to get hands-on experience!"
+  },
 ];
 
 /** Array of previous events in the form of an EventProp so it can be passed to EventSection tag.
@@ -35,6 +55,12 @@ export const upcomingEvents = [
  *     }
  */
 export const previousEvents = [
+  {
+    image: "../assets/GBMs/MLBootcamp2.png",
+    title: "ML Workshop #2",
+    description:
+      "Learn about the Pandas library in Python and use it to analyze and clean a dataset!",
+  },
   {
     image: "../assets/GBMs/FacialRecognition.gif",
     title: "Facial Recognition",
@@ -368,5 +394,25 @@ export const previousEventsHomepage = [
  *
  */
 export const upcomingEventsHomepage = [
-  
+  {
+    image: "../AI-SBU/assets/GBMs/MLBootcamp3.jpg",
+    title: "ML Workshop #3",
+    date: "February 28th, 4PM - 6PM",
+    location: "SAC 302",
+    description: "Come by to learn how to perform data visualization using Python and industry-standard libraries!"
+  },
+  {
+    image: "../AI-SBU/assets/GBMs/GuestSpeakerBanerjee.gif",
+    title: "Guest Speaker: Professor Banerjee",
+    date: "March 5th, 1PM - 2PM",
+    location: "SAC 306",
+    description: "Take this opportunity to hear Professor Banerjee talk about his NLP research on misinformation!"
+  },
+  {
+    image: "../AI-SBU/assets/GBMs/MLBootcamp4.jpg",
+    title: "ML Workshop #4",
+    date: "March 6th, 4PM - 6PM",
+    location: "SAC 302",
+    description: "We'll be doing out Capstone Project about data analysis and visualization to get hands-on experience!"
+  },
 ];
