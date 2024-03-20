@@ -17,25 +17,11 @@
  */
 export const upcomingEvents = [
   {
-    image: "../assets/GBMs/MLBootcamp3.jpg",
-    title: "ML Workshop #3",
-    date: "February 28th, 4PM - 6PM",
+    image: "../assets/GBMs/MLBootcamp5.png",
+    title: "ML Workshop #5",
+    date: "March 20th, 4PM - 6PM",
     location: "SAC 302",
-    description: "Come by to learn how to perform data visualization using Python and industry-standard libraries!"
-  },
-  {
-    image: "../assets/GBMs/GuestSpeakerBanerjee.gif",
-    title: "Guest Speaker: Professor Banerjee",
-    date: "March 5th, 1PM - 2PM",
-    location: "SAC 306",
-    description: "Take this opportunity to hear Professor Banerjee talk about his NLP research on misinformation!"
-  },
-  {
-    image: "../assets/GBMs/MLBootcamp4.jpg",
-    title: "ML Workshop #4",
-    date: "March 6th, 4PM - 6PM",
-    location: "SAC 302",
-    description: "We'll be doing out Capstone Project about data analysis and visualization to get hands-on experience!"
+    description: "Learn about classification and regression tasks in machine learning and train your first models!"
   },
 ];
 
@@ -55,6 +41,29 @@ export const upcomingEvents = [
  *     }
  */
 export const previousEvents = [
+  {
+    image: "../assets/GBMs/ComputerVision.png",
+    title: "Computer Vision",
+    description: "Learn about neural network architecture and the latest advancements in computer vision!"
+  },
+  {
+    image: "../assets/GBMs/MLBootcamp4.jpg",
+    title: "ML Workshop #4",
+    description:
+      "We'll be doing out Capstone Project about data analysis and visualization to get hands-on experience!",
+  },
+  {
+    image: "../assets/GBMs/GuestSpeakerBanerjee.gif",
+    title: "Guest Speaker: Professor Banerjee",
+    description:
+      "Take this opportunity to hear Professor Banerjee talk about his NLP research on misinformation!",
+  },
+  {
+    image: "../assets/GBMs/MLBootcamp3.jpg",
+    title: "ML Workshop #3",
+    description:
+      "Come by to learn how to perform data visualization using Python and industry-standard libraries!",
+  },
   {
     image: "../assets/GBMs/MLBootcamp2.png",
     title: "ML Workshop #2",
@@ -103,12 +112,7 @@ export const previousEvents = [
     description:
       "Come to learn about computer vision, specifically Convulutional Neural Networks!",
   },
-  {
-    image: "../assets/GBMs/GBM3-MachineLearning.jpg",
-    title: "Machine Learning",
-    description:
-      "Learn about machine learning concepts, talk with experienced people, and apply ideas right away!",
-  },
+  
 ];
 
 /** Array of EBoard members written in the format of a EBoardProp so the array can be passed to the EBoardSection tag.
@@ -338,6 +342,29 @@ export const medias = [
  */
 export const previousEventsHomepage = [
   {
+    image: "../AI-SBU/assets/GBMs/ComputerVision.png",
+    title: "Computer Vision",
+    description: "Learn about neural network architecture and the latest advancements in computer vision!"
+  },
+  {
+    image: "../AI-SBU/assets/GBMs/MLBootcamp4.jpg",
+    title: "ML Workshop #4",
+    description:
+      "We'll be doing out Capstone Project about data analysis and visualization to get hands-on experience!",
+  },
+  {
+    image: "../AI-SBU/assets/GBMs/GuestSpeakerBanerjee.gif",
+    title: "Guest Speaker: Professor Banerjee",
+    description:
+      "Take this opportunity to hear Professor Banerjee talk about his NLP research on misinformation!",
+  },
+  {
+    image: "../AI-SBU/assets/GBMs/MLBootcamp3.jpg",
+    title: "ML Workshop #3",
+    description:
+      "Come by to learn how to perform data visualization using Python and industry-standard libraries!",
+  },
+  {
     image: "../AI-SBU/assets/GBMs/FacialRecognition.gif",
     title: "Facial Recognition",
     description:
@@ -361,30 +388,6 @@ export const previousEventsHomepage = [
     description:
       "You will be learning about the fun events and projects we have planned for the semester, and more!",
   },
-  {
-    image: "../AI-SBU/assets/GBMs/GBM6-OpenAI.gif",
-    title: "OpenAI",
-    description:
-      "Learn how to use the ChatGPT API in our AI Community and SBCS collaboration!",
-  },
-  {
-    image: "../AI-SBU/assets/GBMs/GBM5-PromptEngineering.gif",
-    title: "Prompt Engineering",
-    description:
-      "Learn about the inner mechanics of ChatGPT and optimize them to make better prompts!",
-  },
-  {
-    image: "../AI-SBU/assets/GBMs/GBM4-ComputerVision.gif",
-    title: "Computer Vision",
-    description:
-      "Come to learn about computer vision, specifically Convulutional Neural Networks!",
-  },
-  {
-    image: "../AI-SBU/assets/GBMs/GBM3-MachineLearning.jpg",
-    title: "Machine Learning",
-    description:
-      "Learn about machine learning concepts, talk with experienced people, and apply ideas right away!",
-  },
 ];
 
 /** Due to a bug in the image paths when the website is deployed, the image paths for the homepage need to be different.
@@ -395,24 +398,10 @@ export const previousEventsHomepage = [
  */
 export const upcomingEventsHomepage = [
   {
-    image: "../AI-SBU/assets/GBMs/MLBootcamp3.jpg",
-    title: "ML Workshop #3",
-    date: "February 28th, 4PM - 6PM",
+    image: "../AI-SBU/assets/GBMs/MLBootcamp5.png",
+    title: "ML Workshop #5",
+    date: "March 20th, 4PM - 6PM",
     location: "SAC 302",
-    description: "Come by to learn how to perform data visualization using Python and industry-standard libraries!"
-  },
-  {
-    image: "../AI-SBU/assets/GBMs/GuestSpeakerBanerjee.gif",
-    title: "Guest Speaker: Professor Banerjee",
-    date: "March 5th, 1PM - 2PM",
-    location: "SAC 306",
-    description: "Take this opportunity to hear Professor Banerjee talk about his NLP research on misinformation!"
-  },
-  {
-    image: "../AI-SBU/assets/GBMs/MLBootcamp4.jpg",
-    title: "ML Workshop #4",
-    date: "March 6th, 4PM - 6PM",
-    location: "SAC 302",
-    description: "We'll be doing out Capstone Project about data analysis and visualization to get hands-on experience!"
+    description: "Learn about classification and regression tasks in machine learning and train your first models!"
   },
 ];
