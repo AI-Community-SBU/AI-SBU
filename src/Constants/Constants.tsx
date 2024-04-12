@@ -17,25 +17,11 @@
  */
 export const upcomingEvents = [
   {
-    image: "../assets/GBMs/CNNs.png",
-    title: "Introduction to CNNs",
-    date: "April 1st, 4PM - 5PM",
+    image: "../assets/GBMs/Skiena.png",
+    title: "Guest Speaker: Professor Skiena",
+    date: "April 16st, 4PM - 5PM",
     location: "SAC 306",
-    description: "Stop by our workshop, where you’ll label facial images, train a CNN model, and test its accuracy!"
-  },
-  {
-    image: "../assets/GBMs/Website1.gif",
-    title: "Intro to HTML & CSS",
-    date: "April 3st, 12PM - 1PM",
-    location: "Frey 216",
-    description: "Join us to learn beginner HTML & CSS and how to set up VSCode to develop websites!"
-  },
-  {
-    image: "../assets/GBMs/MLBootcamp7.gif",
-    title: "ML Workshop #7",
-    date: "April 3rd, 4PM - 6PM",
-    location: "SAC 302",
-    description: "Dive into the Titanic dataset with neural networks. This adventure will help you predict fates with AI!"
+    description: "Presenting Professor Steven Skiena, an expert in algorithms! Take this chance to ask about research, data science, or career advice!"
   },
 ];
 
@@ -55,6 +41,21 @@ export const upcomingEvents = [
  *     }
  */
 export const previousEvents = [
+  {
+    image: "../assets/GBMs/CNNs.png",
+    title: "Introduction to CNNs",
+    description: "Stop by our workshop, where you’ll label facial images, train a CNN model, and test its accuracy!"
+  },
+  {
+    image: "../assets/GBMs/Website1.gif",
+    title: "Intro to HTML & CSS",
+    description: "Join us to learn beginner HTML & CSS and how to set up VSCode to develop websites!"
+  },
+  {
+    image: "../assets/GBMs/MLBootcamp7.gif",
+    title: "ML Workshop #7",
+    description: "Dive into the Titanic dataset with neural networks. This adventure will help you predict fates with AI!"
+  },
   {
     image: "../assets/GBMs/MLBootcamp6.png",
     title: "ML Workshop #6",
@@ -105,30 +106,6 @@ export const previousEvents = [
     title: "ML Workshop #1",
     description:
       "Get started with ML by learning Python and how to use Google Colab!",
-  },
-  {
-    image: "../assets/GBMs/EngineeringKitchen.jpg",
-    title: "Engineering Kitchen",
-    description:
-      "Join us for this annual food festival for fun demonstrations and to learn from the SBU STEM clubs!",
-  },
-  {
-    image: "../assets/GBMs/Spring2024GBM1.jpg",
-    title: "Content Generation",
-    description:
-      "You will be learning about the fun events and projects we have planned for the semester, and more!",
-  },
-  {
-    image: "../assets/GBMs/GBM6-OpenAI.gif",
-    title: "OpenAI",
-    description:
-      "Learn how to use the ChatGPT API in our AI Community and SBCS collaboration!",
-  },
-  {
-    image: "../assets/GBMs/GBM5-PromptEngineering.gif",
-    title: "Prompt Engineering",
-    description:
-      "Learn about the inner mechanics of ChatGPT and optimize them to make better prompts!",
   },
   
 ];
@@ -365,6 +342,21 @@ export const medias = [
  */
 export const previousEventsHomepage = [
   {
+    image: "../AI-SBU/assets/GBMs/CNNs.png",
+    title: "Introduction to CNNs",
+    description: "Stop by our workshop, where you’ll label facial images, train a CNN model, and test its accuracy!"
+  },
+  {
+    image: "../AI-SBU/assets/GBMs/Website1.gif",
+    title: "Intro to HTML & CSS",
+    description: "Join us to learn beginner HTML & CSS and how to set up VSCode to develop websites!"
+  },
+  {
+    image: "../AI-SBU/assets/GBMs/MLBootcamp7.gif",
+    title: "ML Workshop #7",
+    description: "Dive into the Titanic dataset with neural networks. This adventure will help you predict fates with AI!"
+  },
+  {
     image: "../AI-SBU/assets/GBMs/MLBootcamp6.png",
     title: "ML Workshop #6",
     description: "Stop by our workshop, where you’ll label facial images, train a CNN model, and test its accuracy!"
@@ -391,24 +383,6 @@ export const previousEventsHomepage = [
     description:
       "Take this opportunity to hear Professor Banerjee talk about his NLP research on misinformation!",
   },
-  {
-    image: "../AI-SBU/assets/GBMs/MLBootcamp3.jpg",
-    title: "ML Workshop #3",
-    description:
-      "Come by to learn how to perform data visualization using Python and industry-standard libraries!",
-  },
-  {
-    image: "../AI-SBU/assets/GBMs/FacialRecognition.gif",
-    title: "Facial Recognition",
-    description:
-      "Learn about facial recognition and how different facial recognition algorithms work!",
-  },
-  {
-    image: "../AI-SBU/assets/GBMs/Workshop1-Python.gif",
-    title: "ML Workshop #1",
-    description:
-      "Get started with ML by learning Python and how to use Google Colab!",
-  },
 ];
 
 /** Due to a bug in the image paths when the website is deployed, the image paths for the homepage need to be different.
@@ -419,24 +393,10 @@ export const previousEventsHomepage = [
  */
 export const upcomingEventsHomepage = [
   {
-    image: "../AI-SBU/assets/GBMs/CNNs.png",
-    title: "Introduction to CNNs",
-    date: "April 1st, 4PM - 5PM",
+    image: "../AI-SBU/assets/GBMs/Skiena.png",
+    title: "Guest Speaker: Professor Skiena",
+    date: "April 16st, 4PM - 5PM",
     location: "SAC 306",
-    description: "Stop by our workshop, where you’ll label facial images, train a CNN model, and test its accuracy!"
-  },
-  {
-    image: "../AI-SBU/assets/GBMs/Website1.gif",
-    title: "Intro to HTML & CSS",
-    date: "April 3st, 12PM - 1PM",
-    location: "Frey 216",
-    description: "Join us to learn beginner HTML & CSS and how to set up VSCode to develop websites!"
-  },
-  {
-    image: "../AI-SBU/assets/GBMs/MLBootcamp7.gif",
-    title: "ML Workshop #7",
-    date: "April 3rd, 4PM - 6PM",
-    location: "SAC 302",
-    description: "Dive into the Titanic dataset with neural networks. This adventure will help you predict fates with AI!"
+    description: "Presenting Professor Steven Skiena, an expert in algorithms! Take this chance to ask about research, data science, or career advice!"
   },
 ];

@@ -70,6 +70,7 @@ const Navbar = () => {
       </nav>
 
       {/*Responsible for the Navbar you see on mobile devices which disappears on desktop screens*/}
+      {/*Having the dropdown button shown on mobile devices is done with CSS*/}
       <nav className={style}>
         <ul className="dropdown-links">
           <li>

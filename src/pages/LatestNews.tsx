@@ -1,3 +1,10 @@
+/** Code for the Latest News page of the website. The link to page is implemented in the Navbar.
+ *  This page is never really updated as there is no real use for it. Any resources we want to give to out students
+ *  are usually done in the Discord Server. In fact, recruiters/rponsers don't really need these resources.
+ *     If the rest of board is in agreement, this page can be deleted
+ *  @author Pooja Ginjupalli
+ */
+
 import TitleSection from "../components/TitleSection/TitleSection";
 import BlogPostSection from "../components/BlogPostSection/BlogPostSection";
 import Buffer from "../components/Buffer/Buffer";

@@ -1,4 +1,5 @@
 /** Code for the Events page of the website. The link to page is implemented in the Navbar.
+ *  The Workshop Section is meant to show workshops or projects made by the Project Manager.
  *  @author Pooja Ginjupalli
  */
 
