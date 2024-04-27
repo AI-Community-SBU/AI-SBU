@@ -337,9 +337,10 @@ export const previousEventsHomepage = [
     description: "Join us for a night of games and challenges! There will be prizes & food, so pull up to have a good time"
   },
   {
-    image: "../AI-SBU/assets/GBMs/Elections.gif",
-    title: "E-Board Elections",
-    description: "Come to get your voice heard in the club's management and support your picks for next year's e-board!"
+    image: "../AI-SBU/assets/GBMs/GuestSpeakerBanerjee.gif",
+    title: "Guest Speaker: Professor Banerjee",
+    description:
+      "Take this opportunity to hear Professor Banerjee talk about his NLP research on misinformation!",
   },
   {
     image: "../AI-SBU/assets/GBMs/Skiena.png",
@@ -367,10 +368,9 @@ export const previousEventsHomepage = [
     description: "Learn about neural network architecture and the latest advancements in computer vision!"
   },
   {
-    image: "../AI-SBU/assets/GBMs/GuestSpeakerBanerjee.gif",
-    title: "Guest Speaker: Professor Banerjee",
-    description:
-      "Take this opportunity to hear Professor Banerjee talk about his NLP research on misinformation!",
+    image: "../AI-SBU/assets/GBMs/Elections.gif",
+    title: "E-Board Elections",
+    description: "Come to get your voice heard in the club's management and support your picks for next year's e-board!"
   },
 ];
 
