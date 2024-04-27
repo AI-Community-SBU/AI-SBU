@@ -16,13 +16,7 @@
  *     }
  */
 export const upcomingEvents = [
-  {
-    image: "../assets/GBMs/Skiena.png",
-    title: "Guest Speaker: Professor Skiena",
-    date: "April 16st, 4PM - 5PM",
-    location: "SAC 306",
-    description: "Presenting Professor Steven Skiena, an expert in algorithms! Take this chance to ask about research, data science, or career advice!"
-  },
+
 ];
 
 /** Array of previous events in the form of an EventProp so it can be passed to EventSection tag.
@@ -41,6 +35,21 @@ export const upcomingEvents = [
  *     }
  */
 export const previousEvents = [
+  {
+    image: "../assets/GBMs/NNN.gif",
+    title: "Neural Networking Night",
+    description: "Join us for a night of games and challenges! There will be prizes & food, so pull up to have a good time"
+  },
+  {
+    image: "../assets/GBMs/Elections.gif",
+    title: "E-Board Elections",
+    description: "Come to get your voice heard in the club's management and support your picks for next year's e-board!"
+  },
+  {
+    image: "../assets/GBMs/Skiena.png",
+    title: "Guest Speaker: Professor Skiena",
+    description: "Presenting Professor Steven Skiena, an expert in algorithms! Come to ask about data science or career advice!"
+  },
   {
     image: "../assets/GBMs/CNNs.png",
     title: "Introduction to CNNs",
@@ -84,30 +93,11 @@ export const previousEvents = [
       "Take this opportunity to hear Professor Banerjee talk about his NLP research on misinformation!",
   },
   {
-    image: "../assets/GBMs/MLBootcamp3.jpg",
-    title: "ML Workshop #3",
-    description:
-      "Come by to learn how to perform data visualization using Python and industry-standard libraries!",
-  },
-  {
-    image: "../assets/GBMs/MLBootcamp2.png",
-    title: "ML Workshop #2",
-    description:
-      "Learn about the Pandas library in Python and use it to analyze and clean a dataset!",
-  },
-  {
     image: "../assets/GBMs/FacialRecognition.gif",
     title: "Facial Recognition",
     description:
       "Learn about facial recognition and how different facial recognition algorithms work!",
   },
-  {
-    image: "../assets/GBMs/Workshop1-Python.gif",
-    title: "ML Workshop #1",
-    description:
-      "Get started with ML by learning Python and how to use Google Colab!",
-  },
-  
 ];
 
 /** Array of EBoard members written in the format of a EBoardProp so the array can be passed to the EBoardSection tag.
@@ -342,6 +332,21 @@ export const medias = [
  */
 export const previousEventsHomepage = [
   {
+    image: "../AI-SBU/assets/GBMs/NNN.gif",
+    title: "Neural Networking Night",
+    description: "Join us for a night of games and challenges! There will be prizes & food, so pull up to have a good time"
+  },
+  {
+    image: "../AI-SBU/assets/GBMs/Elections.gif",
+    title: "E-Board Elections",
+    description: "Come to get your voice heard in the club's management and support your picks for next year's e-board!"
+  },
+  {
+    image: "../AI-SBU/assets/GBMs/Skiena.png",
+    title: "Guest Speaker: Professor Skiena",
+    description: "Presenting Professor Steven Skiena, an expert in algorithms! Come to ask about data science or career advice!"
+  },
+  {
     image: "../AI-SBU/assets/GBMs/CNNs.png",
     title: "Introduction to CNNs",
     description: "Stop by our workshop, where you’ll label facial images, train a CNN model, and test its accuracy!"
@@ -352,30 +357,14 @@ export const previousEventsHomepage = [
     description: "Join us to learn beginner HTML & CSS and how to set up VSCode to develop websites!"
   },
   {
-    image: "../AI-SBU/assets/GBMs/MLBootcamp7.gif",
-    title: "ML Workshop #7",
-    description: "Dive into the Titanic dataset with neural networks. This adventure will help you predict fates with AI!"
-  },
-  {
     image: "../AI-SBU/assets/GBMs/MLBootcamp6.png",
     title: "ML Workshop #6",
     description: "Stop by our workshop, where you’ll label facial images, train a CNN model, and test its accuracy!"
   },
   {
-    image: "../AI-SBU/assets/GBMs/MLBootcamp5.png",
-    title: "ML Workshop #5",
-    description: "Learn about classification and regression tasks in machine learning and train your first models!"
-  },
-  {
     image: "../AI-SBU/assets/GBMs/ComputerVision.png",
     title: "Computer Vision",
     description: "Learn about neural network architecture and the latest advancements in computer vision!"
-  },
-  {
-    image: "../AI-SBU/assets/GBMs/MLBootcamp4.jpg",
-    title: "ML Workshop #4",
-    description:
-      "We'll be doing out Capstone Project about data analysis and visualization to get hands-on experience!",
   },
   {
     image: "../AI-SBU/assets/GBMs/GuestSpeakerBanerjee.gif",
@@ -392,11 +381,5 @@ export const previousEventsHomepage = [
  *
  */
 export const upcomingEventsHomepage = [
-  {
-    image: "../AI-SBU/assets/GBMs/Skiena.png",
-    title: "Guest Speaker: Professor Skiena",
-    date: "April 16st, 4PM - 5PM",
-    location: "SAC 306",
-    description: "Presenting Professor Steven Skiena, an expert in algorithms! Take this chance to ask about research, data science, or career advice!"
-  },
+
 ];
