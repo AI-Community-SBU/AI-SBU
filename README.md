@@ -38,7 +38,7 @@ OK, I've described earlier how this file makes a tag called App which holds our 
 ### Navbar
 If you go to the components folder, you'll find a folder containing the HTML code for the Navbar and the CSS styling that goes along with it. The Navbar, upon clicking a button within it, will show the corresponding page. Details of how to add or remove pages can be found in the comments in this file.
 
-Likewise, there is an important file called '404.html' and some extra code in the index.html file that you may not in other react projects. This is to handle a unique error that comes with using BrowserRouter when creating navigation bars in React where you are unable to reload pages on the deployed website. Unless you know what you're doing, it's best to not touch these files.
+Likewise, there is an important file called '404.html' and some extra code in the index.html file that you may not see in other react projects. This is to handle a unique error that comes with using BrowserRouter when creating navigation bars in React where you are unable to reload pages on the deployed website. Unless you know what you're doing, it's best to not touch these files.
 
 ### 'pages' Folder
 Each .tsx file you see is coded to make a new tag. For example, the Navbar.tsx file has the code to make the Navbar tag. The 'pages' folder contains code for the tags for each page. So, the code in the 'Home.tsx' file contains the code for the Home tag.
