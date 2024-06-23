@@ -113,7 +113,7 @@ export const previousEvents = [
  */
 export const eboardMembers = [
   {
-    image: "../assets/eboardphotos/Sean.jpg",
+    image: "../assets/eboardphotos/SeanPresident.jpg",
     name: "Sean Erfan",
     role: "President",
   },
@@ -180,7 +180,17 @@ export const eboardAlumni = [
     role: "Secretary",
     link: "https://www.instagram.com/angelxie7/",
   },
-
+  {
+    image: "../assets/eboardphotos/Pooja.jpg",
+    name: "Pooja Ginjupalli",
+    role: "Webmaster",
+    link: "https://www.linkedin.com/in/pginjupalli/",
+  },
+  {
+    image: "../assets/eboardphotos/Katherine.jpg",
+    name: "Katherine Trusinski",
+    role: "Event Coordinator",
+  },
 ];
 
 /** Array of strings representing the photo links.
