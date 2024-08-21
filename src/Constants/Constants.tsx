@@ -16,7 +16,20 @@
  *     }
  */
 export const upcomingEvents = [
-
+  {
+    image:"../assets/GBMs/ScavengerHunt.gif",
+    title:"Scavenger Hunt",
+    date:"August 25th",
+    location:"SAC Plaza",
+    description:"Join us on an adventure around the SBU campus where you hunt for rewards, discovering many of SBU's clubs along the way!"
+  },
+  {
+    image:"../assets/GBMs/ClubTakeover.gif",
+    title:"Club Takeover",
+    date:"August 25th",
+    location:"Club Hub",
+    description:"Connect with the leaders of student organizations at SBU and expand your network! There will be food and a raffle."    
+  },
 ];
 
 /** Array of previous events in the form of an EventProp so it can be passed to EventSection tag.
