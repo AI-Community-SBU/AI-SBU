@@ -16,20 +16,7 @@
  *     }
  */
 export const upcomingEvents = [
-  {
-    image:"../assets/GBMs/ScavengerHunt.gif",
-    title:"Scavenger Hunt",
-    date:"August 25th",
-    location:"SAC Plaza",
-    description:"Join us on an adventure around the SBU campus where you hunt for rewards, discovering many of SBU's clubs along the way!"
-  },
-  {
-    image:"../assets/GBMs/ClubTakeover.gif",
-    title:"Club Takeover",
-    date:"August 25th",
-    location:"Club Hub",
-    description:"Connect with the leaders of student organizations at SBU and expand your network! There will be food and a raffle."    
-  },
+
 ];
 
 /** Array of previous events in the form of an EventProp so it can be passed to EventSection tag.
@@ -48,6 +35,16 @@ export const upcomingEvents = [
  *     }
  */
 export const previousEvents = [
+  {
+    image:"../assets/GBMs/ScavengerHunt.gif",
+    title:"Scavenger Hunt",
+    description:"Join us on an adventure around the SBU campus where you hunt for rewards, discovering many of SBU's clubs along the way!"
+  },
+  {
+    image:"../assets/GBMs/ClubTakeover.gif",
+    title:"Club Takeover",
+    description:"Connect with the leaders of student organizations at SBU and expand your network! There will be food and a raffle."    
+  },
   {
     image: "../assets/GBMs/NNN.gif",
     title: "Neural Networking Night",
@@ -94,22 +91,10 @@ export const previousEvents = [
     description: "Learn about neural network architecture and the latest advancements in computer vision!"
   },
   {
-    image: "../assets/GBMs/MLBootcamp4.jpg",
-    title: "ML Workshop #4",
-    description:
-      "We'll be doing out Capstone Project about data analysis and visualization to get hands-on experience!",
-  },
-  {
     image: "../assets/GBMs/GuestSpeakerBanerjee.gif",
     title: "Guest Speaker: Professor Banerjee",
     description:
       "Take this opportunity to hear Professor Banerjee talk about his NLP research on misinformation!",
-  },
-  {
-    image: "../assets/GBMs/FacialRecognition.gif",
-    title: "Facial Recognition",
-    description:
-      "Learn about facial recognition and how different facial recognition algorithms work!",
   },
 ];
 
