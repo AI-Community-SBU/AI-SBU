@@ -16,7 +16,13 @@
  *     }
  */
 export const upcomingEvents = [
-
+       {
+         image: "../assets/GBMs/TriviaNight.gif",
+         title: "Trivia Night",
+         date: "September 17th",
+         location: "SAC 306",
+         description: "Join us for an evening of fun as we play AI and SBU themed trivia games."
+       }
 ];
 
 /** Array of previous events in the form of an EventProp so it can be passed to EventSection tag.
