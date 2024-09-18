@@ -16,13 +16,13 @@
  *     }
  */
 export const upcomingEvents = [
-       {
-         image: "../assets/GBMs/TriviaNight.gif",
-         title: "Trivia Night",
-         date: "September 17th",
-         location: "SAC 306",
-         description: "Join us for an evening of fun as we play AI and SBU themed trivia games."
-       }
+  {
+    image: "../assets/GBMs/TitanicWorkshop.gif",
+    title: "Titanic Workshop",
+    date: "September 24th",
+    location: "SAC 306",
+    description: "Dive into the world of machine learning in this workshop where you'll learn how to use data processing and Logistic Regression."
+  }
 ];
 
 /** Array of previous events in the form of an EventProp so it can be passed to EventSection tag.
@@ -41,6 +41,11 @@ export const upcomingEvents = [
  *     }
  */
 export const previousEvents = [
+  {
+    image: "../assets/GBMs/TriviaNight.gif",
+    title: "Trivia Night",
+    description: "Join us for an evening of fun as we play AI and SBU themed trivia games."
+  },
   {
     image:"../assets/GBMs/ScavengerHunt.gif",
     title:"Scavenger Hunt",
@@ -85,11 +90,6 @@ export const previousEvents = [
     image: "../assets/GBMs/MLBootcamp6.png",
     title: "ML Workshop #6",
     description: "Stop by our workshop, where you’ll label facial images, train a CNN model, and test its accuracy!"
-  },
-  {
-    image: "../assets/GBMs/MLBootcamp5.png",
-    title: "ML Workshop #5",
-    description: "Learn about classification and regression tasks in machine learning and train your first models!"
   },
   {
     image: "../assets/GBMs/ComputerVision.png",
