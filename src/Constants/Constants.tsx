@@ -20,7 +20,7 @@ export const upcomingEvents = [
     image: "../assets/GBMs/TitanicWorkshop.gif",
     title: "Titanic Workshop",
     date: "September 24th",
-    location: "SAC 306",
+    location: "SAC 302",
     description: "Dive into the world of machine learning in this workshop where you'll learn how to use data processing and Logistic Regression."
   }
 ];
