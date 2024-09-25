@@ -22,6 +22,12 @@ export const upcomingEvents = [
     date: "October 1st",
     location: "SAC 306",
     description: "Master image processing in this workshop where we'll learn how to detect colors with OpenCV."
+  },
+  {
+    image: "../assets/GBMs/InternalComp.gif",
+    title: "Internal Competition",
+    date: "October 1st - November 5th",
+    description: "Demonstrate your knowledge in computer vision by creating a model to differentiate different types of resistors. There will be over $700 in prizes."
   }
 ];
 
