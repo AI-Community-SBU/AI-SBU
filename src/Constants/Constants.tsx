@@ -28,6 +28,13 @@ export const upcomingEvents = [
     title: "Internal Competition",
     date: "October 1st - November 5th",
     description: "Demonstrate your knowledge in computer vision by creating a model to differentiate different types of resistors. There will be over $700 in prizes."
+  },
+  {
+    image: "../assets/GBMs/ChatGptWorkshop.jpg",
+    title: "AIC x IEEE ChatGPT Workshop",
+    date: "October 10th",
+    location: "Light Engineering 102",
+    description: "Learn how to fully utilize ChatGPT's API by creating a chat bot from scratch."
   }
 ];
 
