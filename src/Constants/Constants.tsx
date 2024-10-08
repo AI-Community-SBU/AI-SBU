@@ -17,13 +17,6 @@
  */
 export const upcomingEvents = [
   {
-    image: "../assets/GBMs/InternalWorkshop1.gif",
-    title: "Internal Competition Workshop 1",
-    date: "October 1st",
-    location: "SAC 306",
-    description: "Master image processing in this workshop where we'll learn how to detect colors with OpenCV."
-  },
-  {
     image: "../assets/GBMs/InternalComp.gif",
     title: "Internal Competition",
     date: "October 1st - November 5th",
@@ -54,6 +47,11 @@ export const upcomingEvents = [
  *     }
  */
 export const previousEvents = [
+  {
+    image: "../assets/GBMs/InternalWorkshop1.gif",
+    title: "Internal Competition Workshop 1",
+    description: "Master image processing in this workshop where we'll learn how to detect colors with OpenCV."
+  },
   {
     image: "../assets/GBMs/TitanicWorkshop.gif",
     title: "Titanic Workshop",
@@ -98,11 +96,6 @@ export const previousEvents = [
     image: "../assets/GBMs/Website1.gif",
     title: "Intro to HTML & CSS",
     description: "Join us to learn beginner HTML & CSS and how to set up VSCode to develop websites!"
-  },
-  {
-    image: "../assets/GBMs/MLBootcamp7.gif",
-    title: "ML Workshop #7",
-    description: "Dive into the Titanic dataset with neural networks. This adventure will help you predict fates with AI!"
   },
   {
     image: "../assets/GBMs/ComputerVision.png",
