@@ -22,13 +22,6 @@ export const upcomingEvents = [
     date: "October 1st - November 5th",
     description: "Demonstrate your knowledge in computer vision by creating a model to differentiate different types of resistors. There will be over $700 in prizes."
   },
-  {
-    image: "../assets/GBMs/ChatGptWorkshop.jpg",
-    title: "AIC x IEEE ChatGPT Workshop",
-    date: "October 10th",
-    location: "Light Engineering 102",
-    description: "Learn how to fully utilize ChatGPT's API by creating a chat bot from scratch."
-  }
 ];
 
 /** Array of previous events in the form of an EventProp so it can be passed to EventSection tag.
@@ -47,6 +40,11 @@ export const upcomingEvents = [
  *     }
  */
 export const previousEvents = [
+  {
+    image: "../assets/GBMs/ChatGptWorkshop.jpg",
+    title: "AIC x IEEE ChatGPT Workshop",
+    description: "Learn how to fully utilize ChatGPT's API by creating a chat bot from scratch."
+  },
   {
     image: "../assets/GBMs/InternalWorkshop1.gif",
     title: "Internal Competition Workshop 1",
@@ -76,11 +74,6 @@ export const previousEvents = [
     image: "../assets/GBMs/NNN.gif",
     title: "Neural Networking Night",
     description: "Join us for a night of games and challenges! There will be prizes & food, so pull up to have a good time"
-  },
-  {
-    image: "../assets/GBMs/Elections.gif",
-    title: "E-Board Elections",
-    description: "Come to get your voice heard in the club's management and support your picks for next year's e-board!"
   },
   {
     image: "../assets/GBMs/Skiena.png",
@@ -352,6 +345,11 @@ export const medias = [
  */
 export const previousEventsHomepage = [
   {
+    image:"../AI-SBU/assets/GBMs/ScavengerHunt.gif",
+    title:"Scavenger Hunt",
+    description:"Join us on an adventure around the SBU campus where you hunt for rewards, discovering many of SBU's clubs along the way!"
+  },
+  {
     image: "../AI-SBU/assets/GBMs/NNN.gif",
     title: "Neural Networking Night",
     description: "Join us for a night of games and challenges! There will be prizes & food, so pull up to have a good time"
@@ -378,11 +376,6 @@ export const previousEventsHomepage = [
     description: "Join us to learn beginner HTML & CSS and how to set up VSCode to develop websites!"
   },
   {
-    image: "../AI-SBU/assets/GBMs/MLBootcamp6.png",
-    title: "ML Workshop #6",
-    description: "Stop by our workshop, where you’ll label facial images, train a CNN model, and test its accuracy!"
-  },
-  {
     image: "../AI-SBU/assets/GBMs/ComputerVision.png",
     title: "Computer Vision",
     description: "Learn about neural network architecture and the latest advancements in computer vision!"
@@ -401,5 +394,10 @@ export const previousEventsHomepage = [
  *
  */
 export const upcomingEventsHomepage = [
-
+  {
+    image: "../AI-SBU/assets/GBMs/InternalComp.gif",
+    title: "Internal Competition",
+    date: "October 1st - November 5th",
+    description: "Demonstrate your knowledge in computer vision by creating a model to differentiate different types of resistors. There will be over $700 in prizes."
+  },
 ];
