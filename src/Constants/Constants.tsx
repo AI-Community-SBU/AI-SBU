@@ -22,6 +22,20 @@ export const upcomingEvents = [
     date: "October 1st - November 5th",
     description: "Demonstrate your knowledge in computer vision by creating a model to differentiate different types of resistors. There will be over $700 in prizes."
   },
+  {
+    image: "../assets/GBMs/InternalWorkshop2.gif",
+    title: "Internal Competition Workshop 2",
+    date: "October 16th",
+    location: "Union Auditorium",
+    description: "Take your first steps into the Internal Competition in this Pytorch workshop where you'll learn how to utilize CNNs to categorize images of resistors."
+  },
+  {
+    image: "../assets/GBMs/InternalWorkshop3.gif",
+    title: "Internal Competition Workshop 3",
+    date: "October 22nd",
+    location: "Union Auditorium",
+    description: "Delve into the world machine learning research by learning how to read research papers in order to learn how to improve our machine learning model."
+  },
 ];
 
 /** Array of previous events in the form of an EventProp so it can be passed to EventSection tag.
