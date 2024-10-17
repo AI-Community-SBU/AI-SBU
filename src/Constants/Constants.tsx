@@ -23,13 +23,6 @@ export const upcomingEvents = [
     description: "Demonstrate your knowledge in computer vision by creating a model to differentiate different types of resistors. There will be over $700 in prizes."
   },
   {
-    image: "../assets/GBMs/InternalWorkshop2.gif",
-    title: "Internal Competition Workshop 2",
-    date: "October 16th",
-    location: "Union Auditorium",
-    description: "Take your first steps into the Internal Competition in this Pytorch workshop where you'll learn how to utilize CNNs to categorize images of resistors."
-  },
-  {
     image: "../assets/GBMs/InternalWorkshop3.gif",
     title: "Internal Competition Workshop 3",
     date: "October 22nd",
@@ -54,6 +47,11 @@ export const upcomingEvents = [
  *     }
  */
 export const previousEvents = [
+  {
+    image: "../assets/GBMs/InternalWorkshop2.gif",
+    title: "Internal Competition Workshop 2",
+    description: "Take your first steps into the Internal Competition in this Pytorch workshop where you'll learn how to utilize CNNs to categorize images of resistors."
+  },
   {
     image: "../assets/GBMs/ChatGptWorkshop.jpg",
     title: "AIC x IEEE ChatGPT Workshop",
@@ -93,11 +91,6 @@ export const previousEvents = [
     image: "../assets/GBMs/Skiena.png",
     title: "Guest Speaker: Professor Skiena",
     description: "Presenting Professor Steven Skiena, an expert in algorithms! Come to ask about data science or career advice!"
-  },
-  {
-    image: "../assets/GBMs/CNNs.png",
-    title: "Introduction to CNNs",
-    description: "Stop by our workshop, where you’ll label facial images, train a CNN model, and test its accuracy!"
   },
   {
     image: "../assets/GBMs/Website1.gif",
@@ -359,6 +352,11 @@ export const medias = [
  */
 export const previousEventsHomepage = [
   {
+    image: "../assets/GBMs/InternalWorkshop2.gif",
+    title: "Internal Competition Workshop 2",
+    description: "Take your first steps into the Internal Competition in this Pytorch workshop where you'll learn how to utilize CNNs to categorize images of resistors."
+  },
+  {
     image:"../AI-SBU/assets/GBMs/ScavengerHunt.gif",
     title:"Scavenger Hunt",
     description:"Join us on an adventure around the SBU campus where you hunt for rewards, discovering many of SBU's clubs along the way!"
@@ -378,11 +376,6 @@ export const previousEventsHomepage = [
     image: "../AI-SBU/assets/GBMs/Skiena.png",
     title: "Guest Speaker: Professor Skiena",
     description: "Presenting Professor Steven Skiena, an expert in algorithms! Come to ask about data science or career advice!"
-  },
-  {
-    image: "../AI-SBU/assets/GBMs/CNNs.png",
-    title: "Introduction to CNNs",
-    description: "Stop by our workshop, where you’ll label facial images, train a CNN model, and test its accuracy!"
   },
   {
     image: "../AI-SBU/assets/GBMs/Website1.gif",
