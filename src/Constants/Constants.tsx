@@ -16,19 +16,7 @@
  *     }
  */
 export const upcomingEvents = [
-  {
-    image: "../assets/GBMs/InternalComp.gif",
-    title: "Internal Competition",
-    date: "October 1st - November 5th",
-    description: "Demonstrate your knowledge in computer vision by creating a model to differentiate different types of resistors. There will be over $700 in prizes."
-  },
-  {
-    image: "../assets/GBMs/InternalWorkshop3.gif",
-    title: "Internal Competition Workshop 3",
-    date: "October 22nd",
-    location: "Union Auditorium",
-    description: "Delve into the world machine learning research by learning how to read research papers in order to learn how to improve our machine learning model."
-  },
+
 ];
 
 /** Array of previous events in the form of an EventProp so it can be passed to EventSection tag.
@@ -48,6 +36,26 @@ export const upcomingEvents = [
  */
 export const previousEvents = [
   {
+    image: "../assets/GBMs/ScikitLearn.gif",
+    title: "Pushing Cython to its Limits in Scikit-Learn",
+    description: "Dive into many techniques scikit-learn employs to utilize Cython fully. Learn how to use Cython, Fused Types, Tempita, and OpenMP."
+  },
+  {
+    image: "../assets/GBMs/InternalComp.gif",
+    title: "Internal Competition",
+    description: "Demonstrate your knowledge in computer vision by creating a model to differentiate different types of resistors. There will be over $700 in prizes."
+  },
+  {
+    image: "../assets/GBMs/NAII.gif",
+    title: "Exploring AI Frontiers with NAII",
+    description: "Learn how AI is transforming military and aerospace applications at NAI, discover actionable strategies to kickstart your career in AI, and get tips on how to leverage AI in your work."
+  },
+  {
+    image: "../assets/GBMs/InternalWorkshop3.gif",
+    title: "Internal Competition Workshop 3",
+    description: "Delve into the world machine learning research by learning how to read research papers in order to learn how to improve our machine learning model."
+  },
+  {
     image: "../assets/GBMs/InternalWorkshop2.gif",
     title: "Internal Competition Workshop 2",
     description: "Take your first steps into the Internal Competition in this Pytorch workshop where you'll learn how to utilize CNNs to categorize images of resistors."
@@ -61,16 +69,6 @@ export const previousEvents = [
     image: "../assets/GBMs/InternalWorkshop1.gif",
     title: "Internal Competition Workshop 1",
     description: "Master image processing in this workshop where we'll learn how to detect colors with OpenCV."
-  },
-  {
-    image: "../assets/GBMs/TitanicWorkshop.gif",
-    title: "Titanic Workshop",
-    description: "Dive into the world of machine learning in this workshop where you'll learn how to use data processing and Logistic Regression."
-  },
-  {
-    image: "../assets/GBMs/TriviaNight.gif",
-    title: "Trivia Night",
-    description: "Join us for an evening of fun as we play AI and SBU themed trivia games."
   },
   {
     image:"../assets/GBMs/ScavengerHunt.gif",
@@ -91,16 +89,6 @@ export const previousEvents = [
     image: "../assets/GBMs/Skiena.png",
     title: "Guest Speaker: Professor Skiena",
     description: "Presenting Professor Steven Skiena, an expert in algorithms! Come to ask about data science or career advice!"
-  },
-  {
-    image: "../assets/GBMs/Website1.gif",
-    title: "Intro to HTML & CSS",
-    description: "Join us to learn beginner HTML & CSS and how to set up VSCode to develop websites!"
-  },
-  {
-    image: "../assets/GBMs/ComputerVision.png",
-    title: "Computer Vision",
-    description: "Learn about neural network architecture and the latest advancements in computer vision!"
   },
   {
     image: "../assets/GBMs/GuestSpeakerBanerjee.gif",
