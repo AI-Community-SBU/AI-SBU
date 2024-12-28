@@ -150,6 +150,21 @@ export const eboardMembers = [
     name: "Shireen Zaman",
     role: "Branding Manager",
   },
+  {
+    image: "../assets/eboardphotos/KaramatRep.png",
+    name: "Karamat Hasan",
+    role: "Representative",
+  },
+  {
+    image: "../assets/eboardphotos/ManasviRep.jpg",
+    name: "Manasvi Bhatnagar",
+    role: "Representative",
+  },
+  {
+    image: "../assets/eboardphotos/BradyRep.jpg",
+    name: "Brady Wynn",
+    role: "Representative",
+  },
 ];
 
 /** Array of former EBoard members written in the format of a EBoardProp so the array can be passed to the EBoardSection tag.
