@@ -404,10 +404,4 @@ export const previousEventsHomepage = [
  *
  */
 export const upcomingEventsHomepage = [
-  {
-    image: "../AI-SBU/assets/GBMs/InternalComp.gif",
-    title: "Internal Competition",
-    date: "October 1st - November 5th",
-    description: "Demonstrate your knowledge in computer vision by creating a model to differentiate different types of resistors. There will be over $700 in prizes."
-  },
 ];
