@@ -16,7 +16,27 @@
  *     }
  */
 export const upcomingEvents = [
-
+    {
+      image: "../assets/GBMs/PreCareerFair2025.jpg",
+      title: "Pre-Career Fair",
+      date: "February 11th",
+      location: "Union Ballroom",
+      description: "Join us for an opportunity to hone your resume and networking skills before the IT Job and Internship Fair. We will be serving food and drinks."
+    },
+    {
+      image: "../assets/GBMs/ITMixer2025.png",
+      title: "IT Mixer",
+      date: "February 13th",
+      location: "Shore Club",
+      description: "Come and meet with some of the employers attending the IT Job and Internship Fair. Use this opportunity to network and enjoy some breakfast."
+    },
+    {
+      image: "../assets/GBMs/EngineeringKitchen2025.png",
+      title: "IT Mixer",
+      date: "February 20th",
+      location: "Union Ballroom",
+      description: "Come by and learn more about the various engineering clubs and organizations at Stony Brook. We're serving up some delicious waffles for you all to enjoy."
+    },
 ];
 
 /** Array of previous events in the form of an EventProp so it can be passed to EventSection tag.
