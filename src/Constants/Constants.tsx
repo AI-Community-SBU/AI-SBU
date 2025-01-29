@@ -355,7 +355,7 @@ export const medias = [
  */
 export const previousEventsHomepage = [
   {
-    image: "../assets/GBMs/InternalWorkshop2.gif",
+    image: "../AI-SBU/assets/GBMs/InternalWorkshop2.gif",
     title: "Internal Competition Workshop 2",
     description: "Take your first steps into the Internal Competition in this Pytorch workshop where you'll learn how to utilize CNNs to categorize images of resistors."
   },
