@@ -24,13 +24,6 @@ export const upcomingEvents = [
       description: "Join us for an opportunity to hone your resume and networking skills before the IT Job and Internship Fair. We will be serving food and drinks."
     },
     {
-      image: "../assets/GBMs/ITMixer2025.png",
-      title: "IT Mixer",
-      date: "February 13th",
-      location: "Shore Club",
-      description: "Come and meet with some of the employers attending the IT Job and Internship Fair. Use this opportunity to network and enjoy some breakfast."
-    },
-    {
       image: "../assets/GBMs/EngineeringKitchen2025.png",
       title: "IT Mixer",
       date: "February 20th",
