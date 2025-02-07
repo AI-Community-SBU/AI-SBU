@@ -25,7 +25,7 @@ export const upcomingEvents = [
     },
     {
       image: "../assets/GBMs/EngineeringKitchen2025.png",
-      title: "IT Mixer",
+      title: "Engineering in the Kitchen",
       date: "February 20th",
       location: "Union Ballroom",
       description: "Come by and learn more about the various engineering clubs and organizations at Stony Brook. We're serving up some delicious waffles for you all to enjoy."
