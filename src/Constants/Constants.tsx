@@ -16,20 +16,7 @@
  *     }
  */
 export const upcomingEvents = [
-    {
-      image: "../assets/GBMs/PreCareerFair2025.jpg",
-      title: "Pre-Career Fair",
-      date: "February 11th",
-      location: "Union Ballroom",
-      description: "Join us for an opportunity to hone your resume and networking skills before the IT Job and Internship Fair. We will be serving food and drinks."
-    },
-    {
-      image: "../assets/GBMs/EngineeringKitchen2025.png",
-      title: "Engineering in the Kitchen",
-      date: "February 20th",
-      location: "Union Ballroom",
-      description: "Come by and learn more about the various engineering clubs and organizations at Stony Brook. We're serving up some delicious waffles for you all to enjoy."
-    },
+
 ];
 
 /** Array of previous events in the form of an EventProp so it can be passed to EventSection tag.
@@ -48,6 +35,16 @@ export const upcomingEvents = [
  *     }
  */
 export const previousEvents = [
+  {
+    image: "../assets/GBMs/PreCareerFair2025.jpg",
+    title: "Pre-Career Fair",
+    description: "Join us for an opportunity to hone your resume and networking skills before the IT Job and Internship Fair. We will be serving food and drinks."
+  },
+  {
+    image: "../assets/GBMs/EngineeringKitchen2025.png",
+    title: "Engineering in the Kitchen",
+    description: "Come by and learn more about the various engineering clubs and organizations at Stony Brook. We're serving up some delicious waffles for you all to enjoy."
+  },
   {
     image: "../assets/GBMs/ScikitLearn.gif",
     title: "Pushing Cython to its Limits in Scikit-Learn",
@@ -69,19 +66,9 @@ export const previousEvents = [
     description: "Delve into the world machine learning research by learning how to read research papers in order to learn how to improve our machine learning model."
   },
   {
-    image: "../assets/GBMs/InternalWorkshop2.gif",
-    title: "Internal Competition Workshop 2",
-    description: "Take your first steps into the Internal Competition in this Pytorch workshop where you'll learn how to utilize CNNs to categorize images of resistors."
-  },
-  {
     image: "../assets/GBMs/ChatGptWorkshop.jpg",
     title: "AIC x IEEE ChatGPT Workshop",
     description: "Learn how to fully utilize ChatGPT's API by creating a chat bot from scratch."
-  },
-  {
-    image: "../assets/GBMs/InternalWorkshop1.gif",
-    title: "Internal Competition Workshop 1",
-    description: "Master image processing in this workshop where we'll learn how to detect colors with OpenCV."
   },
   {
     image:"../assets/GBMs/ScavengerHunt.gif",
