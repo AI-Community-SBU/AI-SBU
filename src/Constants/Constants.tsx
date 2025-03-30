@@ -16,7 +16,13 @@
  *     }
  */
 export const upcomingEvents = [
-
+    {
+      image: "../assets/GBMs/DatathonSquare.jpg",
+      title: "Datathon",
+      date: "April 4th",
+      location: "Bauman Center",
+      description: "We’re thrilled to host our first-ever Datathon, a full-day data analysis event open to all students—no prior experience required! This is your chance to work on real-world datasets, flex your analytical muscles, and collaborate with fellow students to craft innovative solutions to today’s challenges."
+    }
 ];
 
 /** Array of previous events in the form of an EventProp so it can be passed to EventSection tag.
