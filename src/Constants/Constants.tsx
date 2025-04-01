@@ -117,7 +117,7 @@ export const previousEvents = [
  */
 export const eboardMembers = [
   {
-    image: "../assets/eboardphotos/SeanPresident.jpg",
+    image: "../assets/aprilfools/goat.png",
     name: "Sean Erfan",
     role: "President",
   },
