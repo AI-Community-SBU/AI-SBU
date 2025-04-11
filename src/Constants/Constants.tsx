@@ -16,13 +16,7 @@
  *     }
  */
 export const upcomingEvents = [
-    {
-      image: "../assets/GBMs/DatathonSquare.jpg",
-      title: "Datathon",
-      date: "April 4th",
-      location: "Bauman Center",
-      description: "We’re thrilled to host our first-ever Datathon, a full-day data analysis event open to all students—no prior experience required! This is your chance to work on real-world datasets, flex your analytical muscles, and collaborate with fellow students to craft innovative solutions to today’s challenges."
-    }
+
 ];
 
 /** Array of previous events in the form of an EventProp so it can be passed to EventSection tag.
@@ -41,6 +35,11 @@ export const upcomingEvents = [
  *     }
  */
 export const previousEvents = [
+  {
+    image: "../assets/GBMs/DatathonSquare.jpg",
+    title: "Datathon",
+    description: "We’re thrilled to host our first-ever Datathon, a full-day data analysis event open to all students—no prior experience required! This is your chance to work on real-world datasets, flex your analytical muscles, and collaborate with fellow students to craft innovative solutions to today’s challenges."
+  },
   {
     image: "../assets/GBMs/PreCareerFair2025.jpg",
     title: "Pre-Career Fair",
@@ -87,11 +86,6 @@ export const previousEvents = [
     description:"Connect with the leaders of student organizations at SBU and expand your network! There will be food and a raffle."    
   },
   {
-    image: "../assets/GBMs/NNN.gif",
-    title: "Neural Networking Night",
-    description: "Join us for a night of games and challenges! There will be prizes & food, so pull up to have a good time"
-  },
-  {
     image: "../assets/GBMs/Skiena.png",
     title: "Guest Speaker: Professor Skiena",
     description: "Presenting Professor Steven Skiena, an expert in algorithms! Come to ask about data science or career advice!"
@@ -117,7 +111,7 @@ export const previousEvents = [
  */
 export const eboardMembers = [
   {
-    image: "../assets/aprilfools/goat.png",
+    image: "../assets/eboardphotos/SeanPresident.jpg",
     name: "Sean Erfan",
     role: "President",
   },
