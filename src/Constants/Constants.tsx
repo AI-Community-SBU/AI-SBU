@@ -16,7 +16,27 @@
  *     }
  */
 export const upcomingEvents = [
-
+      {
+        image: "../assets/GBMs/MLWorkshop1.png",
+        title: "Machine Learning Workshop",
+        date: "September 17th",
+        location: "SAC 302",
+        description: "Learn how models learn from data, how to train them, and how to evaluate performance. You’ll build simple ML models from scratch and understand how they’re used in real-world applications.",
+      },
+      {
+        image: "../assets/GBMs/TechMixerFall2025.png",
+        title: "Tech Mixer",
+        date: "September 18th",
+        location: "SAC Shore Club",
+        description: "Take the opportunity to connect with recruiters before attending the career fair. There will be food and drinks provided.",
+      },
+      {
+        image: "../assets/GBMs/InternalRL1.png",
+        title: "It's A Me, RL!",
+        date: "October 15th",
+        location: "Frey 205",
+        description: "Come learn about how to train a reinforcement learning model to play games like Super Mario. Do you have what it takes to win our Internal Competition?",
+      }
 ];
 
 /** Array of previous events in the form of an EventProp so it can be passed to EventSection tag.
@@ -36,62 +56,62 @@ export const upcomingEvents = [
  */
 export const previousEvents = [
   {
-    image: "../assets/GBMs/DatathonSquare.jpg",
+    image: "../assets/GBMs/Legacy/DatathonSquare.jpg",
     title: "Datathon",
     description: "We’re thrilled to host our first-ever Datathon, a full-day data analysis event open to all students—no prior experience required! This is your chance to work on real-world datasets, flex your analytical muscles, and collaborate with fellow students to craft innovative solutions to today’s challenges."
   },
   {
-    image: "../assets/GBMs/PreCareerFair2025.jpg",
+    image: "../assets/GBMs/Legacy/PreCareerFair2025.jpg",
     title: "Pre-Career Fair",
     description: "Join us for an opportunity to hone your resume and networking skills before the IT Job and Internship Fair. We will be serving food and drinks."
   },
   {
-    image: "../assets/GBMs/EngineeringKitchen2025.png",
+    image: "../assets/GBMs/Legacy/EngineeringKitchen2025.png",
     title: "Engineering in the Kitchen",
     description: "Come by and learn more about the various engineering clubs and organizations at Stony Brook. We're serving up some delicious waffles for you all to enjoy."
   },
   {
-    image: "../assets/GBMs/ScikitLearn.gif",
+    image: "../assets/GBMs/Legacy/ScikitLearn.gif",
     title: "Pushing Cython to its Limits in Scikit-Learn",
     description: "Dive into many techniques scikit-learn employs to utilize Cython fully. Learn how to use Cython, Fused Types, Tempita, and OpenMP."
   },
   {
-    image: "../assets/GBMs/InternalComp.gif",
+    image: "../assets/GBMs/Legacy/InternalComp.gif",
     title: "Internal Competition",
     description: "Demonstrate your knowledge in computer vision by creating a model to differentiate different types of resistors. There will be over $700 in prizes."
   },
   {
-    image: "../assets/GBMs/NAII.gif",
+    image: "../assets/GBMs/Legacy/NAII.gif",
     title: "Exploring AI Frontiers with NAII",
     description: "Learn how AI is transforming military and aerospace applications at NAI, discover actionable strategies to kickstart your career in AI, and get tips on how to leverage AI in your work."
   },
   {
-    image: "../assets/GBMs/InternalWorkshop3.gif",
+    image: "../assets/GBMs/Legacy/InternalWorkshop3.gif",
     title: "Internal Competition Workshop 3",
     description: "Delve into the world machine learning research by learning how to read research papers in order to learn how to improve our machine learning model."
   },
   {
-    image: "../assets/GBMs/ChatGptWorkshop.jpg",
+    image: "../assets/GBMs/Legacy/ChatGptWorkshop.jpg",
     title: "AIC x IEEE ChatGPT Workshop",
     description: "Learn how to fully utilize ChatGPT's API by creating a chat bot from scratch."
   },
   {
-    image:"../assets/GBMs/ScavengerHunt.gif",
+    image:"../assets/GBMs/Legacy/ScavengerHunt.gif",
     title:"Scavenger Hunt",
     description:"Join us on an adventure around the SBU campus where you hunt for rewards, discovering many of SBU's clubs along the way!"
   },
   {
-    image:"../assets/GBMs/ClubTakeover.gif",
+    image:"../assets/GBMs/Legacy/ClubTakeover.gif",
     title:"Club Takeover",
     description:"Connect with the leaders of student organizations at SBU and expand your network! There will be food and a raffle."    
   },
   {
-    image: "../assets/GBMs/Skiena.png",
+    image: "../assets/GBMs/Legacy/Skiena.png",
     title: "Guest Speaker: Professor Skiena",
     description: "Presenting Professor Steven Skiena, an expert in algorithms! Come to ask about data science or career advice!"
   },
   {
-    image: "../assets/GBMs/GuestSpeakerBanerjee.gif",
+    image: "../assets/GBMs/Legacy/GuestSpeakerBanerjee.gif",
     title: "Guest Speaker: Professor Banerjee",
     description:
       "Take this opportunity to hear Professor Banerjee talk about his NLP research on misinformation!",
@@ -111,54 +131,54 @@ export const previousEvents = [
  */
 export const eboardMembers = [
   {
-    image: "../assets/eboardphotos/SeanPresident.jpg",
-    name: "Sean Erfan",
+    image: "../assets/eboardphotos/Ruthvick.jpg",
+    name: "Ruthvick Bandaru",
     role: "President",
   },
   {
-    image: "../assets/eboardphotos/RuthvickVP.jpg",
-    name: "Ruthvick Bandaru",
+    image: "../assets/eboardphotos/Karamat.png",
+    name: "Karamat Hasan",
     role: "Vice President",
   },
   {
-    image: "../assets/eboardphotos/EricSecretary.jpg",
-    name: "Eric Yang",
+    image: "../assets/eboardphotos/Manasvi.jpg",
+    name: "Manasvi Bhatnagar",
     role: "Secretary",
   },
   {
-    image: "../assets/eboardphotos/NatalieTreasurer.jpg",
-    name: "Natalie Sid",
+    image: "../assets/eboardphotos/Derrick.jpg",
+    name: "Derrick Ma",
     role: "Treasurer",
   },
   {
-    image: "../assets/eboardphotos/EricProject.jpg",
-    name: "Eric DiGiacomo",
+    image: "../assets/eboardphotos/Anjan.jpg",
+    name: "Anjan Athreya",
     role: "Project Manager",
   },
   {
-    image: "../assets/eboardphotos/DerrickWebmaster.jpg",
-    name: "Derrick Ma",
+    image: "../assets/eboardphotos/WebmasterQR.jpg",
+    name: "Could be You?",
     role: "Webmaster",
   },
   {
-    image: "../assets/eboardphotos/MatthewEvent.jpg",
-    name: "Matthew Zhang",
+    image: "../assets/eboardphotos/Amal.jpg",
+    name: "Amal Bilal",
     role: "Event Coordinator",
   },
   {
-    image: "../assets/eboardphotos/ShireenBranding.jpg",
-    name: "Shireen Zaman",
+    image: "../assets/eboardphotos/Anderson.jpg",
+    name: "Anderson Chan",
     role: "Branding Manager",
   },
   {
-    image: "../assets/eboardphotos/KaramatRep.png",
-    name: "Karamat Hasan",
-    role: "Representative",
+    image: "../assets/eboardphotos/Eimaan.jpg",
+    name: "Eimaan Bilal",
+    role: "Design Chair",
   },
   {
-    image: "../assets/eboardphotos/ManasviRep.jpg",
-    name: "Manasvi Bhatnagar",
-    role: "Representative",
+    image: "../assets/eboardphotos/Maximilian.jpg",
+    name: "Maximilian Cederholm",
+    role: "Outreach Chair",
   },
 ];
 
@@ -177,27 +197,63 @@ export const eboardMembers = [
  */
 export const eboardAlumni = [
   {
-    image: "../assets/eboardphotos/Steven.jpg",
+    image: "../assets/eboardphotos/legacy/Steven.jpg",
     name: "Steven Yu",
     role: "Founder/President",
     link: "https://www.linkedin.com/in/yuyiy/",
   },
   {
-    image: "../assets/eboardphotos/Angel.jpg",
+    image: "../assets/eboardphotos/legacy/Angel.jpg",
     name: "Angel Xie",
     role: "Secretary",
     link: "https://www.instagram.com/angelxie7/",
   },
   {
-    image: "../assets/eboardphotos/Pooja.jpg",
+    image: "../assets/eboardphotos/legacy/Pooja.jpg",
     name: "Pooja Ginjupalli",
     role: "Webmaster",
     link: "https://www.linkedin.com/in/pginjupalli/",
   },
   {
-    image: "../assets/eboardphotos/Katherine.jpg",
+    image: "../assets/eboardphotos/legacy/Katherine.jpg",
     name: "Katherine Trusinski",
     role: "Event Coordinator",
+  },
+  {
+    image: "../assets/eboardphotos/legacy/Sean.jpg",
+    name: "Sean Erfan",
+    role: "President",
+    link: "https://www.linkedin.com/in/seanerfan/",
+  },
+  {
+    image: "../assets/eboardphotos/legacy/Natalie.jpg",
+    name: "Natalie Sid",
+    role: "Treasurer",
+    link: "https://www.linkedin.com/in/natalie-sid-25628124a/",
+  },
+  {
+    image: "../assets/eboardphotos/legacy/EricY.jpg",
+    name: "Eric Yang",
+    role: "Secretary",
+    link: "https://www.linkedin.com/in/ericyang00/",
+  },
+  {
+    image: "../assets/eboardphotos/legacy/Matthew.jpg",
+    name: "Matthew Zhang",
+    role: "Event Coordinator",
+    link: "https://www.linkedin.com/in/matthewzhang04/",
+  },
+  {
+    image: "../assets/eboardphotos/legacy/EricD.jpg",
+    name: "Eric DiGiacomo",
+    role: "Project Manager",
+    link: "https://www.linkedin.com/in/eric-digiacomo/",
+  },
+  {
+    image: "../assets/eboardphotos/legacy/Shireen.jpg",
+    name: "Shireen Zaman",
+    role: "Branding Manager",
+    link: "https://www.linkedin.com/in/shireenz/",
   },
 ];
 
@@ -291,7 +347,7 @@ export const moreArticles = [
 export const workshops = [
   {
     name: "Machine Learning",
-    image: "url(../assets/GBMs/MLWorkshop.gif)",
+    image: "url(../assets/GBMs/Legacy/MLWorkshop.gif)",
     caption:
       "Get A Hands-On Introduction to Machine Learning Through Lessons & Real-World Projects!",
     signuplink: "",
@@ -350,43 +406,43 @@ export const medias = [
  */
 export const previousEventsHomepage = [
   {
-    image: "../AI-SBU/assets/GBMs/InternalWorkshop2.gif",
+    image: "../AI-SBU/assets/GBMs/Legacy/InternalWorkshop2.gif",
     title: "Internal Competition Workshop 2",
     description: "Take your first steps into the Internal Competition in this Pytorch workshop where you'll learn how to utilize CNNs to categorize images of resistors."
   },
   {
-    image:"../AI-SBU/assets/GBMs/ScavengerHunt.gif",
+    image:"../AI-SBU/assets/GBMs/Legacy/ScavengerHunt.gif",
     title:"Scavenger Hunt",
     description:"Join us on an adventure around the SBU campus where you hunt for rewards, discovering many of SBU's clubs along the way!"
   },
   {
-    image: "../AI-SBU/assets/GBMs/NNN.gif",
+    image: "../AI-SBU/assets/GBMs/Legacy/NNN.gif",
     title: "Neural Networking Night",
     description: "Join us for a night of games and challenges! There will be prizes & food, so pull up to have a good time"
   },
   {
-    image: "../AI-SBU/assets/GBMs/GuestSpeakerBanerjee.gif",
+    image: "../AI-SBU/assets/GBMs/Legacy/GuestSpeakerBanerjee.gif",
     title: "Guest Speaker: Professor Banerjee",
     description:
       "Take this opportunity to hear Professor Banerjee talk about his NLP research on misinformation!",
   },
   {
-    image: "../AI-SBU/assets/GBMs/Skiena.png",
+    image: "../AI-SBU/assets/GBMs/Legacy/Skiena.png",
     title: "Guest Speaker: Professor Skiena",
     description: "Presenting Professor Steven Skiena, an expert in algorithms! Come to ask about data science or career advice!"
   },
   {
-    image: "../AI-SBU/assets/GBMs/Website1.gif",
+    image: "../AI-SBU/assets/GBMs/Legacy/Website1.gif",
     title: "Intro to HTML & CSS",
     description: "Join us to learn beginner HTML & CSS and how to set up VSCode to develop websites!"
   },
   {
-    image: "../AI-SBU/assets/GBMs/ComputerVision.png",
+    image: "../AI-SBU/assets/GBMs/Legacy/ComputerVision.png",
     title: "Computer Vision",
     description: "Learn about neural network architecture and the latest advancements in computer vision!"
   },
   {
-    image: "../AI-SBU/assets/GBMs/Elections.gif",
+    image: "../AI-SBU/assets/GBMs/Legacy/Elections.gif",
     title: "E-Board Elections",
     description: "Come to get your voice heard in the club's management and support your picks for next year's e-board!"
   },
