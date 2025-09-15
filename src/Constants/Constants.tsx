@@ -235,7 +235,6 @@ export const eboardAlumni = [
     image: "../assets/eboardphotos/legacy/EricY.jpg",
     name: "Eric Yang",
     role: "Secretary",
-    link: "https://www.linkedin.com/in/ericyang00/",
   },
   {
     image: "../assets/eboardphotos/legacy/Matthew.jpg",
