@@ -17,20 +17,6 @@
  */
 export const upcomingEvents = [
       {
-        image: "../assets/GBMs/MLWorkshop1.png",
-        title: "Machine Learning Workshop",
-        date: "September 17th",
-        location: "SAC 302",
-        description: "Learn how models learn from data, how to train them, and how to evaluate performance. You’ll build simple ML models from scratch and understand how they’re used in real-world applications.",
-      },
-      {
-        image: "../assets/GBMs/TechMixerFall2025.png",
-        title: "Tech Mixer",
-        date: "September 18th",
-        location: "SAC Shore Club",
-        description: "Take the opportunity to connect with recruiters before attending the career fair. There will be food and drinks provided.",
-      },
-      {
         image: "../assets/GBMs/InternalRL1.png",
         title: "It's A Me, RL!",
         date: "October 15th",
@@ -56,14 +42,19 @@ export const upcomingEvents = [
  */
 export const previousEvents = [
   {
+    image: "../assets/GBMs/MLWorkshop1.png",
+    title: "Machine Learning Workshop",
+    description: "Learn how models learn from data, how to train them, and how to evaluate performance. You’ll build simple ML models from scratch and understand how they’re used in real-world applications.",
+  },
+  {
+    image: "../assets/GBMs/TechMixerFall2025.png",
+    title: "Tech Mixer",
+    description: "Take the opportunity to connect with recruiters before attending the career fair. There will be food and drinks provided.",
+  },
+  {
     image: "../assets/GBMs/Legacy/DatathonSquare.jpg",
     title: "Datathon",
     description: "We’re thrilled to host our first-ever Datathon, a full-day data analysis event open to all students—no prior experience required! This is your chance to work on real-world datasets, flex your analytical muscles, and collaborate with fellow students to craft innovative solutions to today’s challenges."
-  },
-  {
-    image: "../assets/GBMs/Legacy/PreCareerFair2025.jpg",
-    title: "Pre-Career Fair",
-    description: "Join us for an opportunity to hone your resume and networking skills before the IT Job and Internship Fair. We will be serving food and drinks."
   },
   {
     image: "../assets/GBMs/Legacy/EngineeringKitchen2025.png",
@@ -84,11 +75,6 @@ export const previousEvents = [
     image: "../assets/GBMs/Legacy/NAII.gif",
     title: "Exploring AI Frontiers with NAII",
     description: "Learn how AI is transforming military and aerospace applications at NAI, discover actionable strategies to kickstart your career in AI, and get tips on how to leverage AI in your work."
-  },
-  {
-    image: "../assets/GBMs/Legacy/InternalWorkshop3.gif",
-    title: "Internal Competition Workshop 3",
-    description: "Delve into the world machine learning research by learning how to read research papers in order to learn how to improve our machine learning model."
   },
   {
     image: "../assets/GBMs/Legacy/ChatGptWorkshop.jpg",
