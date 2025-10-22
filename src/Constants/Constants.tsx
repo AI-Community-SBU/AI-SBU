@@ -16,13 +16,7 @@
  *     }
  */
 export const upcomingEvents = [
-      {
-        image: "../assets/GBMs/InternalRL1.png",
-        title: "It's A Me, RL!",
-        date: "October 15th",
-        location: "Frey 205",
-        description: "Come learn about how to train a reinforcement learning model to play games like Super Mario. Do you have what it takes to win our Internal Competition?",
-      }
+      
 ];
 
 /** Array of previous events in the form of an EventProp so it can be passed to EventSection tag.
@@ -42,6 +36,11 @@ export const upcomingEvents = [
  */
 export const previousEvents = [
   {
+    image: "../assets/GBMs/InternalRL1.png",
+    title: "It's A Me, RL!",
+    description: "Come learn about how to train a reinforcement learning model to play games like Super Mario. Do you have what it takes to win our Internal Competition?",
+  },
+  {
     image: "../assets/GBMs/MLWorkshop1.png",
     title: "Machine Learning Workshop",
     description: "Learn how models learn from data, how to train them, and how to evaluate performance. You’ll build simple ML models from scratch and understand how they’re used in real-world applications.",
@@ -55,11 +54,6 @@ export const previousEvents = [
     image: "../assets/GBMs/Legacy/DatathonSquare.jpg",
     title: "Datathon",
     description: "We’re thrilled to host our first-ever Datathon, a full-day data analysis event open to all students—no prior experience required! This is your chance to work on real-world datasets, flex your analytical muscles, and collaborate with fellow students to craft innovative solutions to today’s challenges."
-  },
-  {
-    image: "../assets/GBMs/Legacy/EngineeringKitchen2025.png",
-    title: "Engineering in the Kitchen",
-    description: "Come by and learn more about the various engineering clubs and organizations at Stony Brook. We're serving up some delicious waffles for you all to enjoy."
   },
   {
     image: "../assets/GBMs/Legacy/ScikitLearn.gif",
@@ -142,8 +136,8 @@ export const eboardMembers = [
     role: "Project Manager",
   },
   {
-    image: "../assets/eboardphotos/WebmasterQR.jpg",
-    name: "Could be You?",
+    image: "../assets/eboardphotos/Christina.jpg",
+    name: "Christina Wong",
     role: "Webmaster",
   },
   {
