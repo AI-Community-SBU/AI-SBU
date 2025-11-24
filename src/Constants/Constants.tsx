@@ -16,7 +16,13 @@
  *     }
  */
 export const upcomingEvents = [
-      
+  {
+    image: "../assets/GBMs/RohanPradhanAWSEventFlyer.png",
+    title: "Rohan Pradhan Guest Speech by Amazon",
+    date: "December 1st",
+    location: "SAC 305",
+    description: "Join us for an exciting guest lecture by Rohan Pradhan, an Applied Scientist at Amazon and a leading voice in Generative AI and Frontier Models research. Pizza will be served! All students are welcome—no prior AI experience required."
+  }   
 ];
 
 /** Array of previous events in the form of an EventProp so it can be passed to EventSection tag.
@@ -95,12 +101,6 @@ export const previousEvents = [
     title: "Guest Speaker: Professor Skiena",
     description: "Presenting Professor Steven Skiena, an expert in algorithms! Come to ask about data science or career advice!"
   },
-  // {
-  //   image: "../assets/GBMs/Legacy/GuestSpeakerBanerjee.gif",
-  //   title: "Guest Speaker: Professor Banerjee",
-  //   description:
-  //     "Take this opportunity to hear Professor Banerjee talk about his NLP research on misinformation!",
-  // },
 ];
 
 /** Array of EBoard members written in the format of a EBoardProp so the array can be passed to the EBoardSection tag.
