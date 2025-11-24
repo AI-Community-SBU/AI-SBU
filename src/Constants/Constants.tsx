@@ -36,6 +36,11 @@ export const upcomingEvents = [
  */
 export const previousEvents = [
   {
+    image: "../assets/GBMs/NeuralNetworkingNight.png",
+    title: "Neural Networking Night",
+    description: "Bring your friends, enjoy food from O Sole Mio, and connect with students from every major through bingo, team challenges, board games, and more! Don't miss out on the chance to win a PANDA LEGO SET!",
+  },
+  {
     image: "../assets/GBMs/InternalRL1.png",
     title: "It's A Me, RL!",
     description: "Come learn about how to train a reinforcement learning model to play games like Super Mario. Do you have what it takes to win our Internal Competition?",
@@ -90,12 +95,12 @@ export const previousEvents = [
     title: "Guest Speaker: Professor Skiena",
     description: "Presenting Professor Steven Skiena, an expert in algorithms! Come to ask about data science or career advice!"
   },
-  {
-    image: "../assets/GBMs/Legacy/GuestSpeakerBanerjee.gif",
-    title: "Guest Speaker: Professor Banerjee",
-    description:
-      "Take this opportunity to hear Professor Banerjee talk about his NLP research on misinformation!",
-  },
+  // {
+  //   image: "../assets/GBMs/Legacy/GuestSpeakerBanerjee.gif",
+  //   title: "Guest Speaker: Professor Banerjee",
+  //   description:
+  //     "Take this opportunity to hear Professor Banerjee talk about his NLP research on misinformation!",
+  // },
 ];
 
 /** Array of EBoard members written in the format of a EBoardProp so the array can be passed to the EBoardSection tag.
