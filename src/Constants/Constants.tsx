@@ -17,11 +17,11 @@
  */
 export const upcomingEvents = [
   {
-    image: "../assets/GBMs/RohanPradhanAWSEventFlyer.png",
-    title: "Rohan Pradhan Guest Speech by Amazon",
-    date: "December 1st",
-    location: "SAC 305",
-    description: "Join us for an exciting guest lecture by Rohan Pradhan, an Applied Scientist at Amazon and a leading voice in Generative AI and Frontier Models research. Pizza will be served! All students are welcome—no prior AI experience required."
+    image: "../assets/GBMs/MachineLearningAndDataAnalysis.png",
+    title: "Machine Learning & Data Analysis Workshop",
+    date: "February 9th",
+    location: "SAC 304",
+    description: "Join us for our first GBM of the spring 2026 semester! Learn about machine learning and data analysis through interactive demonstrations!"
   }   
 ];
 
@@ -41,6 +41,13 @@ export const upcomingEvents = [
  *     }
  */
 export const previousEvents = [
+  {
+    image: "../assets/GBMs/RohanPradhanAWSEventFlyer.png",
+    title: "Rohan Pradhan Guest Speech by Amazon",
+    date: "December 1st",
+    location: "SAC 305",
+    description: "Join us for an exciting guest lecture by Rohan Pradhan, an Applied Scientist at Amazon and a leading voice in Generative AI and Frontier Models research. Pizza will be served! All students are welcome—no prior AI experience required."
+  },
   {
     image: "../assets/GBMs/NeuralNetworkingNight.png",
     title: "Neural Networking Night",
