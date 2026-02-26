@@ -17,11 +17,11 @@
  */
 export const upcomingEvents = [
   {
-    image: "../assets/GBMs/MachineLearningAndDataAnalysis.png",
-    title: "Machine Learning & Data Analysis Workshop",
-    date: "February 9th",
-    location: "SAC 304",
-    description: "Join us for our first GBM of the spring 2026 semester! Learn about machine learning and data analysis through interactive demonstrations!"
+    image: "../assets/GBMs/EngineeringInTheKitchen.png",
+    title: "Engineering In the Kitchen",
+    date: "February 26th",
+    location: "Bauman Center",
+    description: "Join us for our annual food festival with fun demonstrations!"
   }   
 ];
 
@@ -41,6 +41,13 @@ export const upcomingEvents = [
  *     }
  */
 export const previousEvents = [
+  {
+    image: "../assets/GBMs/MachineLearningAndDataAnalysis.png",
+    title: "Machine Learning & Data Analysis Workshop",
+    date: "February 9th",
+    location: "SAC 304",
+    description: "Join us for our first GBM of the spring 2026 semester! Learn about machine learning and data analysis through interactive demonstrations!"
+  },
   {
     image: "../assets/GBMs/RohanPradhanAWSEventFlyer.png",
     title: "Rohan Pradhan Guest Speech by Amazon",
@@ -82,11 +89,6 @@ export const previousEvents = [
     image: "../assets/GBMs/Legacy/InternalComp.gif",
     title: "Internal Competition",
     description: "Demonstrate your knowledge in computer vision by creating a model to differentiate different types of resistors. There will be over $700 in prizes."
-  },
-  {
-    image: "../assets/GBMs/Legacy/NAII.gif",
-    title: "Exploring AI Frontiers with NAII",
-    description: "Learn how AI is transforming military and aerospace applications at NAI, discover actionable strategies to kickstart your career in AI, and get tips on how to leverage AI in your work."
   },
   {
     image: "../assets/GBMs/Legacy/ChatGptWorkshop.jpg",
