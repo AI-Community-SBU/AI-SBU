@@ -17,11 +17,11 @@
  */
 export const upcomingEvents = [
   {
-    image: "../assets/GBMs/EngineeringInTheKitchen.png",
-    title: "Engineering In the Kitchen",
-    date: "February 26th",
-    location: "Bauman Center",
-    description: "Join us for our annual food festival with fun demonstrations!"
+    image: "../assets/GBMs/YOLO26Flyer.png",
+    title: "YOLO 26 Workshop",
+    date: "March 4th",
+    location: "SAC 305",
+    description: "Learn about the latest object detection model on the market and implement it from scratch! Train a model on any custom dataset of your choice for future projects!"
   }   
 ];
 
@@ -41,6 +41,13 @@ export const upcomingEvents = [
  *     }
  */
 export const previousEvents = [
+  {
+    image: "../assets/GBMs/EngineeringInTheKitchen.png",
+    title: "Engineering In the Kitchen",
+    date: "February 26th",
+    location: "Bauman Center",
+    description: "Join us for our annual food festival with fun demonstrations!"
+  },
   {
     image: "../assets/GBMs/MachineLearningAndDataAnalysis.png",
     title: "Machine Learning & Data Analysis Workshop",
@@ -69,11 +76,6 @@ export const previousEvents = [
     image: "../assets/GBMs/MLWorkshop1.png",
     title: "Machine Learning Workshop",
     description: "Learn how models learn from data, how to train them, and how to evaluate performance. You’ll build simple ML models from scratch and understand how they’re used in real-world applications.",
-  },
-  {
-    image: "../assets/GBMs/TechMixerFall2025.png",
-    title: "Tech Mixer",
-    description: "Take the opportunity to connect with recruiters before attending the career fair. There will be food and drinks provided.",
   },
   {
     image: "../assets/GBMs/Legacy/DatathonSquare.jpg",
