@@ -11,6 +11,7 @@ import PhotoGallery from "../../pages/PhotoGallery";
 import EBoard from "../../pages/EBoard";
 import LatestNews from "../../pages/LatestNews";
 import ConnectWithUs from "../../pages/ConnectWithUs";
+import Datathon from "../../pages/Datathon";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -65,6 +66,11 @@ const Navbar = () => {
               Connect With Us
             </Link>
           </li>
+          <li>
+            <Link className="link" to="/AI-SBU/pages/Datathon">
+              Datathon
+            </Link>
+          </li>
         </ul>
         <img className="menu-icon" src="./assets/menuIcon.svg" onClick={changeDropdownStatus}/>
       </nav>
@@ -103,6 +109,11 @@ const Navbar = () => {
               Connect With Us
             </Link>
           </li>
+          <li>
+            <Link to="/AI-SBU/pages/Datathon" className="dropdown-link">
+              Datathon
+            </Link>
+          </li>
         </ul>
       </nav>
 
@@ -116,6 +127,7 @@ const Navbar = () => {
         <Route path="/AI-SBU/pages/LatestNews" element={<LatestNews />} />
         <Route path="/AI-SBU/pages/ConnectWithUs" element={<ConnectWithUs />} />
         <Route path="/AI-SBU/pages/LatestNews" element={<LatestNews />} />
+        <Route path="/AI-SBU/pages/Datathon" element={<Datathon />} />
       </Routes>
     </>
   );
