@@ -80,7 +80,7 @@ const faqData: FAQItem[] = [
   {
     question: "How do teams work?",
     answer:
-      "Teams can have up to 4 members. You can register with a team or come solo — we'll host a team formation event at the start so everyone can find their group.",
+      "Teams can have up to 4 members. You can register with a team or come solo.",
   },
   {
     question: "What datasets will be provided?",
@@ -217,8 +217,12 @@ const Datathon = () => {
 
   useEffect(() => {
     document.documentElement.style.scrollBehavior = "smooth";
+    document.body.style.padding = "0";
+    document.body.style.backgroundColor = "#d6eef8";
     return () => {
       document.documentElement.style.scrollBehavior = "";
+      document.body.style.padding = "";
+      document.body.style.backgroundColor = "";
     };
   }, []);
 

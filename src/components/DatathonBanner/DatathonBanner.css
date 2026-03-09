@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap");
+
+.datathon-banner {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #d6eef8 0%, #a4d8ed 40%, #7ac4df 75%, #55a8ca 100%);
+  padding: 3.5rem 2rem;
+  text-align: center;
+}
+
+/* Bubbles */
+
+.datathon-banner-bubbles {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.datathon-banner-bubble {
+  position: absolute;
+  bottom: -30px;
+  width: var(--b-size);
+  height: var(--b-size);
+  left: var(--b-left);
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, rgba(255, 255, 255, 0.45), rgba(47, 168, 181, 0.08));
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  animation: bannerRise var(--b-dur) ease-in infinite;
+  animation-delay: var(--b-delay);
+}
+
+@keyframes bannerRise {
+  0% { transform: translateY(0) scale(1); opacity: 0; }
+  10% { opacity: 0.3; }
+  80% { opacity: 0.15; }
+  100% { transform: translateY(-350px) scale(0.6); opacity: 0; }
+}
+
+/* Content */
+
+.datathon-banner-content {
+  position: relative;
+  z-index: 1;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.datathon-banner-octopus {
+  font-size: 2.5rem;
+  display: inline-block;
+  animation: bannerBob 3s ease-in-out infinite;
+}
+
+@keyframes bannerBob {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  25% { transform: translateY(-5px) rotate(4deg); }
+  75% { transform: translateY(3px) rotate(-3deg); }
+}
+
+.datathon-banner-title {
+  font-family: "Quicksand", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #e8614d 0%, #d94a3a 50%, #1d8a94 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0.25rem 0 0.5rem;
+}
+
+.datathon-banner-tagline {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #e8614d;
+  margin-bottom: 0.5rem;
+}
+
+.datathon-banner-details {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1a2f4a;
+  margin-bottom: 0.25rem;
+}
+
+.datathon-banner-meals {
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #e8614d;
+  margin-bottom: 1.5rem;
+}
+
+/* Buttons */
+
+.datathon-banner-buttons {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.datathon-banner-btn {
+  display: inline-block;
+  padding: 0.7rem 1.75rem;
+  border-radius: 24px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.datathon-banner-btn-primary {
+  background: linear-gradient(135deg, #e8614d, #f47c6b);
+  color: #ffffff;
+  box-shadow: 0 4px 16px rgba(232, 97, 77, 0.3);
+}
+
+.datathon-banner-btn-primary:hover {
+  box-shadow: 0 6px 24px rgba(232, 97, 77, 0.45);
+  transform: translateY(-2px);
+}
+
+.datathon-banner-btn-secondary {
+  background: rgba(255, 255, 255, 0.55);
+  color: #1d8a94;
+  border: 2px solid rgba(47, 168, 181, 0.35);
+  backdrop-filter: blur(4px);
+}
+
+.datathon-banner-btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.75);
+  border-color: rgba(47, 168, 181, 0.6);
+  transform: translateY(-2px);
+}
+
+/* Responsive */
+
+@media (max-width: 600px) {
+  .datathon-banner {
+    padding: 2.5rem 1.25rem;
+  }
+
+  .datathon-banner-title {
+    font-size: 1.85rem;
+  }
+
+  .datathon-banner-tagline {
+    font-size: 1rem;
+  }
+
+  .datathon-banner-details {
+    font-size: 0.9rem;
+  }
+
+  .datathon-banner-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .datathon-banner-btn {
+    width: 100%;
+    max-width: 250px;
+    text-align: center;
+  }
+}

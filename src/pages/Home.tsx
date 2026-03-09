@@ -7,6 +7,7 @@ import TitleSection from "../components/TitleSection/TitleSection";
 import Buffer from "../components/Buffer/Buffer";
 import EmbeddedVideo from "../components/EmbeddedVideo/EmbeddedVideo";
 import EventSection from "../components/EventSection/EventSection";
+import DatathonBanner from "../components/DatathonBanner/DatathonBanner";
 import * as Constants from "../Constants/Constants";
 
 const Home = () => {
@@ -16,6 +17,8 @@ const Home = () => {
         title="Welcome to the AI Community at Stony Brook University!"
         image="../AI-SBU/assets/backgrounds/mainBackground.jpg"
       ></TitleSection>
+      <Buffer color="rgb(54, 10, 54)" bColor="rgb(118, 36, 118)"></Buffer>
+      <DatathonBanner />
       <Buffer color="rgb(54, 10, 54)" bColor="rgb(118, 36, 118)"></Buffer>
       <TextSection
         title="About Us"
