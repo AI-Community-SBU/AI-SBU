@@ -6,12 +6,15 @@
  */
 
 import { Link } from "react-router-dom";
+import { useCountdown, DATATHON_START } from "../../hooks/useCountdown.ts";
 import "./DatathonBanner.css";
 
 const REGISTRATION_URL =
   "https://docs.google.com/forms/d/e/1FAIpQLSf4Erk6779ew6xoFdgdKKUNZIu2GjtvsoTmF9rs40OAqmMuFg/viewform";
 
 const DatathonBanner = () => {
+  const countdown = useCountdown(DATATHON_START);
+
   return (
     <section className="datathon-banner">
       <div className="datathon-banner-bubbles">
@@ -40,6 +43,42 @@ const DatathonBanner = () => {
         <p className="datathon-banner-details">
           March 28 – 29 &nbsp;|&nbsp; SAC Ballroom B &nbsp;|&nbsp; Free Entry
         </p>
+
+        {/* Countdown clock */}
+        {!countdown.isOver ? (
+          <div className="banner-countdown">
+            <div className="banner-cd-unit">
+              <span className="banner-cd-value">
+                {String(countdown.days).padStart(2, "0")}
+              </span>
+              <span className="banner-cd-label">Days</span>
+            </div>
+            <span className="banner-cd-sep">:</span>
+            <div className="banner-cd-unit">
+              <span className="banner-cd-value">
+                {String(countdown.hours).padStart(2, "0")}
+              </span>
+              <span className="banner-cd-label">Hrs</span>
+            </div>
+            <span className="banner-cd-sep">:</span>
+            <div className="banner-cd-unit">
+              <span className="banner-cd-value">
+                {String(countdown.minutes).padStart(2, "0")}
+              </span>
+              <span className="banner-cd-label">Min</span>
+            </div>
+            <span className="banner-cd-sep">:</span>
+            <div className="banner-cd-unit">
+              <span className="banner-cd-value">
+                {String(countdown.seconds).padStart(2, "0")}
+              </span>
+              <span className="banner-cd-label">Sec</span>
+            </div>
+          </div>
+        ) : (
+          <p className="banner-countdown-over">The Datathon has begun!</p>
+        )}
+
         <p className="datathon-banner-meals">Meals will be served!</p>
         <div className="datathon-banner-buttons">
           <Link to="/AI-SBU/pages/Datathon" className="datathon-banner-btn datathon-banner-btn-primary">

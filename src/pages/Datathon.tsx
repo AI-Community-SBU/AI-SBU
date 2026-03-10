@@ -9,7 +9,7 @@
  */
 
 import { useState, useEffect } from "react";
-import { useCountdown, DATATHON_START } from "../hooks/useCountdown";
+import { useCountdown, DATATHON_START } from "../hooks/useCountdown.ts";
 import "./Datathon.css";
 
 /* =======================================================================
