@@ -257,6 +257,61 @@
   margin-top: 0.2rem;
 }
 
+/* Countdown */
+
+.hero-countdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.countdown-unit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 64px;
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(47, 168, 181, 0.2);
+  border-radius: 12px;
+  padding: 0.6rem 0.75rem 0.4rem;
+  backdrop-filter: blur(6px);
+}
+
+.countdown-value {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1d8a94;
+  line-height: 1;
+}
+
+.countdown-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #4a6d8c;
+  margin-top: 0.2rem;
+}
+
+.countdown-separator {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #e8614d;
+  margin-top: -0.8rem;
+}
+
+.hero-countdown-over {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #e8614d;
+  margin-bottom: 1.25rem;
+}
+
 .hero-meals {
   font-family: "Quicksand", sans-serif;
   font-size: 1.1rem;
@@ -865,6 +920,19 @@
 
   .hero-stat-value {
     font-size: 1.75rem;
+  }
+
+  .countdown-value {
+    font-size: 1.3rem;
+  }
+
+  .countdown-unit {
+    min-width: 52px;
+    padding: 0.4rem 0.5rem 0.3rem;
+  }
+
+  .countdown-separator {
+    font-size: 1.2rem;
   }
 
   .hero-buttons {

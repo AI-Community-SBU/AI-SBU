@@ -9,6 +9,7 @@
  */
 
 import { useState, useEffect } from "react";
+import { useCountdown, DATATHON_START } from "../hooks/useCountdown";
 import "./Datathon.css";
 
 /* =======================================================================
@@ -214,15 +215,22 @@ const Datathon = () => {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
   const [activeDay, setActiveDay] = useState<1 | 2>(1);
   const [flippedCards, setFlippedCards] = useState<Set<number>>(new Set());
+  const [scrollY, setScrollY] = useState(0);
+  const countdown = useCountdown(DATATHON_START);
 
   useEffect(() => {
     document.documentElement.style.scrollBehavior = "smooth";
     document.body.style.padding = "0";
     document.body.style.backgroundColor = "#d6eef8";
+
+    const handleScroll = () => setScrollY(window.scrollY);
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
     return () => {
       document.documentElement.style.scrollBehavior = "";
       document.body.style.padding = "";
       document.body.style.backgroundColor = "";
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
@@ -312,6 +320,41 @@ const Datathon = () => {
             </div>
           </div>
 
+          {/* Countdown clock */}
+          {!countdown.isOver ? (
+            <div className="hero-countdown">
+              <div className="countdown-unit">
+                <span className="countdown-value">
+                  {String(countdown.days).padStart(2, "0")}
+                </span>
+                <span className="countdown-label">Days</span>
+              </div>
+              <span className="countdown-separator">:</span>
+              <div className="countdown-unit">
+                <span className="countdown-value">
+                  {String(countdown.hours).padStart(2, "0")}
+                </span>
+                <span className="countdown-label">Hours</span>
+              </div>
+              <span className="countdown-separator">:</span>
+              <div className="countdown-unit">
+                <span className="countdown-value">
+                  {String(countdown.minutes).padStart(2, "0")}
+                </span>
+                <span className="countdown-label">Min</span>
+              </div>
+              <span className="countdown-separator">:</span>
+              <div className="countdown-unit">
+                <span className="countdown-value">
+                  {String(countdown.seconds).padStart(2, "0")}
+                </span>
+                <span className="countdown-label">Sec</span>
+              </div>
+            </div>
+          ) : (
+            <p className="hero-countdown-over">The Datathon has begun!</p>
+          )}
+
           <p className="hero-meals">Meals will be served!</p>
 
           {/* --------------------------------------------------------
@@ -335,8 +378,14 @@ const Datathon = () => {
           </div>
         </div>
 
-        {/* Scroll hint */}
-        <div className="hero-scroll-indicator">
+        {/* Scroll hint — fades out as user scrolls */}
+        <div
+          className="hero-scroll-indicator"
+          style={{
+            opacity: Math.max(0, 1 - scrollY / 250),
+            pointerEvents: scrollY > 100 ? "none" : "auto",
+          }}
+        >
           <span>Scroll to explore</span>
           <div className="scroll-arrow" />
         </div>
