@@ -17,11 +17,11 @@
  */
 export const upcomingEvents = [
   {
-    image: "../assets/GBMs/YOLO26Flyer.png",
-    title: "YOLO 26 Workshop",
-    date: "March 4th",
-    location: "SAC 305",
-    description: "Learn about the latest object detection model on the market and implement it from scratch! Train a model on any custom dataset of your choice for future projects!"
+    image: "../assets/GBMs/OpenCVWorkshopPoster.png",
+    title: "OpenCV Workshop",
+    date: "March 11th",
+    location: "Old CS 2120",
+    description: "Interested in making your computer see? Curious about how to get it to recognize visual patterns like colors and shapes? Join us at our OpenCV workshop this Wednesday on March 11th from 5-6:30 p.m. in Old CS 2120!"
   }   
 ];
 
@@ -41,6 +41,13 @@ export const upcomingEvents = [
  *     }
  */
 export const previousEvents = [
+  {
+    image: "../assets/GBMs/YOLO26Flyer.png",
+    title: "YOLO 26 Workshop",
+    date: "March 4th",
+    location: "SAC 305",
+    description: "Learn about the latest object detection model on the market and implement it from scratch! Train a model on any custom dataset of your choice for future projects!"
+  },
   {
     image: "../assets/GBMs/EngineeringInTheKitchen.png",
     title: "Engineering In the Kitchen",
@@ -91,16 +98,6 @@ export const previousEvents = [
     image: "../assets/GBMs/Legacy/InternalComp.gif",
     title: "Internal Competition",
     description: "Demonstrate your knowledge in computer vision by creating a model to differentiate different types of resistors. There will be over $700 in prizes."
-  },
-  {
-    image: "../assets/GBMs/Legacy/ChatGptWorkshop.jpg",
-    title: "AIC x IEEE ChatGPT Workshop",
-    description: "Learn how to fully utilize ChatGPT's API by creating a chat bot from scratch."
-  },
-  {
-    image:"../assets/GBMs/Legacy/ScavengerHunt.gif",
-    title:"Scavenger Hunt",
-    description:"Join us on an adventure around the SBU campus where you hunt for rewards, discovering many of SBU's clubs along the way!"
   },
   {
     image:"../assets/GBMs/Legacy/ClubTakeover.gif",
