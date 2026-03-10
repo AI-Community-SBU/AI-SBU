@@ -81,7 +81,7 @@ const faqData: FAQItem[] = [
   {
     question: "How do teams work?",
     answer:
-      "Teams can have up to 4 members. You can register with a team or come solo.",
+      "Teams can have up to 3 members. You can register with a team or come solo.",
   },
   {
     question: "What datasets will be provided?",
@@ -190,7 +190,6 @@ const schedule: { day1: ScheduleEvent[]; day2: ScheduleEvent[] } = {
     { time: "4:00 – 5:00 PM", event: "Judges Arrive & Tour", location: "SAC Ballroom B" },
     { time: "5:00 – 7:00 PM", event: "Judging", location: "SAC Ballroom B" },
     { time: "7:00 – 8:00 PM", event: "Closing Ceremony + Dinner 🎉", location: "SAC Ballroom B" },
-    { time: "8:00 – 9:30 PM", event: "Wrap Up + Clean Up", location: "SAC Ballroom B" },
   ],
 };
 
