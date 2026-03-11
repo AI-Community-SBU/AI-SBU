@@ -421,13 +421,9 @@ const Datathon = () => {
           <div className="tracks-grid">
             {tracks.map((track, index) => (
               <div className="track-card" key={index}>
-                <div className="track-card-inner">
-                  <div className="track-card-front">
-                    <span className="track-icon">{track.icon}</span>
-                    <h4 className="track-title">{track.title}</h4>
-                    <p className="track-tagline">{track.tagline}</p>
-                  </div>
-                </div>
+                <span className="track-icon">{track.icon}</span>
+                <h4 className="track-title">{track.title}</h4>
+                <p className="track-tagline">{track.tagline}</p>
               </div>
             ))}
           </div>
