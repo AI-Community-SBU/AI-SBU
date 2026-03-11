@@ -53,7 +53,6 @@ interface Track {
   title: string;
   icon: string;
   tagline: string;
-  focusAreas: string[];
 }
 
 interface ScheduleEvent {
@@ -121,51 +120,21 @@ const tracks: Track[] = [
     title: "Education",
     icon: "🎓",
     tagline: "Build the next generation of EdTech for learners everywhere.",
-    focusAreas: [
-      "College Pricing Trends",
-      "Financial Aid Trends",
-      "Education & Unemployment",
-      "Education in India",
-      "NCES Education Statistics",
-      "Student Engagement (NSSE)",
-    ],
   },
   {
     title: "Sustainability & Infrastructure",
     icon: "🌿",
     tagline: "Use data to create a greener, smarter world.",
-    focusAreas: [
-      "CISA Infrastructure Mapping",
-      "Electrical Grid (Data.gov)",
-      "Critical Infrastructure Analysis",
-    ],
   },
   {
     title: "Healthcare & Wellness",
     icon: "🏥",
     tagline: "Innovate tools that support holistic health and care.",
-    focusAreas: [
-      "Sleep Health & Lifestyle",
-      "Lung Cancer & Air Pollution",
-      "Obesity / CVD Risk",
-      "Leukemia Image Classification",
-      "Heart Failure Prediction",
-      "COVID-19 Research",
-    ],
   },
   {
     title: "Finance & Economics",
     icon: "📈",
     tagline: "Decode market trends and drive smarter decisions.",
-    focusAreas: [
-      "Coca-Cola Stocks (100+ yrs)",
-      "Bitcoin Historical Data",
-      "FRED Unemployment Rate",
-      "NVIDIA Stocks (1999–2025)",
-      "Bankruptcy Prediction",
-      "Palantir Stock Data",
-      "U.S. Census Data",
-    ],
   },
 ];
 
@@ -213,7 +182,6 @@ const BUBBLES = Array.from({ length: 25 }, (_, i) => ({
 const Datathon = () => {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
   const [activeDay, setActiveDay] = useState<1 | 2>(1);
-  const [flippedCards, setFlippedCards] = useState<Set<number>>(new Set());
   const [scrollY, setScrollY] = useState(0);
   const countdown = useCountdown(DATATHON_START);
 
@@ -235,18 +203,6 @@ const Datathon = () => {
 
   const toggleFaq = (index: number) => {
     setOpenFaq(openFaq === index ? null : index);
-  };
-
-  const toggleCard = (index: number) => {
-    setFlippedCards((prev) => {
-      const next = new Set(prev);
-      if (next.has(index)) {
-        next.delete(index);
-      } else {
-        next.add(index);
-      }
-      return next;
-    });
   };
 
   return (
@@ -464,30 +420,12 @@ const Datathon = () => {
           <h3 className="section-title">Choose Your Challenge</h3>
           <div className="tracks-grid">
             {tracks.map((track, index) => (
-              <div
-                className="track-card"
-                key={index}
-                onClick={() => toggleCard(index)}
-              >
-                <div
-                  className={`track-card-inner ${flippedCards.has(index) ? "track-card-flipped" : ""}`}
-                >
+              <div className="track-card" key={index}>
+                <div className="track-card-inner">
                   <div className="track-card-front">
                     <span className="track-icon">{track.icon}</span>
                     <h4 className="track-title">{track.title}</h4>
                     <p className="track-tagline">{track.tagline}</p>
-                    <span className="track-flip-hint">
-                      Tap / hover to flip
-                    </span>
-                  </div>
-                  <div className="track-card-back">
-                    <h4 className="track-title">{track.title}</h4>
-                    <p className="track-back-label">Focus Areas</p>
-                    <ul className="track-focus-areas">
-                      {track.focusAreas.map((area, i) => (
-                        <li key={i}>{area}</li>
-                      ))}
-                    </ul>
                   </div>
                 </div>
               </div>
