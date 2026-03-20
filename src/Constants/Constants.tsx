@@ -17,11 +17,11 @@
  */
 export const upcomingEvents = [
   {
-    image: "../assets/GBMs/OpenCVWorkshopPoster.png",
-    title: "OpenCV Workshop",
-    date: "March 11th",
-    location: "Old CS 2120",
-    description: "Interested in making your computer see? Curious about how to get it to recognize visual patterns like colors and shapes? Join us at our OpenCV workshop this Wednesday on March 11th from 5-6:30 p.m. in Old CS 2120!"
+    image: "../assets/GBMs/DatathonBootcamp.png",
+    title: "Datathon Bootcamp",
+    date: "Monday 23rd",
+    location: "SAC 304",
+    description: "Come with us to explore the intuition behind principal component analysis (PCA) and explore how it helps simplify complex data by transforming it into a more visual and meaningful form!"
   }   
 ];
 
@@ -41,6 +41,20 @@ export const upcomingEvents = [
  *     }
  */
 export const previousEvents = [
+    {
+    image: "../assets/GBMs/OpenCVWorkshopPoster.png",
+    title: "OpenCV Workshop",
+    date: "March 11th",
+    location: "Old CS 2120",
+    description: "Interested in making your computer see? Curious about how to get it to recognize visual patterns like colors and shapes? Join us at our OpenCV workshop this Wednesday on March 11th from 5-6:30 p.m. in Old CS 2120!"
+  },
+  {
+    image: "../assets/GBMs/OpenCVWorkshopPoster.png",
+    title: "OpenCV Workshop",
+    date: "March 11th",
+    location: "Old CS 2120",
+    description: "Interested in making your computer see? Curious about how to get it to recognize visual patterns like colors and shapes? Join us at our OpenCV workshop this Wednesday on March 11th from 5-6:30 p.m. in Old CS 2120!"
+  },
   {
     image: "../assets/GBMs/YOLO26Flyer.png",
     title: "YOLO 26 Workshop",
@@ -85,11 +99,6 @@ export const previousEvents = [
     description: "Learn how models learn from data, how to train them, and how to evaluate performance. You’ll build simple ML models from scratch and understand how they’re used in real-world applications.",
   },
   {
-    image: "../assets/GBMs/Legacy/DatathonSquare.jpg",
-    title: "Datathon",
-    description: "We’re thrilled to host our first-ever Datathon, a full-day data analysis event open to all students—no prior experience required! This is your chance to work on real-world datasets, flex your analytical muscles, and collaborate with fellow students to craft innovative solutions to today’s challenges."
-  },
-  {
     image: "../assets/GBMs/Legacy/ScikitLearn.gif",
     title: "Pushing Cython to its Limits in Scikit-Learn",
     description: "Dive into many techniques scikit-learn employs to utilize Cython fully. Learn how to use Cython, Fused Types, Tempita, and OpenMP."
@@ -98,11 +107,6 @@ export const previousEvents = [
     image: "../assets/GBMs/Legacy/InternalComp.gif",
     title: "Internal Competition",
     description: "Demonstrate your knowledge in computer vision by creating a model to differentiate different types of resistors. There will be over $700 in prizes."
-  },
-  {
-    image:"../assets/GBMs/Legacy/ClubTakeover.gif",
-    title:"Club Takeover",
-    description:"Connect with the leaders of student organizations at SBU and expand your network! There will be food and a raffle."    
   },
   {
     image: "../assets/GBMs/Legacy/Skiena.png",
