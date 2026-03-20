@@ -17,7 +17,7 @@
  */
 export const upcomingEvents = [
   {
-    image: "../assets/GBMs/DatathonBootcamp.png",
+    image: "../assets/GBMs/DatathonBootcamp_resized.png",
     title: "Datathon Bootcamp",
     date: "Monday 23rd",
     location: "SAC 304",
@@ -41,13 +41,6 @@ export const upcomingEvents = [
  *     }
  */
 export const previousEvents = [
-    {
-    image: "../assets/GBMs/OpenCVWorkshopPoster.png",
-    title: "OpenCV Workshop",
-    date: "March 11th",
-    location: "Old CS 2120",
-    description: "Interested in making your computer see? Curious about how to get it to recognize visual patterns like colors and shapes? Join us at our OpenCV workshop this Wednesday on March 11th from 5-6:30 p.m. in Old CS 2120!"
-  },
   {
     image: "../assets/GBMs/OpenCVWorkshopPoster.png",
     title: "OpenCV Workshop",
@@ -107,6 +100,11 @@ export const previousEvents = [
     image: "../assets/GBMs/Legacy/InternalComp.gif",
     title: "Internal Competition",
     description: "Demonstrate your knowledge in computer vision by creating a model to differentiate different types of resistors. There will be over $700 in prizes."
+  },
+  {
+    image:"../assets/GBMs/Legacy/ClubTakeover.gif",
+    title:"Club Takeover",
+    description:"Connect with the leaders of student organizations at SBU and expand your network! There will be food and a raffle."    
   },
   {
     image: "../assets/GBMs/Legacy/Skiena.png",
