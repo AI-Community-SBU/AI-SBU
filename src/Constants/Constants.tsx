@@ -17,7 +17,7 @@
  */
 export const upcomingEvents = [
   {
-    image: "../assets/GBMs/Elections2026_resized.png",
+    image: "/assets/GBMs/Elections2026_resized.png",
     title: "Eboard Elections",
     date: "April 1st",
     location: "Frey 216",
@@ -174,6 +174,11 @@ export const eboardMembers = [
     image: "../assets/eboardphotos/Maximilian.jpg",
     name: "Maximilian Cederholm",
     role: "Outreach Chair",
+  },
+  {
+    image: "/assets/eboardphotos/Het.jpg",
+    name: "Het Shah",
+    role: "Representative",
   },
 ];
 
