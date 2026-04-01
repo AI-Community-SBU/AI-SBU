@@ -19,7 +19,6 @@ const Home = () => {
       ></TitleSection>
       <Buffer color="rgb(54, 10, 54)" bColor="rgb(118, 36, 118)"></Buffer>
       <DatathonBanner />
-      <Buffer color="rgb(54, 10, 54)" bColor="rgb(118, 36, 118)"></Buffer>
       <TextSection
         title="About Us"
         paragraph="We are a student-run organization at Stony Brook University dedicated to educating our members and providing resources about all things AI. We provide a close community to encourage real-world discussion and build technical skills beyond what students learn from class in hopes they will carry this knowledge for their future aspirations!"

@@ -17,7 +17,7 @@
  */
 export const upcomingEvents = [
   {
-    image: "../assets/GBMs/Elections2026.png",
+    image: "../assets/GBMs/Elections2026_resized.png",
     title: "Eboard Elections",
     date: "April 1st",
     location: "Frey 216",
