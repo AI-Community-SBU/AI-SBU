@@ -17,11 +17,11 @@
  */
 export const upcomingEvents = [
   {
-    image: "../assets/GBMs/DatathonBootcamp_resized.png",
-    title: "Datathon Bootcamp",
-    date: "Monday 23rd",
-    location: "SAC 304",
-    description: "Come with us to explore the intuition behind principal component analysis (PCA) and explore how it helps simplify complex data by transforming it into a more visual and meaningful form!"
+    image: "../assets/GBMs/Elections2026.png",
+    title: "Eboard Elections",
+    date: "April 1st",
+    location: "Frey 216",
+    description: "Come vote today for the next eboard of AI Community!"
   }   
 ];
 

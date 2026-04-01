@@ -12,7 +12,11 @@ import "./DatathonBanner.css";
 const REGISTRATION_URL =
   "https://docs.google.com/forms/d/e/1FAIpQLSf4Erk6779ew6xoFdgdKKUNZIu2GjtvsoTmF9rs40OAqmMuFg/viewform";
 
+const SHOW_DATATHON_BANNER = false; // Set false after event ends; keep this component in place for future reuse.
+
 const DatathonBanner = () => {
+  if (!SHOW_DATATHON_BANNER) return null;
+
   const countdown = useCountdown(DATATHON_START);
 
   return (
