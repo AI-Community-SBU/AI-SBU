@@ -17,11 +17,11 @@
  */
 export const upcomingEvents = [
   {
-    image: "/assets/GBMs/Elections2026_resized.png",
-    title: "Eboard Elections",
-    date: "April 1st",
-    location: "Frey 216",
-    description: "Come vote today for the next eboard of AI Community!"
+    image: "../assets/GBMs/IntrotoAIBioinformaticsWorkshopFlyer.webp",
+    title: "Intro to AI Bioinformatics Workshop",
+    date: "April 15th",
+    location: "SAC 305",
+    description: "Learn about how Artificial Intelligence and Machine Learning are applied to bioinformatics!"
   }   
 ];
 
