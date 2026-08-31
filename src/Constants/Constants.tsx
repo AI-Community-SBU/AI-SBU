@@ -17,12 +17,12 @@
  */
 export const upcomingEvents = [
   {
-    image: "../assets/GBMs/IntrotoAIBioinformaticsWorkshopFlyer.webp",
-    title: "Intro to AI Bioinformatics Workshop",
-    date: "April 15th",
-    location: "SAC 305",
-    description: "Learn about how Artificial Intelligence and Machine Learning are applied to bioinformatics!"
-  }   
+    image: "../assets/GBMs/MLWorkshopF26.png",
+    title: "Machine Learning Workshop",
+    date: "September 14th, 5-7PM",
+    location: "SAC 303",
+    description: "Learn how models learn from data, how to train them, and how to evaluate performance. You’ll build simple ML models from scratch and understand how they’re used in real-world applications."
+  }
 ];
 
 /** Array of previous events in the form of an EventProp so it can be passed to EventSection tag.
@@ -41,6 +41,13 @@ export const upcomingEvents = [
  *     }
  */
 export const previousEvents = [
+  {
+    image: "../assets/GBMs/IntrotoAIBioinformaticsWorkshopFlyer.webp",
+    title: "Intro to AI Bioinformatics Workshop",
+    date: "April 15th",
+    location: "SAC 305",
+    description: "Learn about how Artificial Intelligence and Machine Learning are applied to bioinformatics!"
+  },
   {
     image: "../assets/GBMs/OpenCVWorkshopPoster.png",
     title: "OpenCV Workshop",
@@ -106,11 +113,11 @@ export const previousEvents = [
     title:"Club Takeover",
     description:"Connect with the leaders of student organizations at SBU and expand your network! There will be food and a raffle."    
   },
-  {
+  /* {
     image: "../assets/GBMs/Legacy/Skiena.png",
     title: "Guest Speaker: Professor Skiena",
     description: "Presenting Professor Steven Skiena, an expert in algorithms! Come to ask about data science or career advice!"
-  },
+  }, */
 ];
 
 /** Array of EBoard members written in the format of a EBoardProp so the array can be passed to the EBoardSection tag.
@@ -126,38 +133,38 @@ export const previousEvents = [
  */
 export const eboardMembers = [
   {
-    image: "../assets/eboardphotos/Ruthvick.jpg",
-    name: "Ruthvick Bandaru",
-    role: "President",
-  },
-  {
-    image: "../assets/eboardphotos/Karamat.png",
-    name: "Karamat Hasan",
-    role: "Vice President",
-  },
-  {
     image: "../assets/eboardphotos/Manasvi.jpg",
     name: "Manasvi Bhatnagar",
-    role: "Secretary",
-  },
-  {
-    image: "../assets/eboardphotos/Derrick.jpg",
-    name: "Derrick Ma",
-    role: "Treasurer",
-  },
-  {
-    image: "../assets/eboardphotos/Anjan.jpg",
-    name: "Anjan Athreya",
-    role: "Project Manager",
-  },
-  {
-    image: "../assets/eboardphotos/Christina.jpg",
-    name: "Christina Wong",
-    role: "Webmaster",
+    role: "President",
   },
   {
     image: "../assets/eboardphotos/Amal.jpg",
     name: "Amal Bilal",
+    role: "Vice President",
+  },
+  {
+    image: "../assets/eboardphotos/Eimaan.jpg",
+    name: "Eimaan Bilal",
+    role: "Secretary",
+  },
+  {
+    image: "../assets/eboardphotos/Angelina.jpg",
+    name: "Angelina Parente",
+    role: "Treasurer",
+  },
+  {
+    image: "../assets/eboardphotos/Het.jpg",
+    name: "Het Shah",
+    role: "Project Manager",
+  },
+  {
+    image: "../assets/eboardphotos/Alejandro.jpg",
+    name: "Alejandro Morales",
+    role: "Webmaster",
+  },
+  {
+    image: "../assets/eboardphotos/Rumman.jpg",
+    name: "Rumman Khan",
     role: "Event Coordinator",
   },
   {
@@ -166,19 +173,14 @@ export const eboardMembers = [
     role: "Branding Manager",
   },
   {
-    image: "../assets/eboardphotos/Eimaan.jpg",
-    name: "Eimaan Bilal",
+    image: "../assets/eboardphotos/Lynn.jpg",
+    name: "Lynn Huang",
     role: "Design Chair",
   },
   {
     image: "../assets/eboardphotos/Maximilian.jpg",
     name: "Maximilian Cederholm",
     role: "Outreach Chair",
-  },
-  {
-    image: "/assets/eboardphotos/Het.jpg",
-    name: "Het Shah",
-    role: "Representative",
   },
 ];
 
@@ -196,6 +198,27 @@ export const eboardMembers = [
  *     }
  */
 export const eboardAlumni = [
+  {
+    image: "../assets/eboardphotos/legacy/Ruthvick.jpg",
+    name: "Ruthvick Bandaru",
+    role: "President",
+  },
+  {
+    image: "../assets/eboardphotos/legacy/Karamat.png",
+    name: "Karamat Hasan",
+    role: "Vice President",
+  },
+  {
+    image: "../assets/eboardphotos/legacy/Derrick.jpg",
+    name: "Derrick Ma",
+    role: "Treasurer",
+    link: "https://www.linkedin.com/in/derrickma2005",
+  },
+  {
+    image: "../assets/eboardphotos/legacy/Christina.jpg",
+    name: "Christina",
+    role: "Webmaster"
+  },
   {
     image: "../assets/eboardphotos/legacy/Steven.jpg",
     name: "Steven Yu",
@@ -375,7 +398,7 @@ export const medias = [
     name: "Join Now!",
     title: "Join our Discord server!",
     link: "https://discord.gg/TF4mwgFrQ4",
-    animation: "3s",
+    animation: "4.5s",
   },
   {
     icon: "url(../assets/socialmedia/instagram.png)",
