@@ -153,21 +153,6 @@ export const eboardMembers = [
     role: "Treasurer",
   },
   {
-    image: "../assets/eboardphotos/Het.jpg",
-    name: "Het Shah",
-    role: "Project Manager",
-  },
-  {
-    image: "../assets/eboardphotos/Alejandro.jpg",
-    name: "Alejandro Morales",
-    role: "Webmaster",
-  },
-  {
-    image: "../assets/eboardphotos/Rumman.jpg",
-    name: "Rumman Khan",
-    role: "Event Coordinator",
-  },
-  {
     image: "../assets/eboardphotos/Anderson.jpg",
     name: "Anderson Chan",
     role: "Branding Manager",
@@ -176,6 +161,21 @@ export const eboardMembers = [
     image: "../assets/eboardphotos/Lynn.jpg",
     name: "Lynn Huang",
     role: "Design Chair",
+  },
+  {
+    image: "../assets/eboardphotos/Rumman.jpg",
+    name: "Rumman Khan",
+    role: "Event Coordinator",
+  },
+  {
+    image: "../assets/eboardphotos/Het.jpg",
+    name: "Het Shah",
+    role: "Project Manager",
+  },
+  {
+    image: "../assets/eboardphotos/Alejandro.jpg",
+    name: "Alejandro Morales",
+    role: "Webmaster",
   },
   {
     image: "../assets/eboardphotos/Maximilian.jpg",
@@ -207,6 +207,7 @@ export const eboardAlumni = [
     image: "../assets/eboardphotos/legacy/Karamat.png",
     name: "Karamat Hasan",
     role: "Vice President",
+    link: "https://www.linkedin.com/in/karamat-hasan-344a90295/",
   },
   {
     image: "../assets/eboardphotos/legacy/Derrick.jpg",
@@ -216,7 +217,7 @@ export const eboardAlumni = [
   },
   {
     image: "../assets/eboardphotos/legacy/Christina.jpg",
-    name: "Christina",
+    name: "Christina Wong",
     role: "Webmaster"
   },
   {
