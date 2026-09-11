@@ -3,42 +3,13 @@
  *
  * This page serves as the landing page for the annual AI Community Datathon.
  * It is designed to be reused each year by updating the constants at the top
- * of this file (dates, registration link, tracks, schedule, FAQ, etc.).
+ * of this file (FAQ, etc.).
  *
  * Theme: Under-the-sea / ocean, matching the Datathon flyer artwork.
  */
 
 import { useState, useEffect } from "react";
-import { useCountdown, DATATHON_START } from "../hooks/useCountdown.ts";
 import "./Datathon.css";
-
-/* =======================================================================
- * REGISTRATION LINK
- * -----------------------------------------------------------------------
- * Update this URL each year with the new Google Form (or other platform).
- * The same constant is referenced by every "Register" button on the page,
- * so changing it here updates all of them at once.
- *
- * Current form: Spring 2026 Datathon
- * ======================================================================= */
-const REGISTRATION_URL =
-  "https://docs.google.com/forms/d/e/1FAIpQLSf4Erk6779ew6xoFdgdKKUNZIu2GjtvsoTmF9rs40OAqmMuFg/viewform";
-
-/* =======================================================================
- * EVENT DETAILS
- * -----------------------------------------------------------------------
- * Central place to update the year, dates, times, and venue each year.
- * ======================================================================= */
-const EVENT = {
-  semester: "Spring 2026",
-  dateRange: "March 28 – 29",
-  day1Label: "Saturday, March 28",
-  day1Time: "6:00 PM – 10:00 PM",
-  day2Label: "Sunday, March 29",
-  day2Time: "10:00 AM – 9:30 PM",
-  venue: "SAC Ballroom B",
-  university: "Stony Brook University",
-};
 
 /* =======================================================================
  * TYPES
@@ -47,18 +18,6 @@ const EVENT = {
 interface FAQItem {
   question: string;
   answer: string;
-}
-
-interface Track {
-  title: string;
-  icon: string;
-  tagline: string;
-}
-
-interface ScheduleEvent {
-  time: string;
-  event: string;
-  location: string;
 }
 
 /* =======================================================================
@@ -110,59 +69,6 @@ const faqData: FAQItem[] = [
 ];
 
 /* =======================================================================
- * TRACKS
- * -----------------------------------------------------------------------
- * The four datathon challenge tracks. Update titles, icons, taglines,
- * and focus areas each year as tracks change.
- * ======================================================================= */
-const tracks: Track[] = [
-  {
-    title: "Education",
-    icon: "🎓",
-    tagline: "Build the next generation of EdTech for learners everywhere.",
-  },
-  {
-    title: "Sustainability & Infrastructure",
-    icon: "🌿",
-    tagline: "Use data to create a greener, smarter world.",
-  },
-  {
-    title: "Healthcare & Wellness",
-    icon: "🏥",
-    tagline: "Innovate tools that support holistic health and care.",
-  },
-  {
-    title: "Finance & Economics",
-    icon: "📈",
-    tagline: "Decode market trends and drive smarter decisions.",
-  },
-];
-
-/* =======================================================================
- * SCHEDULE
- * -----------------------------------------------------------------------
- * Two-day event schedule. Update times, events, and locations each year.
- * ======================================================================= */
-const schedule: { day1: ScheduleEvent[]; day2: ScheduleEvent[] } = {
-  day1: [
-    { time: "6:00 – 7:00 PM", event: "Opening Ceremony", location: "SAC Ballroom B" },
-    { time: "7:00 PM", event: "Dinner", location: "SAC Ballroom B" },
-    { time: "8:00 – 10:00 PM", event: "Hacking Hours", location: "SAC Ballroom B" },
-    { time: "10:00 PM", event: "SAC Closes — Day 1 Ends", location: "SAC Ballroom B" },
-  ],
-  day2: [
-    { time: "10:00 AM", event: "Doors Open & Hacking Resumes", location: "SAC Ballroom B" },
-    { time: "12:00 – 1:00 PM", event: "Lunch + Uninterrupted Hacking", location: "SAC Ballroom B" },
-    { time: "2:00 – 5:00 PM", event: "Mocktail Stand 🍹", location: "SAC Ballroom B" },
-    { time: "2:00 – 5:00 PM", event: "Crash Out Corner (Board Games & Chill)", location: "SAC Ballroom B" },
-    { time: "2:00 – 5:00 PM", event: "Scavenger Hunt with NeuralSeek", location: "Around SAC" },
-    { time: "4:00 – 5:00 PM", event: "Judges Arrive & Tour", location: "SAC Ballroom B" },
-    { time: "5:00 – 7:00 PM", event: "Judging", location: "SAC Ballroom B" },
-    { time: "7:00 – 8:00 PM", event: "Closing Ceremony + Dinner 🎉", location: "SAC Ballroom B" },
-  ],
-};
-
-/* =======================================================================
  * DECORATIVE BUBBLES
  * -----------------------------------------------------------------------
  * Deterministic pseudo-random values so bubbles look organic but stay
@@ -181,9 +87,7 @@ const BUBBLES = Array.from({ length: 25 }, (_, i) => ({
  * ======================================================================= */
 const Datathon = () => {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
-  const [activeDay, setActiveDay] = useState<1 | 2>(1);
   const [scrollY, setScrollY] = useState(0);
-  const countdown = useCountdown(DATATHON_START);
 
   useEffect(() => {
     document.documentElement.style.scrollBehavior = "smooth";
@@ -244,89 +148,10 @@ const Datathon = () => {
           </h1>
           <p className="hero-tagline">Dive into data analysis and AI/ML!</p>
 
-          {/* Event date & venue */}
-          <div className="hero-details">
-            <span className="hero-detail-highlight">{EVENT.dateRange}</span>
-            <span className="hero-divider">~</span>
-            <span>{EVENT.venue}</span>
-          </div>
-          <div className="hero-day-times">
-            <span>
-              {EVENT.day1Label}: {EVENT.day1Time}
-            </span>
-            <span>
-              {EVENT.day2Label}: {EVENT.day2Time}
-            </span>
-          </div>
+          {/* Next event teaser */}
+          <p className="hero-detail-highlight">Join us this Spring!</p>
 
-          {/* Quick stats */}
-          <div className="hero-stats">
-            <div className="hero-stat">
-              <span className="hero-stat-value">2</span>
-              <span className="hero-stat-label">Days</span>
-            </div>
-            <div className="hero-stat">
-              <span className="hero-stat-value">4</span>
-              <span className="hero-stat-label">Tracks</span>
-            </div>
-            <div className="hero-stat">
-              <span className="hero-stat-value">Free</span>
-              <span className="hero-stat-label">Entry</span>
-            </div>
-          </div>
-
-          {/* Countdown clock */}
-          {!countdown.isOver ? (
-            <div className="hero-countdown">
-              <div className="countdown-unit">
-                <span className="countdown-value">
-                  {String(countdown.days).padStart(2, "0")}
-                </span>
-                <span className="countdown-label">Days</span>
-              </div>
-              <span className="countdown-separator">:</span>
-              <div className="countdown-unit">
-                <span className="countdown-value">
-                  {String(countdown.hours).padStart(2, "0")}
-                </span>
-                <span className="countdown-label">Hours</span>
-              </div>
-              <span className="countdown-separator">:</span>
-              <div className="countdown-unit">
-                <span className="countdown-value">
-                  {String(countdown.minutes).padStart(2, "0")}
-                </span>
-                <span className="countdown-label">Min</span>
-              </div>
-              <span className="countdown-separator">:</span>
-              <div className="countdown-unit">
-                <span className="countdown-value">
-                  {String(countdown.seconds).padStart(2, "0")}
-                </span>
-                <span className="countdown-label">Sec</span>
-              </div>
-            </div>
-          ) : (
-            <p className="hero-countdown-over">The Datathon has begun!</p>
-          )}
-
-          <p className="hero-meals">Meals will be served!</p>
-
-          {/* --------------------------------------------------------
-           * REGISTRATION BUTTONS
-           * --------------------------------------------------------
-           * Both buttons link to REGISTRATION_URL defined at the top
-           * of this file. Update that constant each year.
-           * -------------------------------------------------------- */}
           <div className="hero-buttons">
-            <a
-              href={REGISTRATION_URL}
-              className="hero-btn hero-btn-primary"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Register Now
-            </a>
             <a href="#datathon-about" className="hero-btn hero-btn-secondary">
               Learn More
             </a>
@@ -407,74 +232,8 @@ const Datathon = () => {
       </section>
 
       {/* ============================================================
-       * TRACKS SECTION
-       * ------------------------------------------------------------ 
-       * Update the `tracks` array at the top of this file each year.
-       * ============================================================ */}
-      <section
-        className="datathon-section datathon-section-alt"
-        id="datathon-tracks"
-      >
-        <div className="section-container">
-          <h2 className="section-number">02 // TRACKS</h2>
-          <h3 className="section-title">Choose Your Challenge</h3>
-          <div className="tracks-grid">
-            {tracks.map((track, index) => (
-              <div className="track-card" key={index}>
-                <span className="track-icon">{track.icon}</span>
-                <h4 className="track-title">{track.title}</h4>
-                <p className="track-tagline">{track.tagline}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ============================================================
-       * SCHEDULE SECTION
-       * ------------------------------------------------------------ 
-       * Update the `schedule` object at the top of this file each year.
-       * ============================================================ */}
-      <section className="datathon-section" id="datathon-schedule">
-        <div className="section-container">
-          <h2 className="section-number">03 // SCHEDULE</h2>
-          <h3 className="section-title">Event Timeline</h3>
-          <div className="schedule-tabs">
-            <button
-              className={`schedule-tab ${activeDay === 1 ? "schedule-tab-active" : ""}`}
-              onClick={() => setActiveDay(1)}
-            >
-              {EVENT.day1Label}
-            </button>
-            <button
-              className={`schedule-tab ${activeDay === 2 ? "schedule-tab-active" : ""}`}
-              onClick={() => setActiveDay(2)}
-            >
-              {EVENT.day2Label}
-            </button>
-          </div>
-          <div className="schedule-table">
-            <div className="schedule-header">
-              <span>Time</span>
-              <span>Event</span>
-              <span>Location</span>
-            </div>
-            {(activeDay === 1 ? schedule.day1 : schedule.day2).map(
-              (item, index) => (
-                <div className="schedule-row" key={index}>
-                  <span className="schedule-time">{item.time}</span>
-                  <span className="schedule-event">{item.event}</span>
-                  <span className="schedule-location">{item.location}</span>
-                </div>
-              )
-            )}
-          </div>
-        </div>
-      </section>
-
-      {/* ============================================================
        * FAQ SECTION
-       * ------------------------------------------------------------ 
+       * ------------------------------------------------------------
        * Update the `faqData` array at the top of this file each year.
        * ============================================================ */}
       <section
@@ -482,7 +241,7 @@ const Datathon = () => {
         id="datathon-faq"
       >
         <div className="section-container">
-          <h2 className="section-number">04 // FAQ</h2>
+          <h2 className="section-number">02 // FAQ</h2>
           <h3 className="section-title">Frequently Asked Questions</h3>
           <div className="faq-list">
             {faqData.map((faq, index) => (
@@ -509,35 +268,11 @@ const Datathon = () => {
       </section>
 
       {/* ============================================================
-       * CALL-TO-ACTION SECTION
-       * ------------------------------------------------------------ 
-       * Final registration push. Uses REGISTRATION_URL from the top.
-       * ============================================================ */}
-      <section className="datathon-cta" id="datathon-register">
-        <div className="cta-glow" />
-        <div className="section-container">
-          <h2 className="cta-title">Ready to dive in? 🐙</h2>
-          <p className="cta-subtitle">
-            Registration is free and open to all college students.
-          </p>
-          {/* Registration button — links to REGISTRATION_URL */}
-          <a
-            href={REGISTRATION_URL}
-            className="hero-btn hero-btn-primary cta-btn"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Register Now
-          </a>
-        </div>
-      </section>
-
-      {/* ============================================================
        * SPONSORS / FUNDING SECTION
        * ============================================================ */}
       <section className="datathon-section" id="datathon-sponsors">
         <div className="section-container">
-          <h2 className="section-number">05 // SPONSORS</h2>
+          <h2 className="section-number">03 // SPONSORS</h2>
           <h3 className="section-title">Our Sponsors</h3>
           <p className="sponsors-text">
             Funded by the USG Student Activity Fee.
