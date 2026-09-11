@@ -429,17 +429,17 @@ export const medias = [
  */
 export const previousEventsHomepage = [
   {
-    image: "../assets/GBMs/IntrotoAIBioinformaticsWorkshopFlyer.webp",
+    image: "../AI-SBU/assets/GBMs/IntrotoAIBioinformaticsWorkshopFlyer.webp",
     title: "Intro to AI Bioinformatics Workshop",
     description: "Learn about how Artificial Intelligence and Machine Learning are applied to bioinformatics!"
   },
   {
-    image: "../assets/GBMs/OpenCVWorkshopPoster.png",
+    image: "../AI-SBU/assets/GBMs/OpenCVWorkshopPoster.png",
     title: "OpenCV Workshop",
     description: "Interested in making your computer see? Curious about how to get it to recognize visual patterns like colors and shapes? Join us at our OpenCV workshop this Wednesday on March 11th from 5-6:30 p.m. in Old CS 2120!"
   },
   {
-    image: "../assets/GBMs/YOLO26Flyer.png",
+    image: "../AI-SBU/assets/GBMs/YOLO26Flyer.png",
     title: "YOLO 26 Workshop",
     description: "Learn about the latest object detection model on the market and implement it from scratch! Train a model on any custom dataset of your choice for future projects!"
   },
