@@ -429,45 +429,19 @@ export const medias = [
  */
 export const previousEventsHomepage = [
   {
-    image: "../AI-SBU/assets/GBMs/Legacy/InternalWorkshop2.gif",
-    title: "Internal Competition Workshop 2",
-    description: "Take your first steps into the Internal Competition in this Pytorch workshop where you'll learn how to utilize CNNs to categorize images of resistors."
+    image: "../assets/GBMs/IntrotoAIBioinformaticsWorkshopFlyer.webp",
+    title: "Intro to AI Bioinformatics Workshop",
+    description: "Learn about how Artificial Intelligence and Machine Learning are applied to bioinformatics!"
   },
   {
-    image:"../AI-SBU/assets/GBMs/Legacy/ScavengerHunt.gif",
-    title:"Scavenger Hunt",
-    description:"Join us on an adventure around the SBU campus where you hunt for rewards, discovering many of SBU's clubs along the way!"
+    image: "../assets/GBMs/OpenCVWorkshopPoster.png",
+    title: "OpenCV Workshop",
+    description: "Interested in making your computer see? Curious about how to get it to recognize visual patterns like colors and shapes? Join us at our OpenCV workshop this Wednesday on March 11th from 5-6:30 p.m. in Old CS 2120!"
   },
   {
-    image: "../AI-SBU/assets/GBMs/Legacy/NNN.gif",
-    title: "Neural Networking Night",
-    description: "Join us for a night of games and challenges! There will be prizes & food, so pull up to have a good time"
-  },
-  {
-    image: "../AI-SBU/assets/GBMs/Legacy/GuestSpeakerBanerjee.gif",
-    title: "Guest Speaker: Professor Banerjee",
-    description:
-      "Take this opportunity to hear Professor Banerjee talk about his NLP research on misinformation!",
-  },
-  {
-    image: "../AI-SBU/assets/GBMs/Legacy/Skiena.png",
-    title: "Guest Speaker: Professor Skiena",
-    description: "Presenting Professor Steven Skiena, an expert in algorithms! Come to ask about data science or career advice!"
-  },
-  {
-    image: "../AI-SBU/assets/GBMs/Legacy/Website1.gif",
-    title: "Intro to HTML & CSS",
-    description: "Join us to learn beginner HTML & CSS and how to set up VSCode to develop websites!"
-  },
-  {
-    image: "../AI-SBU/assets/GBMs/Legacy/ComputerVision.png",
-    title: "Computer Vision",
-    description: "Learn about neural network architecture and the latest advancements in computer vision!"
-  },
-  {
-    image: "../AI-SBU/assets/GBMs/Legacy/Elections.gif",
-    title: "E-Board Elections",
-    description: "Come to get your voice heard in the club's management and support your picks for next year's e-board!"
+    image: "../assets/GBMs/YOLO26Flyer.png",
+    title: "YOLO 26 Workshop",
+    description: "Learn about the latest object detection model on the market and implement it from scratch! Train a model on any custom dataset of your choice for future projects!"
   },
 ];
 
