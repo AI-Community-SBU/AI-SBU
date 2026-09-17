@@ -17,11 +17,11 @@
  */
 export const upcomingEvents = [
   {
-    image: "../assets/GBMs/MLWorkshopF26.png",
-    title: "Machine Learning Workshop",
-    date: "September 14th, 5-7PM",
-    location: "SAC 303",
-    description: "Learn how models learn from data, how to train them, and how to evaluate performance. You’ll build simple ML models from scratch and understand how they’re used in real-world applications."
+    image: "../assets/GBMs/InternalComp26.png",
+    title: "Internal Competition",
+    date: "September 21st, 5-6PM",
+    location: "",
+    description: "Join AI Community for the kickoff of our Internal Competition (IC): Agentic AI, a multi-week competition where you’ll team up, learn the fundamentals of AI agents, and build your own agentic AI project from scratch! In our kickoff, we’ll introduce what agentic AI is, explain how the competition works, and help you find a team and get started."
   }
 ];
 
@@ -42,45 +42,45 @@ export const upcomingEvents = [
  */
 export const previousEvents = [
   {
+    image: "../assets/GBMs/MLWorkshopF26.png",
+    title: "Machine Learning Workshop",
+    date: "September 14th, 5-7PM",
+    description: "Learn how models learn from data, how to train them, and how to evaluate performance. You’ll build simple ML models from scratch and understand how they’re used in real-world applications."
+  },
+  {
     image: "../assets/GBMs/IntrotoAIBioinformaticsWorkshopFlyer.webp",
     title: "Intro to AI Bioinformatics Workshop",
     date: "April 15th",
-    location: "SAC 305",
     description: "Learn about how Artificial Intelligence and Machine Learning are applied to bioinformatics!"
   },
   {
     image: "../assets/GBMs/OpenCVWorkshopPoster.png",
     title: "OpenCV Workshop",
     date: "March 11th",
-    location: "Old CS 2120",
     description: "Interested in making your computer see? Curious about how to get it to recognize visual patterns like colors and shapes? Join us at our OpenCV workshop this Wednesday on March 11th from 5-6:30 p.m. in Old CS 2120!"
   },
   {
     image: "../assets/GBMs/YOLO26Flyer.png",
     title: "YOLO 26 Workshop",
     date: "March 4th",
-    location: "SAC 305",
     description: "Learn about the latest object detection model on the market and implement it from scratch! Train a model on any custom dataset of your choice for future projects!"
   },
   {
     image: "../assets/GBMs/EngineeringInTheKitchen.png",
     title: "Engineering In the Kitchen",
     date: "February 26th",
-    location: "Bauman Center",
     description: "Join us for our annual food festival with fun demonstrations!"
   },
   {
     image: "../assets/GBMs/MachineLearningAndDataAnalysis.png",
     title: "Machine Learning & Data Analysis Workshop",
     date: "February 9th",
-    location: "SAC 304",
     description: "Join us for our first GBM of the spring 2026 semester! Learn about machine learning and data analysis through interactive demonstrations!"
   },
   {
     image: "../assets/GBMs/RohanPradhanAWSEventFlyer.png",
     title: "Rohan Pradhan Guest Speech by Amazon",
     date: "December 1st",
-    location: "SAC 305",
     description: "Join us for an exciting guest lecture by Rohan Pradhan, an Applied Scientist at Amazon and a leading voice in Generative AI and Frontier Models research. Pizza will be served! All students are welcome—no prior AI experience required."
   },
   {
@@ -107,11 +107,6 @@ export const previousEvents = [
     image: "../assets/GBMs/Legacy/InternalComp.gif",
     title: "Internal Competition",
     description: "Demonstrate your knowledge in computer vision by creating a model to differentiate different types of resistors. There will be over $700 in prizes."
-  },
-  {
-    image:"../assets/GBMs/Legacy/ClubTakeover.gif",
-    title:"Club Takeover",
-    description:"Connect with the leaders of student organizations at SBU and expand your network! There will be food and a raffle."    
   },
   /* {
     image: "../assets/GBMs/Legacy/Skiena.png",
@@ -375,7 +370,7 @@ export const workshops = [
       "Get A Hands-On Introduction to Machine Learning Through Lessons & Real-World Projects!",
     signuplink: "",
     description:
-      "Join us this spring semester for an engaging and educational Machine Learning Bootcamp, hosted by the AI community at SBU! This comprehensive workshop is designed to introduce students to the core principles of machine learning and the Python programming language. Over the course of the semester, participants will dedicate a minimum of two hours weekly to learn through dynamic, hands-on projects. Our curriculum covers a range of essential topics, including Linear Regression, K-Nearest Neighbors, Logistic Regression, and the development of Pipelines. Additionally, students will explore the intricacies of Vector-Controlled Machines and other advanced subjects. The workshop will be led by the experienced members of our club's executive board, ensuring a high-quality learning experience. What sets this bootcamp apart is its focus on practical application. Participants will sharpen their skills through significant capstone projects, designed to mimic real-world challenges. By the end of the bootcamp, students will not only grasp the basics of Machine Learning and Supervised Learning but also delve into key concepts like regression. As a bonus, the workshop will provide an introductory glimpse into deep learning. Participants will learn about the Perceptron model, a single neuron, and embark on creating a deep neural network tailored for a regression task. This bootcamp is an unmissable opportunity for anyone eager to dive into the world of machine learning and emerge with a solid foundation and practical experience. Sign up to embark on this exciting journey of discovery and innovation in the field of AI!",
+      "Join us this fall semester for an engaging and educational Machine Learning Bootcamp, hosted by the AI community at SBU! This comprehensive workshop is designed to introduce students to the core principles of machine learning and the Python programming language. Over the course of the semester, participants will dedicate a minimum of two hours weekly to learn through dynamic, hands-on projects. Our curriculum covers a range of essential topics, including Linear Regression, K-Nearest Neighbors, Logistic Regression, and the development of Pipelines. Additionally, students will explore the intricacies of Vector-Controlled Machines and other advanced subjects. The workshop will be led by the experienced members of our club's executive board, ensuring a high-quality learning experience. What sets this bootcamp apart is its focus on practical application. Participants will sharpen their skills through significant capstone projects, designed to mimic real-world challenges. By the end of the bootcamp, students will not only grasp the basics of Machine Learning and Supervised Learning but also delve into key concepts like regression. As a bonus, the workshop will provide an introductory glimpse into deep learning. Participants will learn about the Perceptron model, a single neuron, and embark on creating a deep neural network tailored for a regression task. This bootcamp is an unmissable opportunity for anyone eager to dive into the world of machine learning and emerge with a solid foundation and practical experience. Sign up to embark on this exciting journey of discovery and innovation in the field of AI!",
   },
 ];
 
@@ -429,6 +424,12 @@ export const medias = [
  */
 export const previousEventsHomepage = [
   {
+    image: "../assets/GBMs/MLWorkshopF26.png",
+    title: "Machine Learning Workshop",
+    date: "September 14th, 5-7PM",
+    description: "Learn how models learn from data, how to train them, and how to evaluate performance. You’ll build simple ML models from scratch and understand how they’re used in real-world applications."
+  },
+  {
     image: "../AI-SBU/assets/GBMs/IntrotoAIBioinformaticsWorkshopFlyer.webp",
     title: "Intro to AI Bioinformatics Workshop",
     description: "Learn about how Artificial Intelligence and Machine Learning are applied to bioinformatics!"
@@ -437,11 +438,6 @@ export const previousEventsHomepage = [
     image: "../AI-SBU/assets/GBMs/OpenCVWorkshopPoster.png",
     title: "OpenCV Workshop",
     description: "Interested in making your computer see? Curious about how to get it to recognize visual patterns like colors and shapes? Join us at our OpenCV workshop this Wednesday on March 11th from 5-6:30 p.m. in Old CS 2120!"
-  },
-  {
-    image: "../AI-SBU/assets/GBMs/YOLO26Flyer.png",
-    title: "YOLO 26 Workshop",
-    description: "Learn about the latest object detection model on the market and implement it from scratch! Train a model on any custom dataset of your choice for future projects!"
   },
 ];
 
