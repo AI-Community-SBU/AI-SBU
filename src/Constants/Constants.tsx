@@ -44,49 +44,41 @@ export const previousEvents = [
   {
     image: "../assets/GBMs/InternalComp26.png",
     title: "Internal Competition",
-    date: "September 21st, 5-6PM",
     description: "Join AI Community for the kickoff of our Internal Competition (IC): Agentic AI, a multi-week competition where you’ll team up, learn the fundamentals of AI agents, and build your own agentic AI project from scratch! In our kickoff, we’ll introduce what agentic AI is, explain how the competition works, and help you find a team and get started."
   },
   {
     image: "../assets/GBMs/MLWorkshopF26.png",
     title: "Machine Learning Workshop",
-    date: "September 14th, 5-7PM",
     description: "Learn how models learn from data, how to train them, and how to evaluate performance. You’ll build simple ML models from scratch and understand how they’re used in real-world applications."
   },
   {
     image: "../assets/GBMs/IntrotoAIBioinformaticsWorkshopFlyer.webp",
     title: "Intro to AI Bioinformatics Workshop",
-    date: "April 15th",
     description: "Learn about how Artificial Intelligence and Machine Learning are applied to bioinformatics!"
   },
   {
     image: "../assets/GBMs/OpenCVWorkshopPoster.png",
     title: "OpenCV Workshop",
-    date: "March 11th",
     description: "Interested in making your computer see? Curious about how to get it to recognize visual patterns like colors and shapes? Join us at our OpenCV workshop this Wednesday on March 11th from 5-6:30 p.m. in Old CS 2120!"
   },
   {
     image: "../assets/GBMs/YOLO26Flyer.png",
     title: "YOLO 26 Workshop",
-    date: "March 4th",
     description: "Learn about the latest object detection model on the market and implement it from scratch! Train a model on any custom dataset of your choice for future projects!"
   },
   {
     image: "../assets/GBMs/EngineeringInTheKitchen.png",
     title: "Engineering In the Kitchen",
-    date: "February 26th",
     description: "Join us for our annual food festival with fun demonstrations!"
   },
   {
     image: "../assets/GBMs/MachineLearningAndDataAnalysis.png",
     title: "Machine Learning & Data Analysis Workshop",
-    date: "February 9th",
     description: "Join us for our first GBM of the spring 2026 semester! Learn about machine learning and data analysis through interactive demonstrations!"
   },
   {
     image: "../assets/GBMs/RohanPradhanAWSEventFlyer.png",
     title: "Rohan Pradhan Guest Speech by Amazon",
-    date: "December 1st",
     description: "Join us for an exciting guest lecture by Rohan Pradhan, an Applied Scientist at Amazon and a leading voice in Generative AI and Frontier Models research. Pizza will be served! All students are welcome—no prior AI experience required."
   },
   {
@@ -420,7 +412,7 @@ export const medias = [
  */
 export const previousEventsHomepage = [
   {
-    image: "../assets/GBMs/MLWorkshopF26.png",
+    image: "../AI-SBU/assets/GBMs/MLWorkshopF26.png",
     title: "Machine Learning Workshop",
     date: "September 14th, 5-7PM",
     description: "Learn how models learn from data, how to train them, and how to evaluate performance. You’ll build simple ML models from scratch and understand how they’re used in real-world applications."
