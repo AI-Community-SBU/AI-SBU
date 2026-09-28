@@ -17,11 +17,11 @@
  */
 export const upcomingEvents = [
   {
-    image: "../assets/GBMs/InternalComp26.png",
+    image: "../assets/GBMs/InternalCompWS1.png",
     title: "Internal Competition",
-    date: "September 21st, 5-6PM",
-    location: "",
-    description: "Join AI Community for the kickoff of our Internal Competition (IC): Agentic AI, a multi-week competition where you’ll team up, learn the fundamentals of AI agents, and build your own agentic AI project from scratch! In our kickoff, we’ll introduce what agentic AI is, explain how the competition works, and help you find a team and get started."
+    date: "September 28th, 4-6PM",
+    location: "SAC 303",
+    description: "Join AI Community for the first technical workshop of our Agentic AI Internal Competition! We’ll break down how AI agents work, walk through the agentic workflow, explore the tools that make agents possible, and finish with a live agent demo so you can see everything come together."
   }
 ];
 
@@ -41,6 +41,12 @@ export const upcomingEvents = [
  *     }
  */
 export const previousEvents = [
+  {
+    image: "../assets/GBMs/InternalComp26.png",
+    title: "Internal Competition",
+    date: "September 21st, 5-6PM",
+    description: "Join AI Community for the kickoff of our Internal Competition (IC): Agentic AI, a multi-week competition where you’ll team up, learn the fundamentals of AI agents, and build your own agentic AI project from scratch! In our kickoff, we’ll introduce what agentic AI is, explain how the competition works, and help you find a team and get started."
+  },
   {
     image: "../assets/GBMs/MLWorkshopF26.png",
     title: "Machine Learning Workshop",
@@ -103,16 +109,6 @@ export const previousEvents = [
     title: "Pushing Cython to its Limits in Scikit-Learn",
     description: "Dive into many techniques scikit-learn employs to utilize Cython fully. Learn how to use Cython, Fused Types, Tempita, and OpenMP."
   },
-  {
-    image: "../assets/GBMs/Legacy/InternalComp.gif",
-    title: "Internal Competition",
-    description: "Demonstrate your knowledge in computer vision by creating a model to differentiate different types of resistors. There will be over $700 in prizes."
-  },
-  /* {
-    image: "../assets/GBMs/Legacy/Skiena.png",
-    title: "Guest Speaker: Professor Skiena",
-    description: "Presenting Professor Steven Skiena, an expert in algorithms! Come to ask about data science or career advice!"
-  }, */
 ];
 
 /** Array of EBoard members written in the format of a EBoardProp so the array can be passed to the EBoardSection tag.
