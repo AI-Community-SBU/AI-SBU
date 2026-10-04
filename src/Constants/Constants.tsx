@@ -17,12 +17,12 @@
  */
 export const upcomingEvents = [
   {
-    image: "../assets/GBMs/InternalCompWS1.png",
-    title: "Internal Competition",
-    date: "September 28th, 4-6PM",
-    location: "SAC 303",
-    description: "Join AI Community for the first technical workshop of our Agentic AI Internal Competition! We’ll break down how AI agents work, walk through the agentic workflow, explore the tools that make agents possible, and finish with a live agent demo so you can see everything come together."
-  }
+    image: "../assets/GBMs/ibmskillsbuild.png",
+    title: "IBM SkillsBuild",
+    date: "October 5th, 12:30-2:00PM",
+    location: "Union Ballroom",
+    description: "Join us at IBM SkillsBuild AI Accelerator event on campus for an exciting day filled with all things artificial intelligence. Whether you're an AI pro or just starting out, this event is perfect for anyone interested in AI and how it can boost your career."
+  },
 ];
 
 /** Array of previous events in the form of an EventProp so it can be passed to EventSection tag.
@@ -41,6 +41,11 @@ export const upcomingEvents = [
  *     }
  */
 export const previousEvents = [
+  {
+    image: "../assets/GBMs/InternalCompWS1.png",
+    title: "Internal Competition",
+    description: "Join AI Community for the first technical workshop of our Agentic AI Internal Competition! We’ll break down how AI agents work, walk through the agentic workflow, explore the tools that make agents possible, and finish with a live agent demo so you can see everything come together."
+  },
   {
     image: "../assets/GBMs/InternalComp26.png",
     title: "Internal Competition",
@@ -95,12 +100,7 @@ export const previousEvents = [
     image: "../assets/GBMs/MLWorkshop1.png",
     title: "Machine Learning Workshop",
     description: "Learn how models learn from data, how to train them, and how to evaluate performance. You’ll build simple ML models from scratch and understand how they’re used in real-world applications.",
-  },
-  {
-    image: "../assets/GBMs/Legacy/ScikitLearn.gif",
-    title: "Pushing Cython to its Limits in Scikit-Learn",
-    description: "Dive into many techniques scikit-learn employs to utilize Cython fully. Learn how to use Cython, Fused Types, Tempita, and OpenMP."
-  },
+  }
 ];
 
 /** Array of EBoard members written in the format of a EBoardProp so the array can be passed to the EBoardSection tag.
@@ -139,11 +139,6 @@ export const eboardMembers = [
     image: "../assets/eboardphotos/Anderson.jpg",
     name: "Anderson Chan",
     role: "Branding Manager",
-  },
-  {
-    image: "../assets/eboardphotos/Lynn.jpg",
-    name: "Lynn Huang",
-    role: "Design Chair",
   },
   {
     image: "../assets/eboardphotos/Rumman.jpg",
