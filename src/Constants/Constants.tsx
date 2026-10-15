@@ -17,11 +17,11 @@
  */
 export const upcomingEvents = [
   {
-    image: "../assets/GBMs/ibmskillsbuild.png",
-    title: "IBM SkillsBuild",
-    date: "October 5th, 12:30-2:00PM",
-    location: "Union Ballroom",
-    description: "Join us at IBM SkillsBuild AI Accelerator event on campus for an exciting day filled with all things artificial intelligence. Whether you're an AI pro or just starting out, this event is perfect for anyone interested in AI and how it can boost your career."
+    image: "../assets/GBMs/InternalCompColloquium.png",
+    title: "IC Colloquium",
+    date: "October 16th, 2:00-5:00PM",
+    location: "SAC 303 & 304",
+    description: "Join AI Community for our AI Colloquium, the finale of our Agentic AI Internal Competition! Come see the agents built by your fellow students, meet other people interested in AI, connect with professors, and help us celebrate some incredible projects."
   },
 ];
 
@@ -42,13 +42,23 @@ export const upcomingEvents = [
  */
 export const previousEvents = [
   {
+    image: "../assets/GBMs/InternalCompWS2.png",
+    title: "IC Workshop 2",
+    description: "Join AI Community for our second Internal Competition workshop, where we’ll explore three essential pieces of building useful AI agents: Retrieval-Augmented Generation (RAG), evaluation, and deployment."
+  },
+  {
+    image: "../assets/GBMs/ibmskillsbuild.png",
+    title: "IBM SkillsBuild",
+    description: "Join us at IBM SkillsBuild AI Accelerator event on campus for an exciting day filled with all things artificial intelligence. Whether you're an AI pro or just starting out, this event is perfect for anyone interested in AI and how it can boost your career."
+  },
+  {
     image: "../assets/GBMs/InternalCompWS1.png",
-    title: "Internal Competition",
+    title: "IC Workshop 1",
     description: "Join AI Community for the first technical workshop of our Agentic AI Internal Competition! We’ll break down how AI agents work, walk through the agentic workflow, explore the tools that make agents possible, and finish with a live agent demo so you can see everything come together."
   },
   {
     image: "../assets/GBMs/InternalComp26.png",
-    title: "Internal Competition",
+    title: "IC Intro",
     description: "Join AI Community for the kickoff of our Internal Competition (IC): Agentic AI, a multi-week competition where you’ll team up, learn the fundamentals of AI agents, and build your own agentic AI project from scratch! In our kickoff, we’ll introduce what agentic AI is, explain how the competition works, and help you find a team and get started."
   },
   {
