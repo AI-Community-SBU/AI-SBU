@@ -16,13 +16,6 @@
  *     }
  */
 export const upcomingEvents = [
-  {
-    image: "../assets/GBMs/InternalCompColloquium.png",
-    title: "IC Colloquium",
-    date: "October 16th, 2:00-5:00PM",
-    location: "SAC 303 & 304",
-    description: "Join AI Community for our AI Colloquium, the finale of our Agentic AI Internal Competition! Come see the agents built by your fellow students, meet other people interested in AI, connect with professors, and help us celebrate some incredible projects."
-  },
 ];
 
 /** Array of previous events in the form of an EventProp so it can be passed to EventSection tag.
@@ -41,6 +34,11 @@ export const upcomingEvents = [
  *     }
  */
 export const previousEvents = [
+  {
+    image: "../assets/GBMs/InternalCompColloquium.png",
+    title: "IC Colloquium",
+    description: "Join AI Community for our AI Colloquium, the finale of our Agentic AI Internal Competition! Come see the agents built by your fellow students, meet other people interested in AI, connect with professors, and help us celebrate some incredible projects."
+  },
   {
     image: "../assets/GBMs/InternalCompWS2.png",
     title: "IC Workshop 2",
