@@ -94,21 +94,6 @@ export const previousEvents = [
     title: "Rohan Pradhan Guest Speech by Amazon",
     description: "Join us for an exciting guest lecture by Rohan Pradhan, an Applied Scientist at Amazon and a leading voice in Generative AI and Frontier Models research. Pizza will be served! All students are welcome—no prior AI experience required."
   },
-  {
-    image: "../assets/GBMs/NeuralNetworkingNight.png",
-    title: "Neural Networking Night",
-    description: "Bring your friends, enjoy food from O Sole Mio, and connect with students from every major through bingo, team challenges, board games, and more! Don't miss out on the chance to win a PANDA LEGO SET!",
-  },
-  {
-    image: "../assets/GBMs/InternalRL1.png",
-    title: "It's A Me, RL!",
-    description: "Come learn about how to train a reinforcement learning model to play games like Super Mario. Do you have what it takes to win our Internal Competition?",
-  },
-  {
-    image: "../assets/GBMs/MLWorkshop1.png",
-    title: "Machine Learning Workshop",
-    description: "Learn how models learn from data, how to train them, and how to evaluate performance. You’ll build simple ML models from scratch and understand how they’re used in real-world applications.",
-  }
 ];
 
 /** Array of EBoard members written in the format of a EBoardProp so the array can be passed to the EBoardSection tag.
@@ -301,14 +286,14 @@ export const photos = [
  */
 export const currentArticles = [
   {
-    image: "../assets/blogposts/ABCNews.jpg",
-    title: "2023: The Year We Played With AI",
-    datePosted: "December 14th, 2023",
-    link: "https://abcnews.go.com/Business/wireStory/2023-year-played-artificial-intelligence-105651001",
+    image: "../assets/blogposts/openai.png",
+    title: "OpenAI Seeks to Accelerate Fundraising Ahead of Anthropic IPO",
+    datePosted: "October 19th",
+    link: "https://www.reuters.com/world/openai-seeks-accelerate-fundraising-ahead-anthropic-ipo-sources-say-2026-10-19/",
     description:
-      "2023 saw a huge jump in popularity in AI, prompting anyone interested in technology to start learing new areas like machine learning. It seemed like there was a new development everyday, but thankfully, this article helps to put the year into perspective. Read this to learn about the major takeaways in AI from 2023!",
+      "OpenAI is racing to secure investor commitments before rival Anthropic's expected public market debut in mid-November, in an unusually fast fundraising that could value the ChatGPT maker at over $1.4 trillion.",
     orientation: "leftAdjusted",
-    publisher: "ABC News",
+    publisher: "Reuters",
   },
 ];
 
@@ -415,20 +400,20 @@ export const medias = [
  */
 export const previousEventsHomepage = [
   {
+    image: "../AI-SBU/assets/GBMs/InternalCompColloquium.png",
+    title: "IC Colloquium",
+    description: "Join AI Community for our AI Colloquium, the finale of our Agentic AI Internal Competition! Come see the agents built by your fellow students, meet other people interested in AI, connect with professors, and help us celebrate some incredible projects."
+  },
+  {
+    image: "../AI-SBU/assets/GBMs/ibmskillsbuild.png",
+    title: "IBM SkillsBuild",
+    description: "Join us at IBM SkillsBuild AI Accelerator event on campus for an exciting day filled with all things artificial intelligence. Whether you're an AI pro or just starting out, this event is perfect for anyone interested in AI and how it can boost your career."
+  },
+  {
     image: "../AI-SBU/assets/GBMs/MLWorkshopF26.png",
     title: "Machine Learning Workshop",
     date: "September 14th, 5-7PM",
     description: "Learn how models learn from data, how to train them, and how to evaluate performance. You’ll build simple ML models from scratch and understand how they’re used in real-world applications."
-  },
-  {
-    image: "../AI-SBU/assets/GBMs/IntrotoAIBioinformaticsWorkshopFlyer.webp",
-    title: "Intro to AI Bioinformatics Workshop",
-    description: "Learn about how Artificial Intelligence and Machine Learning are applied to bioinformatics!"
-  },
-  {
-    image: "../AI-SBU/assets/GBMs/OpenCVWorkshopPoster.png",
-    title: "OpenCV Workshop",
-    description: "Interested in making your computer see? Curious about how to get it to recognize visual patterns like colors and shapes? Join us at our OpenCV workshop this Wednesday on March 11th from 5-6:30 p.m. in Old CS 2120!"
   },
 ];
 
