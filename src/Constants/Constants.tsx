@@ -16,6 +16,13 @@
  *     }
  */
 export const upcomingEvents = [
+  {
+    image: "../assets/GBMs/vipluncheon.png",
+    title: "VIP Luncheon",
+    date: "October 28th",
+    location: "Union Ballroom",
+    description: "Ever wondered what professors and students are cooking up behind the scenes at SBU? Meet students and professors from different teams, hear about the cool projects they are working on, and find out how YOU can get involved!"
+  }
 ];
 
 /** Array of previous events in the form of an EventProp so it can be passed to EventSection tag.
