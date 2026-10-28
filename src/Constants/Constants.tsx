@@ -134,6 +134,31 @@ export const eboardMembers = [
     role: "Branding Manager",
   },
   {
+    image: "../assets/eboardphotos/Kimberly.jpg",
+    name: "Kimberly Yeung",
+    role: "Design Chair",
+  },
+  {
+    image: "../assets/eboardphotos/Tasnia.jpg",
+    name: "Tasnia Jasim",
+    role: "Design Chair",
+  },
+  {
+    image: "../assets/eboardphotos/Maximilian.jpg",
+    name: "Maximilian Cederholm",
+    role: "Outreach Chair",
+  },
+  {
+    image: "../assets/eboardphotos/Jonah.jpg",
+    name: "Jonah Choi",
+    role: "Outreach Assistant",
+  },
+  {
+    image: "../assets/eboardphotos/Maha.jpg",
+    name: "Maha Mouzzam",
+    role: "Public Relations Chair",
+  },
+  {
     image: "../assets/eboardphotos/Rumman.jpg",
     name: "Rumman Khan",
     role: "Event Coordinator",
@@ -149,9 +174,14 @@ export const eboardMembers = [
     role: "Webmaster",
   },
   {
-    image: "../assets/eboardphotos/Maximilian.jpg",
-    name: "Maximilian Cederholm",
-    role: "Outreach Chair",
+    image: "../assets/eboardphotos/Tanzeel.jpg",
+    name: "Tanzeel Ali",
+    role: "Freshman Rep",
+  },
+  {
+    image: "../assets/eboardphotos/Humzah.jpg",
+    name: "Humzah Mohsin",
+    role: "Freshman Rep",
   },
 ];
 
