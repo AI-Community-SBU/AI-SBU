@@ -16,13 +16,6 @@
  *     }
  */
 export const upcomingEvents = [
-  {
-    image: "../assets/GBMs/vipluncheon.png",
-    title: "VIP Luncheon",
-    date: "October 28th",
-    location: "Union Ballroom",
-    description: "Ever wondered what professors and students are cooking up behind the scenes at SBU? Meet students and professors from different teams, hear about the cool projects they are working on, and find out how YOU can get involved!"
-  }
 ];
 
 /** Array of previous events in the form of an EventProp so it can be passed to EventSection tag.
@@ -41,6 +34,11 @@ export const upcomingEvents = [
  *     }
  */
 export const previousEvents = [
+  {
+    image: "../assets/GBMs/vipluncheon.png",
+    title: "VIP Luncheon",
+    description: "Ever wondered what professors and students are cooking up behind the scenes at SBU? Meet students and professors from different teams, hear about the cool projects they are working on, and find out how YOU can get involved!"
+  },
   {
     image: "../assets/GBMs/InternalCompColloquium.png",
     title: "IC Colloquium",
@@ -95,12 +93,7 @@ export const previousEvents = [
     image: "../assets/GBMs/MachineLearningAndDataAnalysis.png",
     title: "Machine Learning & Data Analysis Workshop",
     description: "Join us for our first GBM of the spring 2026 semester! Learn about machine learning and data analysis through interactive demonstrations!"
-  },
-  {
-    image: "../assets/GBMs/RohanPradhanAWSEventFlyer.png",
-    title: "Rohan Pradhan Guest Speech by Amazon",
-    description: "Join us for an exciting guest lecture by Rohan Pradhan, an Applied Scientist at Amazon and a leading voice in Generative AI and Frontier Models research. Pizza will be served! All students are welcome—no prior AI experience required."
-  },
+  }
 ];
 
 /** Array of EBoard members written in the format of a EBoardProp so the array can be passed to the EBoardSection tag.
@@ -407,6 +400,11 @@ export const medias = [
  */
 export const previousEventsHomepage = [
   {
+    image: "../AI-SBU/assets/GBMs/vipluncheon.png",
+    title: "VIP Luncheon",
+    description: "Ever wondered what professors and students are cooking up behind the scenes at SBU? Meet students and professors from different teams, hear about the cool projects they are working on, and find out how YOU can get involved!"
+  },
+  {
     image: "../AI-SBU/assets/GBMs/InternalCompColloquium.png",
     title: "IC Colloquium",
     description: "Join AI Community for our AI Colloquium, the finale of our Agentic AI Internal Competition! Come see the agents built by your fellow students, meet other people interested in AI, connect with professors, and help us celebrate some incredible projects."
@@ -415,13 +413,7 @@ export const previousEventsHomepage = [
     image: "../AI-SBU/assets/GBMs/ibmskillsbuild.png",
     title: "IBM SkillsBuild",
     description: "Join us at IBM SkillsBuild AI Accelerator event on campus for an exciting day filled with all things artificial intelligence. Whether you're an AI pro or just starting out, this event is perfect for anyone interested in AI and how it can boost your career."
-  },
-  {
-    image: "../AI-SBU/assets/GBMs/MLWorkshopF26.png",
-    title: "Machine Learning Workshop",
-    date: "September 14th, 5-7PM",
-    description: "Learn how models learn from data, how to train them, and how to evaluate performance. You’ll build simple ML models from scratch and understand how they’re used in real-world applications."
-  },
+  }
 ];
 
 /** Due to a bug in the image paths when the website is deployed, the image paths for the homepage need to be different.
