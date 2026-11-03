@@ -16,6 +16,13 @@
  *     }
  */
 export const upcomingEvents = [
+  {
+    image: "../assets/GBMs/escaperoomnight.png",
+    title: "Escape Room Night",
+    date: "November 9th",
+    location: "SAC 303",
+    description: " Put your problem-solving skills to the test as you crack codes, solve mysteries, and race against the clock! Bring your friends, think outside the box, and see if you've got what it takes to escape!"
+  }
 ];
 
 /** Array of previous events in the form of an EventProp so it can be passed to EventSection tag.
