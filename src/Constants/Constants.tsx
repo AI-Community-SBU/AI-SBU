@@ -16,13 +16,6 @@
  *     }
  */
 export const upcomingEvents = [
-  {
-    image: "../assets/GBMs/escaperoomnight.png",
-    title: "Escape Room Night",
-    date: "November 9th",
-    location: "SAC 303",
-    description: " Put your problem-solving skills to the test as you crack codes, solve mysteries, and race against the clock! Bring your friends, think outside the box, and see if you've got what it takes to escape!"
-  }
 ];
 
 /** Array of previous events in the form of an EventProp so it can be passed to EventSection tag.
@@ -41,6 +34,11 @@ export const upcomingEvents = [
  *     }
  */
 export const previousEvents = [
+  {
+    image: "../assets/GBMs/escaperoomnight.png",
+    title: "Escape Room Night",
+    description: " Put your problem-solving skills to the test as you crack codes, solve mysteries, and race against the clock! Bring your friends, think outside the box, and see if you've got what it takes to escape!"
+  },
   {
     image: "../assets/GBMs/vipluncheon.png",
     title: "VIP Luncheon",
@@ -96,11 +94,6 @@ export const previousEvents = [
     title: "Engineering In the Kitchen",
     description: "Join us for our annual food festival with fun demonstrations!"
   },
-  {
-    image: "../assets/GBMs/MachineLearningAndDataAnalysis.png",
-    title: "Machine Learning & Data Analysis Workshop",
-    description: "Join us for our first GBM of the spring 2026 semester! Learn about machine learning and data analysis through interactive demonstrations!"
-  }
 ];
 
 /** Array of EBoard members written in the format of a EBoardProp so the array can be passed to the EBoardSection tag.
@@ -437,6 +430,11 @@ export const medias = [
  */
 export const previousEventsHomepage = [
   {
+    image: "../assets/GBMs/escaperoomnight.png",
+    title: "Escape Room Night",
+    description: " Put your problem-solving skills to the test as you crack codes, solve mysteries, and race against the clock! Bring your friends, think outside the box, and see if you've got what it takes to escape!"
+  },
+  {
     image: "../AI-SBU/assets/GBMs/vipluncheon.png",
     title: "VIP Luncheon",
     description: "Ever wondered what professors and students are cooking up behind the scenes at SBU? Meet students and professors from different teams, hear about the cool projects they are working on, and find out how YOU can get involved!"
@@ -446,11 +444,6 @@ export const previousEventsHomepage = [
     title: "IC Colloquium",
     description: "Join AI Community for our AI Colloquium, the finale of our Agentic AI Internal Competition! Come see the agents built by your fellow students, meet other people interested in AI, connect with professors, and help us celebrate some incredible projects."
   },
-  {
-    image: "../AI-SBU/assets/GBMs/ibmskillsbuild.png",
-    title: "IBM SkillsBuild",
-    description: "Join us at IBM SkillsBuild AI Accelerator event on campus for an exciting day filled with all things artificial intelligence. Whether you're an AI pro or just starting out, this event is perfect for anyone interested in AI and how it can boost your career."
-  }
 ];
 
 /** Due to a bug in the image paths when the website is deployed, the image paths for the homepage need to be different.
