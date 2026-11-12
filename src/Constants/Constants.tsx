@@ -16,6 +16,13 @@
  *     }
  */
 export const upcomingEvents = [
+  {
+    image: "../assets/GBMs/potluck.png",
+    title: "Thanksgiving Potluck",
+    date: "November 17th",
+    location: "Union Ballroom",
+    description: "Come celebrate the season of gratitude at our cozy Thanksgiving Potluck! Enjoy a hearty spread of classic dishes, savory and sweet, play some fun games, and make lasting memories with friends old and new."
+  }
 ];
 
 /** Array of previous events in the form of an EventProp so it can be passed to EventSection tag.
