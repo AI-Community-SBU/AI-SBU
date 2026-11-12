@@ -17,6 +17,13 @@
  */
 export const upcomingEvents = [
   {
+    image: "../assets/GBMs/margaretschedel.png",
+    title: "Guest Speaker Margaret Schedel",
+    date: "November 16th",
+    location: "SAC 303",
+    description: "Dr. Schedel is a professor of music and core faculty member at Stony Brook University’s Institute for Advanced Computational Science. She’s a composer, sound artist, and startup founder with over 20 years of research in machine learning and sonification. She also collaborates with researchers at Brookhaven National Laboratory."
+  },
+  {
     image: "../assets/GBMs/potluck.png",
     title: "Thanksgiving Potluck",
     date: "November 17th",
