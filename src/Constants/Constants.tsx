@@ -17,13 +17,6 @@
  */
 export const upcomingEvents = [
   {
-    image: "../assets/GBMs/margaretschedel.png",
-    title: "Guest Speaker Margaret Schedel",
-    date: "November 16th",
-    location: "SAC 303",
-    description: "Dr. Schedel is a professor of music and core faculty member at Stony Brook University’s Institute for Advanced Computational Science. She’s a composer, sound artist, and startup founder with over 20 years of research in machine learning and sonification. She also collaborates with researchers at Brookhaven National Laboratory."
-  },
-  {
     image: "../assets/GBMs/potluck.png",
     title: "Thanksgiving Potluck",
     date: "November 17th",
@@ -48,6 +41,11 @@ export const upcomingEvents = [
  *     }
  */
 export const previousEvents = [
+  {
+    image: "../assets/GBMs/margaretschedel.png",
+    title: "Guest Speaker Margaret Schedel",
+    description: "Dr. Schedel is a professor of music and core faculty member at Stony Brook University’s Institute for Advanced Computational Science. She’s a composer, sound artist, and startup founder with over 20 years of research in machine learning and sonification. She also collaborates with researchers at Brookhaven National Laboratory."
+  },
   {
     image: "../assets/GBMs/escaperoomnight.png",
     title: "Escape Room Night",
@@ -102,11 +100,6 @@ export const previousEvents = [
     image: "../assets/GBMs/YOLO26Flyer.png",
     title: "YOLO 26 Workshop",
     description: "Learn about the latest object detection model on the market and implement it from scratch! Train a model on any custom dataset of your choice for future projects!"
-  },
-  {
-    image: "../assets/GBMs/EngineeringInTheKitchen.png",
-    title: "Engineering In the Kitchen",
-    description: "Join us for our annual food festival with fun demonstrations!"
   },
 ];
 
@@ -443,8 +436,13 @@ export const medias = [
  *
  */
 export const previousEventsHomepage = [
+    {
+    image: "../AI-SBU/assets/GBMs/margaretschedel.png",
+    title: "Guest Speaker Margaret Schedel",
+    description: "Dr. Schedel is a professor of music and core faculty member at Stony Brook University’s Institute for Advanced Computational Science. She’s a composer, sound artist, and startup founder with over 20 years of research in machine learning and sonification. She also collaborates with researchers at Brookhaven National Laboratory."
+  },
   {
-    image: "../assets/GBMs/escaperoomnight.png",
+    image: "../AI-SBU/assets/GBMs/escaperoomnight.png",
     title: "Escape Room Night",
     description: " Put your problem-solving skills to the test as you crack codes, solve mysteries, and race against the clock! Bring your friends, think outside the box, and see if you've got what it takes to escape!"
   },
@@ -452,12 +450,7 @@ export const previousEventsHomepage = [
     image: "../AI-SBU/assets/GBMs/vipluncheon.png",
     title: "VIP Luncheon",
     description: "Ever wondered what professors and students are cooking up behind the scenes at SBU? Meet students and professors from different teams, hear about the cool projects they are working on, and find out how YOU can get involved!"
-  },
-  {
-    image: "../AI-SBU/assets/GBMs/InternalCompColloquium.png",
-    title: "IC Colloquium",
-    description: "Join AI Community for our AI Colloquium, the finale of our Agentic AI Internal Competition! Come see the agents built by your fellow students, meet other people interested in AI, connect with professors, and help us celebrate some incredible projects."
-  },
+  }
 ];
 
 /** Due to a bug in the image paths when the website is deployed, the image paths for the homepage need to be different.
