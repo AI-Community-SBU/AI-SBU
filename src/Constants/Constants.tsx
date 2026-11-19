@@ -16,13 +16,6 @@
  *     }
  */
 export const upcomingEvents = [
-  {
-    image: "../assets/GBMs/potluck.png",
-    title: "Thanksgiving Potluck",
-    date: "November 17th",
-    location: "Union Ballroom",
-    description: "Come celebrate the season of gratitude at our cozy Thanksgiving Potluck! Enjoy a hearty spread of classic dishes, savory and sweet, play some fun games, and make lasting memories with friends old and new."
-  }
 ];
 
 /** Array of previous events in the form of an EventProp so it can be passed to EventSection tag.
@@ -41,6 +34,11 @@ export const upcomingEvents = [
  *     }
  */
 export const previousEvents = [
+    {
+    image: "../assets/GBMs/potluck.png",
+    title: "Thanksgiving Potluck",
+    description: "Come celebrate the season of gratitude at our cozy Thanksgiving Potluck! Enjoy a hearty spread of classic dishes, savory and sweet, play some fun games, and make lasting memories with friends old and new."
+  },
   {
     image: "../assets/GBMs/margaretschedel.png",
     title: "Guest Speaker Margaret Schedel",
@@ -95,12 +93,7 @@ export const previousEvents = [
     image: "../assets/GBMs/OpenCVWorkshopPoster.png",
     title: "OpenCV Workshop",
     description: "Interested in making your computer see? Curious about how to get it to recognize visual patterns like colors and shapes? Join us at our OpenCV workshop this Wednesday on March 11th from 5-6:30 p.m. in Old CS 2120!"
-  },
-  {
-    image: "../assets/GBMs/YOLO26Flyer.png",
-    title: "YOLO 26 Workshop",
-    description: "Learn about the latest object detection model on the market and implement it from scratch! Train a model on any custom dataset of your choice for future projects!"
-  },
+  }
 ];
 
 /** Array of EBoard members written in the format of a EBoardProp so the array can be passed to the EBoardSection tag.
@@ -436,7 +429,12 @@ export const medias = [
  *
  */
 export const previousEventsHomepage = [
-    {
+  {
+    image: "../AI-SBU/assets/GBMs/potluck.png",
+    title: "Thanksgiving Potluck",
+    description: "Come celebrate the season of gratitude at our cozy Thanksgiving Potluck! Enjoy a hearty spread of classic dishes, savory and sweet, play some fun games, and make lasting memories with friends old and new."
+  },
+  {
     image: "../AI-SBU/assets/GBMs/margaretschedel.png",
     title: "Guest Speaker Margaret Schedel",
     description: "Dr. Schedel is a professor of music and core faculty member at Stony Brook University’s Institute for Advanced Computational Science. She’s a composer, sound artist, and startup founder with over 20 years of research in machine learning and sonification. She also collaborates with researchers at Brookhaven National Laboratory."
@@ -445,11 +443,6 @@ export const previousEventsHomepage = [
     image: "../AI-SBU/assets/GBMs/escaperoomnight.png",
     title: "Escape Room Night",
     description: " Put your problem-solving skills to the test as you crack codes, solve mysteries, and race against the clock! Bring your friends, think outside the box, and see if you've got what it takes to escape!"
-  },
-  {
-    image: "../AI-SBU/assets/GBMs/vipluncheon.png",
-    title: "VIP Luncheon",
-    description: "Ever wondered what professors and students are cooking up behind the scenes at SBU? Meet students and professors from different teams, hear about the cool projects they are working on, and find out how YOU can get involved!"
   }
 ];
 
